@@ -1,0 +1,6 @@
+framework module Pods_ERosasEcommerce {
+  umbrella header "Pods-ERosasEcommerce-umbrella.h"
+
+  export *
+  module * { export * }
+}

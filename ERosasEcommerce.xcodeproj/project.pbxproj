@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C06B22CA93A3BBE14DE05F7 /* Pods_ERosasEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96E054A1CAA6C1A87C6E5D6 /* Pods_ERosasEcommerce.framework */; };
+		E31B4F742A02E86B001678BA /* GetAllUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B4F732A02E86B001678BA /* GetAllUsuarioController.swift */; };
+		E31B4F772A02F118001678BA /* UsuarioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B4F752A02F118001678BA /* UsuarioCell.swift */; };
+		E31B4F782A02F118001678BA /* UsuarioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E31B4F762A02F118001678BA /* UsuarioCell.xib */; };
+		E36003F529FC349F00BA496F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36003F429FC349F00BA496F /* AppDelegate.swift */; };
+		E36003F729FC349F00BA496F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36003F629FC349F00BA496F /* SceneDelegate.swift */; };
+		E36003F929FC349F00BA496F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36003F829FC349F00BA496F /* ViewController.swift */; };
+		E36003FC29FC349F00BA496F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36003FA29FC349F00BA496F /* Main.storyboard */; };
+		E36003FE29FC34A000BA496F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36003FD29FC34A000BA496F /* Assets.xcassets */; };
+		E360040129FC34A000BA496F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36003FF29FC34A000BA496F /* LaunchScreen.storyboard */; };
+		E360040929FC5BF200BA496F /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E360040829FC5BF100BA496F /* DBManager.swift */; };
+		E360040B29FC6ECB00BA496F /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E360040A29FC6ECB00BA496F /* Usuario.swift */; };
+		E36938712A0D81A6004D0D36 /* RolGetAllController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36938702A0D81A6004D0D36 /* RolGetAllController.swift */; };
+		E36938732A0D81EB004D0D36 /* Rol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36938722A0D81EB004D0D36 /* Rol.swift */; };
+		E36938772A0D8727004D0D36 /* RolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36938762A0D8727004D0D36 /* RolViewModel.swift */; };
+		E36938792A0D8A3E004D0D36 /* RollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36938782A0D8A3E004D0D36 /* RollViewController.swift */; };
+		E369387D2A0D8C49004D0D36 /* RolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369387B2A0D8C49004D0D36 /* RolCell.swift */; };
+		E369387E2A0D8C49004D0D36 /* RolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E369387C2A0D8C49004D0D36 /* RolCell.xib */; };
+		E36E87892A01979500F9DCE4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36E87882A01979500F9DCE4 /* Result.swift */; };
+		E3751BDD2A0ECB8300877205 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3751BDC2A0ECB8300877205 /* iOSDropDown.framework */; };
+		E3AE87062A043F4C00502CBF /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AE87052A043F4C00502CBF /* UsuarioViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54EF0B65C6A08F99F02CE3F0 /* Pods-ERosasEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERosasEcommerce.release.xcconfig"; path = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce.release.xcconfig"; sourceTree = "<group>"; };
+		8974DA78957C2FF9F3AD81C6 /* Pods-ERosasEcommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERosasEcommerce.debug.xcconfig"; path = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		E31B4F732A02E86B001678BA /* GetAllUsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsuarioController.swift; sourceTree = "<group>"; };
+		E31B4F752A02F118001678BA /* UsuarioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioCell.swift; sourceTree = "<group>"; };
+		E31B4F762A02F118001678BA /* UsuarioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsuarioCell.xib; sourceTree = "<group>"; };
+		E36003F129FC349F00BA496F /* ERosasEcommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERosasEcommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36003F429FC349F00BA496F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E36003F629FC349F00BA496F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E36003F829FC349F00BA496F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E36003FB29FC349F00BA496F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E36003FD29FC34A000BA496F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E360040029FC34A000BA496F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E360040229FC34A000BA496F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E360040829FC5BF100BA496F /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		E360040A29FC6ECB00BA496F /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		E36938702A0D81A6004D0D36 /* RolGetAllController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolGetAllController.swift; sourceTree = "<group>"; };
+		E36938722A0D81EB004D0D36 /* Rol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rol.swift; sourceTree = "<group>"; };
+		E36938762A0D8727004D0D36 /* RolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolViewModel.swift; sourceTree = "<group>"; };
+		E36938782A0D8A3E004D0D36 /* RollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollViewController.swift; sourceTree = "<group>"; };
+		E369387B2A0D8C49004D0D36 /* RolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolCell.swift; sourceTree = "<group>"; };
+		E369387C2A0D8C49004D0D36 /* RolCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RolCell.xib; sourceTree = "<group>"; };
+		E36E87882A01979500F9DCE4 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		E3751BDC2A0ECB8300877205 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AE87052A043F4C00502CBF /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
+		F96E054A1CAA6C1A87C6E5D6 /* Pods_ERosasEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERosasEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E36003EE29FC349F00BA496F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3751BDD2A0ECB8300877205 /* iOSDropDown.framework in Frameworks */,
+				8C06B22CA93A3BBE14DE05F7 /* Pods_ERosasEcommerce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0379563FC842C94AA76DFE79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8974DA78957C2FF9F3AD81C6 /* Pods-ERosasEcommerce.debug.xcconfig */,
+				54EF0B65C6A08F99F02CE3F0 /* Pods-ERosasEcommerce.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD57680325A52752AE37F633 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3751BDC2A0ECB8300877205 /* iOSDropDown.framework */,
+				F96E054A1CAA6C1A87C6E5D6 /* Pods_ERosasEcommerce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E36003E829FC349F00BA496F = {
+			isa = PBXGroup;
+			children = (
+				E36003F329FC349F00BA496F /* ERosasEcommerce */,
+				E36003F229FC349F00BA496F /* Products */,
+				0379563FC842C94AA76DFE79 /* Pods */,
+				CD57680325A52752AE37F633 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E36003F229FC349F00BA496F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E36003F129FC349F00BA496F /* ERosasEcommerce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E36003F329FC349F00BA496F /* ERosasEcommerce */ = {
+			isa = PBXGroup;
+			children = (
+				E3AE87022A043E1A00502CBF /* Util */,
+				E3AE87012A043E0B00502CBF /* Controller */,
+				E3AE87002A043DF800502CBF /* ViewModel */,
+				E3AE86FF2A043DE600502CBF /* View */,
+				E3AE86FE2A043DCE00502CBF /* Model */,
+				E36003F429FC349F00BA496F /* AppDelegate.swift */,
+				E36003F629FC349F00BA496F /* SceneDelegate.swift */,
+				E36003FD29FC34A000BA496F /* Assets.xcassets */,
+				E360040229FC34A000BA496F /* Info.plist */,
+			);
+			path = ERosasEcommerce;
+			sourceTree = "<group>";
+		};
+		E369386F2A0D8152004D0D36 /* Rol */ = {
+			isa = PBXGroup;
+			children = (
+				E36938702A0D81A6004D0D36 /* RolGetAllController.swift */,
+				E36938782A0D8A3E004D0D36 /* RollViewController.swift */,
+			);
+			path = Rol;
+			sourceTree = "<group>";
+		};
+		E369387A2A0D8BB5004D0D36 /* RolCell */ = {
+			isa = PBXGroup;
+			children = (
+				E369387B2A0D8C49004D0D36 /* RolCell.swift */,
+				E369387C2A0D8C49004D0D36 /* RolCell.xib */,
+			);
+			path = RolCell;
+			sourceTree = "<group>";
+		};
+		E3AE86FE2A043DCE00502CBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E36E87882A01979500F9DCE4 /* Result.swift */,
+				E360040A29FC6ECB00BA496F /* Usuario.swift */,
+				E36938722A0D81EB004D0D36 /* Rol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3AE86FF2A043DE600502CBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E369387A2A0D8BB5004D0D36 /* RolCell */,
+				E36003FF29FC34A000BA496F /* LaunchScreen.storyboard */,
+				E36003FA29FC349F00BA496F /* Main.storyboard */,
+				E3AE87042A043EB300502CBF /* UsuarioCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3AE87002A043DF800502CBF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3AE87052A043F4C00502CBF /* UsuarioViewModel.swift */,
+				E36938762A0D8727004D0D36 /* RolViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E3AE87012A043E0B00502CBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E369386F2A0D8152004D0D36 /* Rol */,
+				E3AE87032A043E7800502CBF /* Usuario */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3AE87022A043E1A00502CBF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E360040829FC5BF100BA496F /* DBManager.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E3AE87032A043E7800502CBF /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				E31B4F732A02E86B001678BA /* GetAllUsuarioController.swift */,
+				E36003F829FC349F00BA496F /* ViewController.swift */,
+			);
+			path = Usuario;
+			sourceTree = "<group>";
+		};
+		E3AE87042A043EB300502CBF /* UsuarioCell */ = {
+			isa = PBXGroup;
+			children = (
+				E31B4F752A02F118001678BA /* UsuarioCell.swift */,
+				E31B4F762A02F118001678BA /* UsuarioCell.xib */,
+			);
+			path = UsuarioCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E36003F029FC349F00BA496F /* ERosasEcommerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E360040529FC34A000BA496F /* Build configuration list for PBXNativeTarget "ERosasEcommerce" */;
+			buildPhases = (
+				2592600CCC9DC1E6B8DA4E68 /* [CP] Check Pods Manifest.lock */,
+				E36003ED29FC349F00BA496F /* Sources */,
+				E36003EE29FC349F00BA496F /* Frameworks */,
+				E36003EF29FC349F00BA496F /* Resources */,
+				557F5EBA10649A648095CEBD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ERosasEcommerce;
+			productName = ERosasEcommerce;
+			productReference = E36003F129FC349F00BA496F /* ERosasEcommerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E36003E929FC349F00BA496F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E36003F029FC349F00BA496F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E36003EC29FC349F00BA496F /* Build configuration list for PBXProject "ERosasEcommerce" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E36003E829FC349F00BA496F;
+			productRefGroup = E36003F229FC349F00BA496F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E36003F029FC349F00BA496F /* ERosasEcommerce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E36003EF29FC349F00BA496F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31B4F782A02F118001678BA /* UsuarioCell.xib in Resources */,
+				E360040129FC34A000BA496F /* LaunchScreen.storyboard in Resources */,
+				E36003FE29FC34A000BA496F /* Assets.xcassets in Resources */,
+				E369387E2A0D8C49004D0D36 /* RolCell.xib in Resources */,
+				E36003FC29FC349F00BA496F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2592600CCC9DC1E6B8DA4E68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ERosasEcommerce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557F5EBA10649A648095CEBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E36003ED29FC349F00BA496F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36E87892A01979500F9DCE4 /* Result.swift in Sources */,
+				E36003F929FC349F00BA496F /* ViewController.swift in Sources */,
+				E31B4F742A02E86B001678BA /* GetAllUsuarioController.swift in Sources */,
+				E369387D2A0D8C49004D0D36 /* RolCell.swift in Sources */,
+				E36003F529FC349F00BA496F /* AppDelegate.swift in Sources */,
+				E36938712A0D81A6004D0D36 /* RolGetAllController.swift in Sources */,
+				E31B4F772A02F118001678BA /* UsuarioCell.swift in Sources */,
+				E36938732A0D81EB004D0D36 /* Rol.swift in Sources */,
+				E36938792A0D8A3E004D0D36 /* RollViewController.swift in Sources */,
+				E36003F729FC349F00BA496F /* SceneDelegate.swift in Sources */,
+				E36938772A0D8727004D0D36 /* RolViewModel.swift in Sources */,
+				E3AE87062A043F4C00502CBF /* UsuarioViewModel.swift in Sources */,
+				E360040B29FC6ECB00BA496F /* Usuario.swift in Sources */,
+				E360040929FC5BF200BA496F /* DBManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E36003FA29FC349F00BA496F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E36003FB29FC349F00BA496F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E36003FF29FC34A000BA496F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E360040029FC34A000BA496F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E360040329FC34A000BA496F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E360040429FC34A000BA496F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E360040629FC34A000BA496F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8974DA78957C2FF9F3AD81C6 /* Pods-ERosasEcommerce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ERosasEcommerce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.ERosasEcommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E360040729FC34A000BA496F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EF0B65C6A08F99F02CE3F0 /* Pods-ERosasEcommerce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ERosasEcommerce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.ERosasEcommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E36003EC29FC349F00BA496F /* Build configuration list for PBXProject "ERosasEcommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E360040329FC34A000BA496F /* Debug */,
+				E360040429FC34A000BA496F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E360040529FC34A000BA496F /* Build configuration list for PBXNativeTarget "ERosasEcommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E360040629FC34A000BA496F /* Debug */,
+				E360040729FC34A000BA496F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E36003E929FC349F00BA496F /* Project object */;
+}
