@@ -18,9 +18,9 @@ class RolGetAllController: UIViewController {
     var IdRol : Int = 0
     
     override func viewWillAppear(_ animated: Bool) {
-          //updateUI()
-          tableView.reloadData()
-      }
+            updateUI()
+            tableView.reloadData()
+        }
       
     
     override func viewDidLoad() {

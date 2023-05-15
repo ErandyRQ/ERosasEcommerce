@@ -27,7 +27,10 @@ class RollViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        txtIdRol.delegate = self
+        txtNombre.delegate = self
+    
         if IdRol == 0{
                   
                   self.txtIdRol.text = ""
@@ -53,6 +56,8 @@ class RollViewController: UIViewController {
                   btnAction.setTitle("Actualizar", for: .normal)
               }
     }
+    
+    
     
 
     
@@ -81,6 +86,7 @@ class RollViewController: UIViewController {
                         alert.addAction(action)
 
                         self.present(alert, animated: true, completion: nil)
+                        txtNombre.text! = ""
                     }
                     break
                 case "Actualizar":
@@ -96,6 +102,7 @@ class RollViewController: UIViewController {
                         alert.addAction(action)
                         
                         self.present(alert, animated: true, completion: nil)
+                        txtNombre.text! = ""
                     }
                     break
                 default:
@@ -103,6 +110,17 @@ class RollViewController: UIViewController {
                 }
         }
     
+}
+//MARK: UITextFieldDelegate
+extension RollViewController : UITextFieldDelegate{
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        txtNombre.resignFirstResponder()
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }
       
   

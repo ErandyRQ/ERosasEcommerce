@@ -47,6 +47,8 @@ class ViewController: UIViewController {
     var IdUsuario : Int  = 0
     var IdRol : Int = 0
     
+  
+    
     override func viewDidLoad() {
         
         ddlRol.didSelect{ selectedText, index, id in self.IdRol = id}
@@ -67,15 +69,6 @@ class ViewController: UIViewController {
         }
                 
                 if IdUsuario == 0{
-                    //self.performSegue(withIdentifier: "Form", sender: self)
-                    self.txtIdUsuarioOutlet.text = ""
-                    self.txtNombreOutlet.text = ""
-                    self.txtApellidoPaternoOutlet.text = ""
-                    self.txtApellidoMaternoOutlet.text = ""
-                    self.txtFechaNacimientoOutlet.text = ""
-                    self.txtUsernameOutlet.text = ""
-                    self.txtPasswordOutlet.text = ""
-                    
                     
                     btnAction.backgroundColor = .green
                     btnAction.setTitle("Agregar", for: .normal)
@@ -196,7 +189,7 @@ class ViewController: UIViewController {
                     
                     let result = UsuarioViewModel.Update(usuario: usuario)
                     if result.Correct! {
-                        let alert = UIAlertController(title: "Mensaje", message: "Usuario agregado", preferredStyle: .alert)
+                        let alert = UIAlertController(title: "Mensaje", message: "Usuario actualizado", preferredStyle: .alert)
                         let action = UIAlertAction(title: "Aceptar", style: .default)
                         alert.addAction(action)
                         self.present(alert,animated: true,completion: nil)

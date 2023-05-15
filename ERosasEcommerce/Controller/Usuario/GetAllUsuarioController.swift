@@ -15,6 +15,10 @@ class GetAllUsuarioController: UITableViewController{
         
     let dbManager = DBManager()
         
+    override func viewWillAppear(_ animated: Bool) {
+            updateUI()
+            tableView.reloadData()
+        }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,7 +70,7 @@ extension GetAllUsuarioController : SwipeTableViewCellDelegate{
                 let result = UsuarioViewModel.Delete(IdUsuario: self.usuarios[indexPath.row].IdUsuario!)
                 
                 if result.Correct!{
-                    print("Usuario ingresado")
+                    print("Usuario eliminado")
                     self.updateUI()
                 }else{
                     print("Ocurrio un error")
