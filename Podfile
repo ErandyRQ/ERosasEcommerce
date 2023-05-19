@@ -8,5 +8,6 @@ target 'ERosasEcommerce' do
   # Pods for ERosasEcommerce
   pod 'SwipeCellKit'
   pod 'iOSDropDown'
+  pod 'IQKeyboardManagerSwift'
   
 end

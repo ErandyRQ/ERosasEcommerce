@@ -7,128 +7,208 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		018E3D07F4E4FA759DA4C32B8B8B3A0F /* SwipeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D8FCDB9D7170ED44C84B6F11F0A21B /* SwipeOptions.swift */; };
-		02DBA69CE30944075BA7180065791299 /* Pods-ERosasEcommerce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C28AFC80A369E32C8EEAE4438C5DE19 /* Pods-ERosasEcommerce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		052BF7D7D6454AF9C917D536247AC2B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		0548AE65FBFD564D54884DD843733295 /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E02D6BF183AD026EAA6ED584D971E /* SwipeTransitionLayout.swift */; };
-		179DA004EB2727CC8E47A857B9A7C8BE /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD24CE32A316B16C808976D96748C39 /* SwipeController.swift */; };
-		17DDEF26F0BDCDC2CCBAA21FB3721A5A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D46AE4D793B07D7518A28EA1583BB57 /* Extensions.swift */; };
-		1B132D59BDD8541BD90F0E7FA2785EC9 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152AAEDA509362AB0E0F30ABA0C2F759 /* SwipeAction.swift */; };
-		1B637C619A94E1DCC06D923F5AFC833B /* iOSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 782C79E46B8A23FB38BF2B24F4AA5FB6 /* iOSDropDown-dummy.m */; };
-		1B92D29EAA36AD8EDEA91BFA6C62A239 /* Pods-ERosasEcommerce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2AF835D7BEA3CEBC6DD8CE6C150F74 /* Pods-ERosasEcommerce-dummy.m */; };
-		206F240944E9F5D7E0741FADB0F7B66F /* SwipeCollectionViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E58F45DA44B78FCA7E4D6025148561F /* SwipeCollectionViewCell+Accessibility.swift */; };
-		27DDB328EA5A28F7FBE21AFC1B594C8E /* SwipeTableViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F797343E3A4A64B29ED96976B25C15 /* SwipeTableViewCell+Accessibility.swift */; };
-		285F0E91DB7A22D06F648FF5793FB7FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		302D218976A9A55C13B861E9FF4090BB /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 558B68CED92B7C028B29BEA8BC67ABD3 /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30CC79215F75F7BD8660EAF3E20F8793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		311EFC1239B0C7C5480C02B4B85413B0 /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2EF7188991E75852D81E2624C27A4E /* SwipeExpansionStyle.swift */; };
-		3A0EFA6C47553E56008B8CE22EC206B6 /* SwipeCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099C193A7FE27207C9DB6999441AFB4A /* SwipeCollectionViewCellDelegate.swift */; };
-		4910261A5A661EF013AFABBA998EFDE3 /* SwipeCollectionViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98CD34C19DFF2773DEFF9CDF3D08C4A /* SwipeCollectionViewCell+Display.swift */; };
-		4B275CF4EF68CFEBD7FF5C5EBCAF64EE /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7596057F942F1BA82D5C91B38E4DE /* Swipeable.swift */; };
-		54AB29654E6FC7A1CD3DAC7C0EB9DA1F /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A0325A92F733D3EBBACCA8742B826 /* SwipeAnimator.swift */; };
-		55EC8A9DA519A3C73E41128EDE44E3F4 /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9757A4FC6F315E360FF791EEBE4FC08E /* SwipeTableViewCellDelegate.swift */; };
-		6176C0BE28782FE95B19BFCCDA6A0D8D /* SwipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B4891F10E0A903922057F2545EE7D /* SwipeCollectionViewCell.swift */; };
-		6CD8025A8F768B5908C24187949E1E2A /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F54C38F36485840FEA66CE76F8ED58E /* SwipeFeedback.swift */; };
-		90A282D559F6B602CC819EA557F422DF /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C5201D4B9CB7057AE3CA141628D066 /* SwipeTableViewCell+Display.swift */; };
-		9D1432BACBF3349C6B4BACE3EEDB1391 /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4F33F8891162D6914FF5C1B565870 /* SwipeActionTransitioning.swift */; };
-		9EFB9CE930EFCFF821A56868C99C8966 /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D562358BC42D403E635B4DD12AD31 /* SwipeExpanding.swift */; };
-		9F079A2701FEA0F33062E44BE2ECCBC0 /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C84AD054B820F0649691A72884D614D3 /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A180416E4EE5B6217B12900A99D30E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		AB5E888B065545CE6198DBB442EB0045 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7338D3E8C8F1B06BB100B6D705522ABB /* SwipeActionsView.swift */; };
-		B09B157B52AE1995CEB1689D00D2FBD8 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F5EC47B9FD8F79384D552769BC861E /* SwipeTableViewCell.swift */; };
-		B9743A957DBE9A97ED5C6D2E45EC5480 /* SwipeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9240BBF51568BFE3078BEF3A9EC11B3D /* SwipeActionButton.swift */; };
-		BCEB90BA800125022381A37DF14EF939 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68918256EE66A4D32BF7CE1A14B51860 /* iOSDropDown.swift */; };
-		C4E062883F3700D6E761F2D9A8FBB829 /* SwipeAccessibilityCustomAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB895E3EBF3D2720D8F334F6C0FCC012 /* SwipeAccessibilityCustomAction.swift */; };
-		F254264789A1EC31F8B4D1D31277A3A7 /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C0FE5A541F4996D43D809257EAECDD /* SwipeCellKit-dummy.m */; };
+		018E3D07F4E4FA759DA4C32B8B8B3A0F /* SwipeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDED0C0500235DC454F3F1E3557C19B /* SwipeOptions.swift */; };
+		041B655D7F5932F03A65C154BC02BDAA /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D039FFEC2BC7186733D27E813072653 /* IQInvocation.swift */; };
+		04B0884964D9592302CA654E0B67E80E /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3C4D46FABBE1F8765E0016B4842F5 /* IQUIView+Hierarchy.swift */; };
+		0548AE65FBFD564D54884DD843733295 /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F17411940262D9C7EABDBDA72032079 /* SwipeTransitionLayout.swift */; };
+		08B185E08278AE7EC55F8BBB19693AC5 /* IQKeyboardManager+OrientationNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7625EECDC049D9AED3F43D4F6185B /* IQKeyboardManager+OrientationNotification.swift */; };
+		0F94B2449CA1ADA76AE79C0BF6A08549 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8EF268BB3C4AD841B32A64369B10B8 /* IQKeyboardManagerConstantsInternal.swift */; };
+		1740CBB33D469AEDD5D7291A9268FA97 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FEFDED87FDED6A56EF12D34B6D2DF /* IQToolbar.swift */; };
+		179DA004EB2727CC8E47A857B9A7C8BE /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B61F68444504970D6CDFD96770BE0 /* SwipeController.swift */; };
+		17DDEF26F0BDCDC2CCBAA21FB3721A5A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4699153F178AA210F56AAD06833C62 /* Extensions.swift */; };
+		1A9B9579E46EFBA63C5F57A6B17B5ECA /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FECDC8B79335CC75408D9049C37D1 /* IQKeyboardManagerSwift-dummy.m */; };
+		1B132D59BDD8541BD90F0E7FA2785EC9 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096277F557F6CD670C76E12D8FC0E686 /* SwipeAction.swift */; };
+		1B637C619A94E1DCC06D923F5AFC833B /* iOSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7544EA28BC05AB4DA9C58150A6CD09A5 /* iOSDropDown-dummy.m */; };
+		1D8031C86A94D32E00ED55B80428A0F3 /* IQKeyboardManager+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7982FD48D9A8B81887A4147095C863 /* IQKeyboardManager+Toolbar.swift */; };
+		20616A47873318F80BFFEABAC9730122 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378CFA87F94900374E5FB25E659A3BD7 /* IQTitleBarButtonItem.swift */; };
+		206F240944E9F5D7E0741FADB0F7B66F /* SwipeCollectionViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701A5625298ED1C1771AFDFF7B3D992D /* SwipeCollectionViewCell+Accessibility.swift */; };
+		24EC44FF102C2635A476CEF7567F89DA /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90A218535B6AF390A638D9A2423FE3D /* IQPreviousNextView.swift */; };
+		27DDB328EA5A28F7FBE21AFC1B594C8E /* SwipeTableViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D1748119E6369DF2A7B82FFFE74662 /* SwipeTableViewCell+Accessibility.swift */; };
+		285F0E91DB7A22D06F648FF5793FB7FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D60AC13D33197690A05C641925DDDA /* UIKit.framework */; };
+		2CA0B3B43A972DF3AD79F58092E3403E /* IQKeyboardManager+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346B70DBD8F720FE689A8D771FABB4CD /* IQKeyboardManager+Internal.swift */; };
+		2E5138271A6C79BDA3C0835F2596219B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D60AC13D33197690A05C641925DDDA /* UIKit.framework */; };
+		2EC96162DD6740ECE67FF38B8400A7C5 /* IQKeyboardManager+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B8021A5B97B29C86CA25F69138E1FE /* IQKeyboardManager+Debug.swift */; };
+		302D218976A9A55C13B861E9FF4090BB /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E4590635B62B257A3FE5480F721E61 /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30CC79215F75F7BD8660EAF3E20F8793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		311EFC1239B0C7C5480C02B4B85413B0 /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84A0EEB9FCAFA59FE2DF2D52421BE9 /* SwipeExpansionStyle.swift */; };
+		34C39BDBFE7A2CC585787F5AFCA39FDE /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D3116559492BC38F587CA8517C4FD /* IQUIView+IQKeyboardToolbar.swift */; };
+		3A0EFA6C47553E56008B8CE22EC206B6 /* SwipeCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B31AC9CD1977E47BB0E0564CA8A66C /* SwipeCollectionViewCellDelegate.swift */; };
+		3F01EED6380B596E1D0C1497CBCF9B95 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B5199CC9D53B2131923AD552369DB /* IQUITextFieldView+Additions.swift */; };
+		41CD40F5713CD71AD5AB1471E81C97E1 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600FBA0E69F168D54D851A0785A2B952 /* IQBarButtonItem.swift */; };
+		4910261A5A661EF013AFABBA998EFDE3 /* SwipeCollectionViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED28C0CC47A21E70A54F01FADF8AD73 /* SwipeCollectionViewCell+Display.swift */; };
+		4B275CF4EF68CFEBD7FF5C5EBCAF64EE /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA1493E570492007D665EA458DBB02 /* Swipeable.swift */; };
+		54AB29654E6FC7A1CD3DAC7C0EB9DA1F /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437A8E25BD5E03AC2F69B85058F9ECF /* SwipeAnimator.swift */; };
+		55EC8A9DA519A3C73E41128EDE44E3F4 /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B4B3EC9B33C6441EBD3410F39BCED /* SwipeTableViewCellDelegate.swift */; };
+		5D28D8BB0D61E26837A375BC488FEC5E /* Pods-ERosasEcommerce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2AF835D7BEA3CEBC6DD8CE6C150F74 /* Pods-ERosasEcommerce-dummy.m */; };
+		60C6606FF8176EE5A38870CFD9F649C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		6176C0BE28782FE95B19BFCCDA6A0D8D /* SwipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97968625D38753AEFC45989571F792E3 /* SwipeCollectionViewCell.swift */; };
+		6CD8025A8F768B5908C24187949E1E2A /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638B439EA4546D4B6362A7E5287231 /* SwipeFeedback.swift */; };
+		7AC995F567A776FC1A80A9FA0733F3D1 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A1746249DB033D324A4512E71AD008 /* IQNSArray+Sort.swift */; };
+		85F13B069B06ADF2B6DCA622E4645110 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579ED7AD60C506CCCA2744F2785FA250 /* IQKeyboardManagerConstants.swift */; };
+		86A03DE9366D1BE94EB99AA387EACD1F /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0469E68D896E3E09BACC18C9AE8E76 /* IQKeyboardManager.swift */; };
+		90A282D559F6B602CC819EA557F422DF /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB253E479AF8D82CAA35E59AAC3BC1F /* SwipeTableViewCell+Display.swift */; };
+		9D1432BACBF3349C6B4BACE3EEDB1391 /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DAB7B74DA7D754655040C8AB7C3C46 /* SwipeActionTransitioning.swift */; };
+		9EFB9CE930EFCFF821A56868C99C8966 /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134A54009028F13DED58CAD7E59E583A /* SwipeExpanding.swift */; };
+		9F079A2701FEA0F33062E44BE2ECCBC0 /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C34088823802DAD6080F97073073549 /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A180416E4EE5B6217B12900A99D30E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		A4BAEE317BFF650DCC888FC67BFBF7EF /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE397977519ACB1AED0D7F09DEFCD757 /* IQKeyboardManager+UIKeyboardNotification.swift */; };
+		AB5E888B065545CE6198DBB442EB0045 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C0A8A53C6E495232E981B4DC2B366 /* SwipeActionsView.swift */; };
+		B09B157B52AE1995CEB1689D00D2FBD8 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D213145AE5C77E8E4750FF02C58164B /* SwipeTableViewCell.swift */; };
+		B1B6A2491AC437909DABE20C71BECDBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */; };
+		B5368FA2A793E1A2F3ED0EB3DD25518F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		B6B43B1B78EC0E52CC08F82841A22A31 /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A24CB3A553EC69943015C75F9FCABA3 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6EC6D40823E66D5B389ACEAC9FD7AAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */; };
+		B9743A957DBE9A97ED5C6D2E45EC5480 /* SwipeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4369977EC239626278B2525E1A5599 /* SwipeActionButton.swift */; };
+		BCEB90BA800125022381A37DF14EF939 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C040367B1E834C02191FDF048ACF68 /* iOSDropDown.swift */; };
+		C4E062883F3700D6E761F2D9A8FBB829 /* SwipeAccessibilityCustomAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A617896E45F6B37A6E142672EC8BCDCC /* SwipeAccessibilityCustomAction.swift */; };
+		C81CB3B5D25BDBCB6D3A3632BE408229 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B2008E5071259AD08B68D19BDF2CCC /* IQKeyboardReturnKeyHandler.swift */; };
+		D31356D54A39420DB91C892502CFFD57 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99C5C1109A6327D4D7016C58A3E1216 /* IQUIViewController+Additions.swift */; };
+		D6516B5451008BF1ABA150E6482F6325 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71FD23E0F7DC79D39C7798309286CD4 /* IQKeyboardManager+UITextFieldViewNotification.swift */; };
+		DF33C3DE068D6116B3F551B0453ACD23 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F46675C9202967C884982C75E6E9E13 /* IQUIScrollView+Additions.swift */; };
+		E72E1BDDFF31003BD089544FC112FAAC /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80D3F8AF6715A148FCCD0CD04A3298 /* IQTextView.swift */; };
+		F254264789A1EC31F8B4D1D31277A3A7 /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433E7BABE5F605AEB8DDEBA21304813 /* SwipeCellKit-dummy.m */; };
+		F25E95074C3C03491DC5B93BC8FC4B15 /* Pods-ERosasEcommerce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C28AFC80A369E32C8EEAE4438C5DE19 /* Pods-ERosasEcommerce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B1C1D70C629AE19C0D5121B1BBA891 /* IQKeyboardManager+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213020C2ABE1050A6899B02F452FB973 /* IQKeyboardManager+Position.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		680CAD4F3A94E839A909F6B990FD88DF /* PBXContainerItemProxy */ = {
+		02AD37485FE857C006A376FAB128D56E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
-			remoteInfo = iOSDropDown;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
 		};
-		AA7A0C4B3D9D73F0F1C9DBECE54D0A78 /* PBXContainerItemProxy */ = {
+		33E0D53A084625D93942601F745392E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1DE44C23B82E6671E9E1541D06DE0E87;
 			remoteInfo = SwipeCellKit;
 		};
+		A49B337C1FEB65DA2F4B68F63A3CC718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
+			remoteInfo = iOSDropDown;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B2008E5071259AD08B68D19BDF2CCC /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		04D60AC13D33197690A05C641925DDDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0543F42E998D6C5823062411D2C4DB9D /* Pods-ERosasEcommerce-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ERosasEcommerce-acknowledgements.plist"; sourceTree = "<group>"; };
-		099C193A7FE27207C9DB6999441AFB4A /* SwipeCollectionViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCellDelegate.swift; path = Source/SwipeCollectionViewCellDelegate.swift; sourceTree = "<group>"; };
+		05E8C1DF890FDD1647506289D4653E53 /* SwipeCellKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.debug.xcconfig; sourceTree = "<group>"; };
+		096277F557F6CD670C76E12D8FC0E686 /* SwipeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAction.swift; path = Source/SwipeAction.swift; sourceTree = "<group>"; };
+		099CA463865307CAE356C281C70BF2D8 /* SwipeCellKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwipeCellKit-Info.plist"; sourceTree = "<group>"; };
+		0A8EF268BB3C4AD841B32A64369B10B8 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
 		0AE81CFFB2EAA1B4BCD563E26F17E829 /* Pods-ERosasEcommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERosasEcommerce.debug.xcconfig"; sourceTree = "<group>"; };
 		0B2AF835D7BEA3CEBC6DD8CE6C150F74 /* Pods-ERosasEcommerce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ERosasEcommerce-dummy.m"; sourceTree = "<group>"; };
-		0EF4F33F8891162D6914FF5C1B565870 /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionTransitioning.swift; path = Source/SwipeActionTransitioning.swift; sourceTree = "<group>"; };
-		152AAEDA509362AB0E0F30ABA0C2F759 /* SwipeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAction.swift; path = Source/SwipeAction.swift; sourceTree = "<group>"; };
-		176D562358BC42D403E635B4DD12AD31 /* SwipeExpanding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpanding.swift; path = Source/SwipeExpanding.swift; sourceTree = "<group>"; };
-		18BD8A9F11AC4A77615493B895A8D0DD /* iOSDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.debug.xcconfig; sourceTree = "<group>"; };
-		1B2356C03AC7789C9FF4F97380D7C850 /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
-		1F2EF7188991E75852D81E2624C27A4E /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpansionStyle.swift; path = Source/SwipeExpansionStyle.swift; sourceTree = "<group>"; };
-		201B4891F10E0A903922057F2545EE7D /* SwipeCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCell.swift; path = Source/SwipeCollectionViewCell.swift; sourceTree = "<group>"; };
-		26464837A95D4AFB57337529F4126757 /* SwipeCellKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.debug.xcconfig; sourceTree = "<group>"; };
+		0F17411940262D9C7EABDBDA72032079 /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionLayout.swift; path = Source/SwipeTransitionLayout.swift; sourceTree = "<group>"; };
+		100D3116559492BC38F587CA8517C4FD /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		134A54009028F13DED58CAD7E59E583A /* SwipeExpanding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpanding.swift; path = Source/SwipeExpanding.swift; sourceTree = "<group>"; };
+		14DAB7B74DA7D754655040C8AB7C3C46 /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionTransitioning.swift; path = Source/SwipeActionTransitioning.swift; sourceTree = "<group>"; };
+		1A886F9FA08AA7C550B8540003B90C94 /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		213020C2ABE1050A6899B02F452FB973 /* IQKeyboardManager+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Position.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Position.swift"; sourceTree = "<group>"; };
+		25B31AC9CD1977E47BB0E0564CA8A66C /* SwipeCollectionViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCellDelegate.swift; path = Source/SwipeCollectionViewCellDelegate.swift; sourceTree = "<group>"; };
+		26D1748119E6369DF2A7B82FFFE74662 /* SwipeTableViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Accessibility.swift"; path = "Source/SwipeTableViewCell+Accessibility.swift"; sourceTree = "<group>"; };
+		276C0A8A53C6E495232E981B4DC2B366 /* SwipeActionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionsView.swift; path = Source/SwipeActionsView.swift; sourceTree = "<group>"; };
 		29639AE0AF74F4B13DF3853DED552AA1 /* Pods-ERosasEcommerce-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ERosasEcommerce-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2A06AB0BB0D6440B647A0732EF3E7DB4 /* Pods-ERosasEcommerce-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ERosasEcommerce-frameworks.sh"; sourceTree = "<group>"; };
-		2F54C38F36485840FEA66CE76F8ED58E /* SwipeFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeFeedback.swift; path = Source/SwipeFeedback.swift; sourceTree = "<group>"; };
-		39E549BC2FFB8675C05D9CC81248B965 /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		2C34088823802DAD6080F97073073549 /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
+		3433E7BABE5F605AEB8DDEBA21304813 /* SwipeCellKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCellKit-dummy.m"; sourceTree = "<group>"; };
+		346B70DBD8F720FE689A8D771FABB4CD /* IQKeyboardManager+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Internal.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Internal.swift"; sourceTree = "<group>"; };
+		350D0E25B190B33FCCBD886C2D023560 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		378CFA87F94900374E5FB25E659A3BD7 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
 		3C28AFC80A369E32C8EEAE4438C5DE19 /* Pods-ERosasEcommerce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ERosasEcommerce-umbrella.h"; sourceTree = "<group>"; };
-		46C5201D4B9CB7057AE3CA141628D066 /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Display.swift"; path = "Source/SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
-		46F5EC47B9FD8F79384D552769BC861E /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
-		4D46AE4D793B07D7518A28EA1583BB57 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Extensions.swift; sourceTree = "<group>"; };
-		558B68CED92B7C028B29BEA8BC67ABD3 /* SwipeCellKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-umbrella.h"; sourceTree = "<group>"; };
-		5DD24CE32A316B16C808976D96748C39 /* SwipeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeController.swift; path = Source/SwipeController.swift; sourceTree = "<group>"; };
-		68918256EE66A4D32BF7CE1A14B51860 /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
-		6E58F45DA44B78FCA7E4D6025148561F /* SwipeCollectionViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Accessibility.swift"; path = "Source/SwipeCollectionViewCell+Accessibility.swift"; sourceTree = "<group>"; };
-		7338D3E8C8F1B06BB100B6D705522ABB /* SwipeActionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionsView.swift; path = Source/SwipeActionsView.swift; sourceTree = "<group>"; };
-		782C79E46B8A23FB38BF2B24F4AA5FB6 /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
-		8AF7596057F942F1BA82D5C91B38E4DE /* Swipeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swipeable.swift; path = Source/Swipeable.swift; sourceTree = "<group>"; };
-		9240BBF51568BFE3078BEF3A9EC11B3D /* SwipeActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionButton.swift; path = Source/SwipeActionButton.swift; sourceTree = "<group>"; };
-		9757A4FC6F315E360FF791EEBE4FC08E /* SwipeTableViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCellDelegate.swift; path = Source/SwipeTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		3F80D3F8AF6715A148FCCD0CD04A3298 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		4DA3C4D46FABBE1F8765E0016B4842F5 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		52813DB7B2B56DD5D6B813CBD6B07622 /* IQKeyboardManagerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.release.xcconfig; sourceTree = "<group>"; };
+		5375DE5AF84370DEE0C32846F665B5E5 /* iOSDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.release.xcconfig; sourceTree = "<group>"; };
+		55524D6C935CA81C3EF87C832918C9BF /* SwipeCellKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-prefix.pch"; sourceTree = "<group>"; };
+		579ED7AD60C506CCCA2744F2785FA250 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		5CEA1493E570492007D665EA458DBB02 /* Swipeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swipeable.swift; path = Source/Swipeable.swift; sourceTree = "<group>"; };
+		5DB253E479AF8D82CAA35E59AAC3BC1F /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Display.swift"; path = "Source/SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
+		600FBA0E69F168D54D851A0785A2B952 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		6A3C8BE00D2FF7118CBA92CC91863229 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		6C84A0EEB9FCAFA59FE2DF2D52421BE9 /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpansionStyle.swift; path = Source/SwipeExpansionStyle.swift; sourceTree = "<group>"; };
+		6ED28C0CC47A21E70A54F01FADF8AD73 /* SwipeCollectionViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Display.swift"; path = "Source/SwipeCollectionViewCell+Display.swift"; sourceTree = "<group>"; };
+		701A5625298ED1C1771AFDFF7B3D992D /* SwipeCollectionViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Accessibility.swift"; path = "Source/SwipeCollectionViewCell+Accessibility.swift"; sourceTree = "<group>"; };
+		7544EA28BC05AB4DA9C58150A6CD09A5 /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
+		79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A24CB3A553EC69943015C75F9FCABA3 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		7D039FFEC2BC7186733D27E813072653 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		7DC3B1ACF7B0D06C3AA7C92AE5C7E502 /* SwipeCellKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.release.xcconfig; sourceTree = "<group>"; };
+		7E0469E68D896E3E09BACC18C9AE8E76 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		83C040367B1E834C02191FDF048ACF68 /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
+		840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		89289718A235CC033297C5003421C2F7 /* iOSDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.debug.xcconfig; sourceTree = "<group>"; };
+		8F46675C9202967C884982C75E6E9E13 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		97968625D38753AEFC45989571F792E3 /* SwipeCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCell.swift; path = Source/SwipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D213145AE5C77E8E4750FF02C58164B /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
 		9D443E759FE97A6C0CA5A3B5E4142EBA /* SwipeCellKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeCellKit; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B98CD34C19DFF2773DEFF9CDF3D08C4A /* SwipeCollectionViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Display.swift"; path = "Source/SwipeCollectionViewCell+Display.swift"; sourceTree = "<group>"; };
-		BB895E3EBF3D2720D8F334F6C0FCC012 /* SwipeAccessibilityCustomAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAccessibilityCustomAction.swift; path = Source/SwipeAccessibilityCustomAction.swift; sourceTree = "<group>"; };
+		A1B8021A5B97B29C86CA25F69138E1FE /* IQKeyboardManager+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Debug.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Debug.swift"; sourceTree = "<group>"; };
+		A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A42FEFDED87FDED6A56EF12D34B6D2DF /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		A4B47267F14AB1F7D88E4F308CDB3C92 /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
+		A5E4590635B62B257A3FE5480F721E61 /* SwipeCellKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-umbrella.h"; sourceTree = "<group>"; };
+		A617896E45F6B37A6E142672EC8BCDCC /* SwipeAccessibilityCustomAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAccessibilityCustomAction.swift; path = Source/SwipeAccessibilityCustomAction.swift; sourceTree = "<group>"; };
+		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9FECDC8B79335CC75408D9049C37D1 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		ADA33562BC28CA669CD090CEF968B73E /* IQKeyboardManagerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.debug.xcconfig; sourceTree = "<group>"; };
+		B0A1746249DB033D324A4512E71AD008 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		BC7982FD48D9A8B81887A4147095C863 /* IQKeyboardManager+Toolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Toolbar.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Toolbar.swift"; sourceTree = "<group>"; };
 		C26DDD8BC175C26589E8DFB6098BD985 /* Pods-ERosasEcommerce-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ERosasEcommerce-Info.plist"; sourceTree = "<group>"; };
-		C4449CD4C63BF6C689919C0C66FCFC6F /* SwipeCellKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-prefix.pch"; sourceTree = "<group>"; };
-		C4C0FE5A541F4996D43D809257EAECDD /* SwipeCellKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCellKit-dummy.m"; sourceTree = "<group>"; };
-		C84AD054B820F0649691A72884D614D3 /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
 		C8981892CF0C8238B400C11FF40E2B4A /* Pods-ERosasEcommerce */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ERosasEcommerce"; path = Pods_ERosasEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB3A6041F9EE093B18045E20EBE20960 /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
+		CA4699153F178AA210F56AAD06833C62 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Extensions.swift; sourceTree = "<group>"; };
+		CBDED0C0500235DC454F3F1E3557C19B /* SwipeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeOptions.swift; path = Source/SwipeOptions.swift; sourceTree = "<group>"; };
 		CE0C750A2F313603729680634563512B /* Pods-ERosasEcommerce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ERosasEcommerce.modulemap"; sourceTree = "<group>"; };
-		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D5388B7362AFEC0F40AF01549C00DA4F /* SwipeCellKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwipeCellKit-Info.plist"; sourceTree = "<group>"; };
+		D71FD23E0F7DC79D39C7798309286CD4 /* IQKeyboardManager+UITextFieldViewNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+UITextFieldViewNotification.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+UITextFieldViewNotification.swift"; sourceTree = "<group>"; };
 		D82CA597548C9105550C9069062CB034 /* Pods-ERosasEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ERosasEcommerce.release.xcconfig"; sourceTree = "<group>"; };
-		DF4A0325A92F733D3EBBACCA8742B826 /* SwipeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimator.swift; path = Source/SwipeAnimator.swift; sourceTree = "<group>"; };
-		E1D8FCDB9D7170ED44C84B6F11F0A21B /* SwipeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeOptions.swift; path = Source/SwipeOptions.swift; sourceTree = "<group>"; };
-		E74E02D6BF183AD026EAA6ED584D971E /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionLayout.swift; path = Source/SwipeTransitionLayout.swift; sourceTree = "<group>"; };
-		E9B05736F43E9DADA37AADEAA7558DF9 /* SwipeCellKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeCellKit.modulemap; sourceTree = "<group>"; };
-		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F049AE1FD955820D1349741113F14C3D /* iOSDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.release.xcconfig; sourceTree = "<group>"; };
-		F39AB34CEF0107319016C073697093FB /* SwipeCellKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.release.xcconfig; sourceTree = "<group>"; };
-		F4F797343E3A4A64B29ED96976B25C15 /* SwipeTableViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Accessibility.swift"; path = "Source/SwipeTableViewCell+Accessibility.swift"; sourceTree = "<group>"; };
+		DB638B439EA4546D4B6362A7E5287231 /* SwipeFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeFeedback.swift; path = Source/SwipeFeedback.swift; sourceTree = "<group>"; };
+		DD3B61F68444504970D6CDFD96770BE0 /* SwipeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeController.swift; path = Source/SwipeController.swift; sourceTree = "<group>"; };
+		DD8B4B3EC9B33C6441EBD3410F39BCED /* SwipeTableViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCellDelegate.swift; path = Source/SwipeTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		E0903381C708DDFD5163120C40C70965 /* SwipeCellKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeCellKit.modulemap; sourceTree = "<group>"; };
+		E90A218535B6AF390A638D9A2423FE3D /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		E9E7625EECDC049D9AED3F43D4F6185B /* IQKeyboardManager+OrientationNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+OrientationNotification.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+OrientationNotification.swift"; sourceTree = "<group>"; };
+		EE397977519ACB1AED0D7F09DEFCD757 /* IQKeyboardManager+UIKeyboardNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+UIKeyboardNotification.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+UIKeyboardNotification.swift"; sourceTree = "<group>"; };
+		F437A8E25BD5E03AC2F69B85058F9ECF /* SwipeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimator.swift; path = Source/SwipeAnimator.swift; sourceTree = "<group>"; };
+		F43B5199CC9D53B2131923AD552369DB /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		F854DD705B74F294FC26D07E68CBA590 /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
+		F99C5C1109A6327D4D7016C58A3E1216 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		FA4369977EC239626278B2525E1A5599 /* SwipeActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionButton.swift; path = Source/SwipeActionButton.swift; sourceTree = "<group>"; };
+		FCBD88FC21B35E73E6DBE76D8B0A6215 /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
 		FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDropDown; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		50B25B5377589A634105079ECEF4F104 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				052BF7D7D6454AF9C917D536247AC2B8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		757DD7F42483F1FD3CFAC8A82FD8B6AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				30CC79215F75F7BD8660EAF3E20F8793 /* Foundation.framework in Frameworks */,
 				285F0E91DB7A22D06F648FF5793FB7FC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B77577C54970218F8F8340516D00F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B6A2491AC437909DABE20C71BECDBC /* CoreGraphics.framework in Frameworks */,
+				60C6606FF8176EE5A38870CFD9F649C8 /* Foundation.framework in Frameworks */,
+				B6EC6D40823E66D5B389ACEAC9FD7AAE /* QuartzCore.framework in Frameworks */,
+				2E5138271A6C79BDA3C0835F2596219B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7B516711E8D066C8F24A2AE3FEB5DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5368FA2A793E1A2F3ED0EB3DD25518F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,55 +240,76 @@
 			path = "Target Support Files/Pods-ERosasEcommerce";
 			sourceTree = "<group>";
 		};
-		11EF671263EE2F8C032CC4E8A4BE32F3 /* Pods */ = {
+		2BD5F370447E456E064280CD558696E0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B31FBD0A5B1051BC345D47336A64CD31 /* iOSDropDown */,
-				EFC58E201771B6AA2146BBE99751BBFC /* SwipeCellKit */,
+				E279C62721A5B291CCBA4C703DE0C529 /* iOSDropDown */,
+				41D66F37FC6EF8DEEBE6554960719304 /* IQKeyboardManagerSwift */,
+				A77151386819168796E13111A877CC60 /* SwipeCellKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		41D66F37FC6EF8DEEBE6554960719304 /* IQKeyboardManagerSwift */ = {
 			isa = PBXGroup;
 			children = (
-				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+				600FBA0E69F168D54D851A0785A2B952 /* IQBarButtonItem.swift */,
+				7D039FFEC2BC7186733D27E813072653 /* IQInvocation.swift */,
+				7E0469E68D896E3E09BACC18C9AE8E76 /* IQKeyboardManager.swift */,
+				A1B8021A5B97B29C86CA25F69138E1FE /* IQKeyboardManager+Debug.swift */,
+				346B70DBD8F720FE689A8D771FABB4CD /* IQKeyboardManager+Internal.swift */,
+				E9E7625EECDC049D9AED3F43D4F6185B /* IQKeyboardManager+OrientationNotification.swift */,
+				213020C2ABE1050A6899B02F452FB973 /* IQKeyboardManager+Position.swift */,
+				BC7982FD48D9A8B81887A4147095C863 /* IQKeyboardManager+Toolbar.swift */,
+				EE397977519ACB1AED0D7F09DEFCD757 /* IQKeyboardManager+UIKeyboardNotification.swift */,
+				D71FD23E0F7DC79D39C7798309286CD4 /* IQKeyboardManager+UITextFieldViewNotification.swift */,
+				579ED7AD60C506CCCA2744F2785FA250 /* IQKeyboardManagerConstants.swift */,
+				0A8EF268BB3C4AD841B32A64369B10B8 /* IQKeyboardManagerConstantsInternal.swift */,
+				00B2008E5071259AD08B68D19BDF2CCC /* IQKeyboardReturnKeyHandler.swift */,
+				B0A1746249DB033D324A4512E71AD008 /* IQNSArray+Sort.swift */,
+				E90A218535B6AF390A638D9A2423FE3D /* IQPreviousNextView.swift */,
+				3F80D3F8AF6715A148FCCD0CD04A3298 /* IQTextView.swift */,
+				378CFA87F94900374E5FB25E659A3BD7 /* IQTitleBarButtonItem.swift */,
+				A42FEFDED87FDED6A56EF12D34B6D2DF /* IQToolbar.swift */,
+				8F46675C9202967C884982C75E6E9E13 /* IQUIScrollView+Additions.swift */,
+				F43B5199CC9D53B2131923AD552369DB /* IQUITextFieldView+Additions.swift */,
+				4DA3C4D46FABBE1F8765E0016B4842F5 /* IQUIView+Hierarchy.swift */,
+				100D3116559492BC38F587CA8517C4FD /* IQUIView+IQKeyboardToolbar.swift */,
+				F99C5C1109A6327D4D7016C58A3E1216 /* IQUIViewController+Additions.swift */,
+				4F649B9E06D53B729561EB55D9B80E65 /* Support Files */,
 			);
-			name = Frameworks;
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
-		40B988A76513A0D5F5C2F845DDB5AFB1 /* Support Files */ = {
+		4ED4D444751F4C0809EAE37988A114C6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB3A6041F9EE093B18045E20EBE20960 /* iOSDropDown.modulemap */,
-				782C79E46B8A23FB38BF2B24F4AA5FB6 /* iOSDropDown-dummy.m */,
-				1B2356C03AC7789C9FF4F97380D7C850 /* iOSDropDown-Info.plist */,
-				39E549BC2FFB8675C05D9CC81248B965 /* iOSDropDown-prefix.pch */,
-				C84AD054B820F0649691A72884D614D3 /* iOSDropDown-umbrella.h */,
-				18BD8A9F11AC4A77615493B895A8D0DD /* iOSDropDown.debug.xcconfig */,
-				F049AE1FD955820D1349741113F14C3D /* iOSDropDown.release.xcconfig */,
+				E0903381C708DDFD5163120C40C70965 /* SwipeCellKit.modulemap */,
+				3433E7BABE5F605AEB8DDEBA21304813 /* SwipeCellKit-dummy.m */,
+				099CA463865307CAE356C281C70BF2D8 /* SwipeCellKit-Info.plist */,
+				55524D6C935CA81C3EF87C832918C9BF /* SwipeCellKit-prefix.pch */,
+				A5E4590635B62B257A3FE5480F721E61 /* SwipeCellKit-umbrella.h */,
+				05E8C1DF890FDD1647506289D4653E53 /* SwipeCellKit.debug.xcconfig */,
+				7DC3B1ACF7B0D06C3AA7C92AE5C7E502 /* SwipeCellKit.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/iOSDropDown";
+			path = "../Target Support Files/SwipeCellKit";
 			sourceTree = "<group>";
 		};
-		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+		4F649B9E06D53B729561EB55D9B80E65 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
-				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+				6A3C8BE00D2FF7118CBA92CC91863229 /* IQKeyboardManagerSwift.modulemap */,
+				AA9FECDC8B79335CC75408D9049C37D1 /* IQKeyboardManagerSwift-dummy.m */,
+				F854DD705B74F294FC26D07E68CBA590 /* IQKeyboardManagerSwift-Info.plist */,
+				350D0E25B190B33FCCBD886C2D023560 /* IQKeyboardManagerSwift-prefix.pch */,
+				7A24CB3A553EC69943015C75F9FCABA3 /* IQKeyboardManagerSwift-umbrella.h */,
+				ADA33562BC28CA669CD090CEF968B73E /* IQKeyboardManagerSwift.debug.xcconfig */,
+				52813DB7B2B56DD5D6B813CBD6B07622 /* IQKeyboardManagerSwift.release.xcconfig */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		771C9D7CDD07715C28F578A64822AAEC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */,
-				C8981892CF0C8238B400C11FF40E2B4A /* Pods-ERosasEcommerce */,
-				9D443E759FE97A6C0CA5A3B5E4142EBA /* SwipeCellKit */,
-			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
 			sourceTree = "<group>";
 		};
 		93D81E8D94661ACA478D267C1BA53CD2 /* Targets Support Files */ = {
@@ -219,71 +320,101 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9423B7BD21F980D35F0B76A35EC38E42 /* Support Files */ = {
+		9872D3F853982007E1C58F65CD10D684 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E9B05736F43E9DADA37AADEAA7558DF9 /* SwipeCellKit.modulemap */,
-				C4C0FE5A541F4996D43D809257EAECDD /* SwipeCellKit-dummy.m */,
-				D5388B7362AFEC0F40AF01549C00DA4F /* SwipeCellKit-Info.plist */,
-				C4449CD4C63BF6C689919C0C66FCFC6F /* SwipeCellKit-prefix.pch */,
-				558B68CED92B7C028B29BEA8BC67ABD3 /* SwipeCellKit-umbrella.h */,
-				26464837A95D4AFB57337529F4126757 /* SwipeCellKit.debug.xcconfig */,
-				F39AB34CEF0107319016C073697093FB /* SwipeCellKit.release.xcconfig */,
+				A4B47267F14AB1F7D88E4F308CDB3C92 /* iOSDropDown.modulemap */,
+				7544EA28BC05AB4DA9C58150A6CD09A5 /* iOSDropDown-dummy.m */,
+				FCBD88FC21B35E73E6DBE76D8B0A6215 /* iOSDropDown-Info.plist */,
+				1A886F9FA08AA7C550B8540003B90C94 /* iOSDropDown-prefix.pch */,
+				2C34088823802DAD6080F97073073549 /* iOSDropDown-umbrella.h */,
+				89289718A235CC033297C5003421C2F7 /* iOSDropDown.debug.xcconfig */,
+				5375DE5AF84370DEE0C32846F665B5E5 /* iOSDropDown.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwipeCellKit";
+			path = "../Target Support Files/iOSDropDown";
 			sourceTree = "<group>";
 		};
-		B31FBD0A5B1051BC345D47336A64CD31 /* iOSDropDown */ = {
+		9CFA97AF48455F239518693300C8E4F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68918256EE66A4D32BF7CE1A14B51860 /* iOSDropDown.swift */,
-				40B988A76513A0D5F5C2F845DDB5AFB1 /* Support Files */,
+				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */,
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */,
+				C8981892CF0C8238B400C11FF40E2B4A /* Pods-ERosasEcommerce */,
+				9D443E759FE97A6C0CA5A3B5E4142EBA /* SwipeCellKit */,
 			);
-			name = iOSDropDown;
-			path = iOSDropDown;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77151386819168796E13111A877CC60 /* SwipeCellKit */ = {
+			isa = PBXGroup;
+			children = (
+				CA4699153F178AA210F56AAD06833C62 /* Extensions.swift */,
+				5CEA1493E570492007D665EA458DBB02 /* Swipeable.swift */,
+				A617896E45F6B37A6E142672EC8BCDCC /* SwipeAccessibilityCustomAction.swift */,
+				096277F557F6CD670C76E12D8FC0E686 /* SwipeAction.swift */,
+				FA4369977EC239626278B2525E1A5599 /* SwipeActionButton.swift */,
+				276C0A8A53C6E495232E981B4DC2B366 /* SwipeActionsView.swift */,
+				14DAB7B74DA7D754655040C8AB7C3C46 /* SwipeActionTransitioning.swift */,
+				F437A8E25BD5E03AC2F69B85058F9ECF /* SwipeAnimator.swift */,
+				97968625D38753AEFC45989571F792E3 /* SwipeCollectionViewCell.swift */,
+				701A5625298ED1C1771AFDFF7B3D992D /* SwipeCollectionViewCell+Accessibility.swift */,
+				6ED28C0CC47A21E70A54F01FADF8AD73 /* SwipeCollectionViewCell+Display.swift */,
+				25B31AC9CD1977E47BB0E0564CA8A66C /* SwipeCollectionViewCellDelegate.swift */,
+				DD3B61F68444504970D6CDFD96770BE0 /* SwipeController.swift */,
+				134A54009028F13DED58CAD7E59E583A /* SwipeExpanding.swift */,
+				6C84A0EEB9FCAFA59FE2DF2D52421BE9 /* SwipeExpansionStyle.swift */,
+				DB638B439EA4546D4B6362A7E5287231 /* SwipeFeedback.swift */,
+				CBDED0C0500235DC454F3F1E3557C19B /* SwipeOptions.swift */,
+				9D213145AE5C77E8E4750FF02C58164B /* SwipeTableViewCell.swift */,
+				26D1748119E6369DF2A7B82FFFE74662 /* SwipeTableViewCell+Accessibility.swift */,
+				5DB253E479AF8D82CAA35E59AAC3BC1F /* SwipeTableViewCell+Display.swift */,
+				DD8B4B3EC9B33C6441EBD3410F39BCED /* SwipeTableViewCellDelegate.swift */,
+				0F17411940262D9C7EABDBDA72032079 /* SwipeTransitionLayout.swift */,
+				4ED4D444751F4C0809EAE37988A114C6 /* Support Files */,
+			);
+			name = SwipeCellKit;
+			path = SwipeCellKit;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9D206BABE81E6BF0B9B23880B238CC7 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				11EF671263EE2F8C032CC4E8A4BE32F3 /* Pods */,
-				771C9D7CDD07715C28F578A64822AAEC /* Products */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				2BD5F370447E456E064280CD558696E0 /* Pods */,
+				9CFA97AF48455F239518693300C8E4F7 /* Products */,
 				93D81E8D94661ACA478D267C1BA53CD2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		EFC58E201771B6AA2146BBE99751BBFC /* SwipeCellKit */ = {
+		E279C62721A5B291CCBA4C703DE0C529 /* iOSDropDown */ = {
 			isa = PBXGroup;
 			children = (
-				4D46AE4D793B07D7518A28EA1583BB57 /* Extensions.swift */,
-				8AF7596057F942F1BA82D5C91B38E4DE /* Swipeable.swift */,
-				BB895E3EBF3D2720D8F334F6C0FCC012 /* SwipeAccessibilityCustomAction.swift */,
-				152AAEDA509362AB0E0F30ABA0C2F759 /* SwipeAction.swift */,
-				9240BBF51568BFE3078BEF3A9EC11B3D /* SwipeActionButton.swift */,
-				7338D3E8C8F1B06BB100B6D705522ABB /* SwipeActionsView.swift */,
-				0EF4F33F8891162D6914FF5C1B565870 /* SwipeActionTransitioning.swift */,
-				DF4A0325A92F733D3EBBACCA8742B826 /* SwipeAnimator.swift */,
-				201B4891F10E0A903922057F2545EE7D /* SwipeCollectionViewCell.swift */,
-				6E58F45DA44B78FCA7E4D6025148561F /* SwipeCollectionViewCell+Accessibility.swift */,
-				B98CD34C19DFF2773DEFF9CDF3D08C4A /* SwipeCollectionViewCell+Display.swift */,
-				099C193A7FE27207C9DB6999441AFB4A /* SwipeCollectionViewCellDelegate.swift */,
-				5DD24CE32A316B16C808976D96748C39 /* SwipeController.swift */,
-				176D562358BC42D403E635B4DD12AD31 /* SwipeExpanding.swift */,
-				1F2EF7188991E75852D81E2624C27A4E /* SwipeExpansionStyle.swift */,
-				2F54C38F36485840FEA66CE76F8ED58E /* SwipeFeedback.swift */,
-				E1D8FCDB9D7170ED44C84B6F11F0A21B /* SwipeOptions.swift */,
-				46F5EC47B9FD8F79384D552769BC861E /* SwipeTableViewCell.swift */,
-				F4F797343E3A4A64B29ED96976B25C15 /* SwipeTableViewCell+Accessibility.swift */,
-				46C5201D4B9CB7057AE3CA141628D066 /* SwipeTableViewCell+Display.swift */,
-				9757A4FC6F315E360FF791EEBE4FC08E /* SwipeTableViewCellDelegate.swift */,
-				E74E02D6BF183AD026EAA6ED584D971E /* SwipeTransitionLayout.swift */,
-				9423B7BD21F980D35F0B76A35EC38E42 /* Support Files */,
+				83C040367B1E834C02191FDF048ACF68 /* iOSDropDown.swift */,
+				9872D3F853982007E1C58F65CD10D684 /* Support Files */,
 			);
-			name = SwipeCellKit;
-			path = SwipeCellKit;
+			name = iOSDropDown;
+			path = iOSDropDown;
+			sourceTree = "<group>";
+		};
+		F9D206BABE81E6BF0B9B23880B238CC7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */,
+				79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */,
+				A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */,
+				04D60AC13D33197690A05C641925DDDA /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,11 +428,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D817584923F2C7A34F1BE6CF0A5B950 /* Headers */ = {
+		694ED87F033B7C43FE595F663FA480E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02DBA69CE30944075BA7180065791299 /* Pods-ERosasEcommerce-umbrella.h in Headers */,
+				F25E95074C3C03491DC5B93BC8FC4B15 /* Pods-ERosasEcommerce-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +441,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F079A2701FEA0F33062E44BE2ECCBC0 /* iOSDropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEEFAA8C63580C9CB8978EDA9312BDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B43B1B78EC0E52CC08F82841A22A31 /* IQKeyboardManagerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,20 +491,39 @@
 			productReference = FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */;
 			productType = "com.apple.product-type.framework";
 		};
-		EB6AADAEE40757D7B16363B9C83B1589 /* Pods-ERosasEcommerce */ = {
+		B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B69FB419F84413FFEEA78854EFF6F58 /* Build configuration list for PBXNativeTarget "Pods-ERosasEcommerce" */;
+			buildConfigurationList = 42F76AA8E84D32E2DED70BBA35321CB1 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
 			buildPhases = (
-				9D817584923F2C7A34F1BE6CF0A5B950 /* Headers */,
-				AC9914C2BC6977F7DE3EFF8E7D8C9188 /* Sources */,
-				50B25B5377589A634105079ECEF4F104 /* Frameworks */,
-				3749DBD00C5C92AB746D5B41DE793E46 /* Resources */,
+				CCEEFAA8C63580C9CB8978EDA9312BDF /* Headers */,
+				AC7850B8AD058752CD0E80D5A5B07A42 /* Sources */,
+				A3B77577C54970218F8F8340516D00F2 /* Frameworks */,
+				DAEA1F953296419744C852BAA2739BA1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C4EE4079FEA64C995ACE6C15D2441533 /* PBXTargetDependency */,
-				DA8D7D47F1B4ACA3A41C356E0867E01C /* PBXTargetDependency */,
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB6AADAEE40757D7B16363B9C83B1589 /* Pods-ERosasEcommerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195634E2B145A6CB8C56E441BAEB5B22 /* Build configuration list for PBXNativeTarget "Pods-ERosasEcommerce" */;
+			buildPhases = (
+				694ED87F033B7C43FE595F663FA480E2 /* Headers */,
+				8428BB24D05EC3A3AC22F0139F095486 /* Sources */,
+				CB7B516711E8D066C8F24A2AE3FEB5DD /* Frameworks */,
+				4F020EC99A63EF126FEA162C9F4B015A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC1C462AAC44CDF2BD1A67927E2F6F7 /* PBXTargetDependency */,
+				2720C2267FDA481C5A43DD9E844CCDFA /* PBXTargetDependency */,
+				390E8A2236E92978C4309AB743B193F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-ERosasEcommerce";
 			productName = Pods_ERosasEcommerce;
@@ -390,11 +548,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 771C9D7CDD07715C28F578A64822AAEC /* Products */;
+			productRefGroup = 9CFA97AF48455F239518693300C8E4F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */,
+				B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */,
 				EB6AADAEE40757D7B16363B9C83B1589 /* Pods-ERosasEcommerce */,
 				1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */,
 			);
@@ -402,7 +561,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3749DBD00C5C92AB746D5B41DE793E46 /* Resources */ = {
+		4F020EC99A63EF126FEA162C9F4B015A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -417,6 +576,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B10051DD1B4E76916EC97FBB066EB11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEA1F953296419744C852BAA2739BA1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,11 +622,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC9914C2BC6977F7DE3EFF8E7D8C9188 /* Sources */ = {
+		8428BB24D05EC3A3AC22F0139F095486 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B92D29EAA36AD8EDEA91BFA6C62A239 /* Pods-ERosasEcommerce-dummy.m in Sources */,
+				5D28D8BB0D61E26837A375BC488FEC5E /* Pods-ERosasEcommerce-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7850B8AD058752CD0E80D5A5B07A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CD40F5713CD71AD5AB1471E81C97E1 /* IQBarButtonItem.swift in Sources */,
+				041B655D7F5932F03A65C154BC02BDAA /* IQInvocation.swift in Sources */,
+				86A03DE9366D1BE94EB99AA387EACD1F /* IQKeyboardManager.swift in Sources */,
+				2EC96162DD6740ECE67FF38B8400A7C5 /* IQKeyboardManager+Debug.swift in Sources */,
+				2CA0B3B43A972DF3AD79F58092E3403E /* IQKeyboardManager+Internal.swift in Sources */,
+				08B185E08278AE7EC55F8BBB19693AC5 /* IQKeyboardManager+OrientationNotification.swift in Sources */,
+				F2B1C1D70C629AE19C0D5121B1BBA891 /* IQKeyboardManager+Position.swift in Sources */,
+				1D8031C86A94D32E00ED55B80428A0F3 /* IQKeyboardManager+Toolbar.swift in Sources */,
+				A4BAEE317BFF650DCC888FC67BFBF7EF /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */,
+				D6516B5451008BF1ABA150E6482F6325 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */,
+				85F13B069B06ADF2B6DCA622E4645110 /* IQKeyboardManagerConstants.swift in Sources */,
+				0F94B2449CA1ADA76AE79C0BF6A08549 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				1A9B9579E46EFBA63C5F57A6B17B5ECA /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				C81CB3B5D25BDBCB6D3A3632BE408229 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				7AC995F567A776FC1A80A9FA0733F3D1 /* IQNSArray+Sort.swift in Sources */,
+				24EC44FF102C2635A476CEF7567F89DA /* IQPreviousNextView.swift in Sources */,
+				E72E1BDDFF31003BD089544FC112FAAC /* IQTextView.swift in Sources */,
+				20616A47873318F80BFFEABAC9730122 /* IQTitleBarButtonItem.swift in Sources */,
+				1740CBB33D469AEDD5D7291A9268FA97 /* IQToolbar.swift in Sources */,
+				DF33C3DE068D6116B3F551B0453ACD23 /* IQUIScrollView+Additions.swift in Sources */,
+				3F01EED6380B596E1D0C1497CBCF9B95 /* IQUITextFieldView+Additions.swift in Sources */,
+				04B0884964D9592302CA654E0B67E80E /* IQUIView+Hierarchy.swift in Sources */,
+				34C39BDBFE7A2CC585787F5AFCA39FDE /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				D31356D54A39420DB91C892502CFFD57 /* IQUIViewController+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,62 +673,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C4EE4079FEA64C995ACE6C15D2441533 /* PBXTargetDependency */ = {
+		0AC1C462AAC44CDF2BD1A67927E2F6F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = 02AD37485FE857C006A376FAB128D56E /* PBXContainerItemProxy */;
+		};
+		2720C2267FDA481C5A43DD9E844CCDFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwipeCellKit;
 			target = 1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */;
-			targetProxy = AA7A0C4B3D9D73F0F1C9DBECE54D0A78 /* PBXContainerItemProxy */;
+			targetProxy = 33E0D53A084625D93942601F745392E2 /* PBXContainerItemProxy */;
 		};
-		DA8D7D47F1B4ACA3A41C356E0867E01C /* PBXTargetDependency */ = {
+		390E8A2236E92978C4309AB743B193F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOSDropDown;
 			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
-			targetProxy = 680CAD4F3A94E839A909F6B990FD88DF /* PBXContainerItemProxy */;
+			targetProxy = A49B337C1FEB65DA2F4B68F63A3CC718 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1383269792364121654925D040D9A7EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D82CA597548C9105550C9069062CB034 /* Pods-ERosasEcommerce.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		139E73F87E5F4500A172FC2E8F66F89D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18BD8A9F11AC4A77615493B895A8D0DD /* iOSDropDown.debug.xcconfig */;
+			baseConfigurationReference = 89289718A235CC033297C5003421C2F7 /* iOSDropDown.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -565,7 +730,7 @@
 		};
 		1AC41ABEE64C623596DBC5766763AB54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F39AB34CEF0107319016C073697093FB /* SwipeCellKit.release.xcconfig */;
+			baseConfigurationReference = 7DC3B1ACF7B0D06C3AA7C92AE5C7E502 /* SwipeCellKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -597,43 +762,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		1F2A35C40D5C42B7B1E35F55578EC6BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AE81CFFB2EAA1B4BCD563E26F17E829 /* Pods-ERosasEcommerce.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -763,9 +891,81 @@
 			};
 			name = Release;
 		};
+		685347B9C32D6382CB29D3C388C5445A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE81CFFB2EAA1B4BCD563E26F17E829 /* Pods-ERosasEcommerce.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D8C08F259B4E57381CFE8BC28467628 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52813DB7B2B56DD5D6B813CBD6B07622 /* IQKeyboardManagerSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B365E1CAEEB3DAE92CD63CCAF561CBEF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26464837A95D4AFB57337529F4126757 /* SwipeCellKit.debug.xcconfig */;
+			baseConfigurationReference = 05E8C1DF890FDD1647506289D4653E53 /* SwipeCellKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -799,7 +999,7 @@
 		};
 		BD3DF22C06A75D4818072451B58CE4E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F049AE1FD955820D1349741113F14C3D /* iOSDropDown.release.xcconfig */;
+			baseConfigurationReference = 5375DE5AF84370DEE0C32846F665B5E5 /* iOSDropDown.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -832,23 +1032,104 @@
 			};
 			name = Release;
 		};
+		F0377F003E77F0F91AC8FEE0F297E927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA33562BC28CA669CD090CEF968B73E /* IQKeyboardManagerSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.6;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAAC5BC8D202242740BAEAACFD664F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82CA597548C9105550C9069062CB034 /* Pods-ERosasEcommerce.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		195634E2B145A6CB8C56E441BAEB5B22 /* Build configuration list for PBXNativeTarget "Pods-ERosasEcommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685347B9C32D6382CB29D3C388C5445A /* Debug */,
+				FAAC5BC8D202242740BAEAACFD664F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F76AA8E84D32E2DED70BBA35321CB1 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0377F003E77F0F91AC8FEE0F297E927 /* Debug */,
+				9D8C08F259B4E57381CFE8BC28467628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
 				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B69FB419F84413FFEEA78854EFF6F58 /* Build configuration list for PBXNativeTarget "Pods-ERosasEcommerce" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F2A35C40D5C42B7B1E35F55578EC6BF /* Debug */,
-				1383269792364121654925D040D9A7EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

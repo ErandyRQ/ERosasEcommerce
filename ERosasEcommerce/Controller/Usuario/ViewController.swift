@@ -68,15 +68,17 @@ class ViewController: UIViewController {
             }
         }
                 
-                if IdUsuario == 0{
+        if IdUsuario == 0{
+            
+                    //txtNombreOutlet.text! = ""
                     
                     btnAction.backgroundColor = .green
                     btnAction.setTitle("Agregar", for: .normal)
                     
                }else{
                    let usuario = UsuarioViewModel.GetById(IdUsuario: IdUsuario)
-                   
-                   let datos = usuario.Object as! Usuario
+                   //MARK: Checar lo de objetc si es opcional
+                   let datos = usuario.Object! as! Usuario
                    
                    self.txtIdUsuarioOutlet.text = datos.IdUsuario?.description
                    self.txtNombreOutlet.text = datos.Nombre

@@ -168,7 +168,7 @@ class UsuarioViewModel{
    static  func GetById(IdUsuario: Int)->Result{
        var context = DBManager()
        var result = Result()
-        let query = "SELECT IdUsuario,Nombre,ApellidoPaterno, ApellidoMaterno, FechaNacimiento, Username, Password FROM Usuario WHERE IdUsuario = \(IdUsuario)"
+        let query = "SELECT IdUsuario,Usuario.Nombre,ApellidoPaterno, ApellidoMaterno, FechaNacimiento, Username, Password, Rol.IdRol, Rol.Nombre FROM Usuario JOIN ROL ON Usuario.IdRol = Rol.IdRol WHERE IdUsuario = \(IdUsuario)"
         var statement : OpaquePointer?
         do{
             if try sqlite3_prepare_v2(context.db, query, -1, &statement, nil) == SQLITE_OK{
@@ -181,6 +181,11 @@ class UsuarioViewModel{
                     usuario.FechaNacimiento = String(describing: String(cString: sqlite3_column_text(statement, 4)))
                     usuario.Username = String(describing: String(cString: sqlite3_column_text(statement, 5)))
                     usuario.Password = String(describing: String(cString: sqlite3_column_text(statement, 6)))
+                    
+                    usuario.Rol = Rol()
+                    usuario.Rol?.IdRol = Int(sqlite3_column_int(statement, 7))
+                    usuario.Rol?.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 8)))
+                    //result.Objects?.append(usuario)
                     
                     result.Object = usuario
                 }

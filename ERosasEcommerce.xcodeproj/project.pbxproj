@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8C06B22CA93A3BBE14DE05F7 /* Pods_ERosasEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96E054A1CAA6C1A87C6E5D6 /* Pods_ERosasEcommerce.framework */; };
+		E3075C672A142EFF00973B4E /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C662A142EFF00973B4E /* Producto.swift */; };
+		E3075C692A142FAB00973B4E /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C682A142FAB00973B4E /* Area.swift */; };
+		E3075C6B2A14302F00973B4E /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C6A2A14302F00973B4E /* Proveedor.swift */; };
+		E3075C6D2A14307B00973B4E /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C6C2A14307B00973B4E /* Departamento.swift */; };
+		E3075C712A14320A00973B4E /* ProductoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C6F2A14320A00973B4E /* ProductoCell.swift */; };
+		E3075C722A14320A00973B4E /* ProductoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3075C702A14320A00973B4E /* ProductoCell.xib */; };
+		E3075C742A143F7300973B4E /* ProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C732A143F7300973B4E /* ProductoViewModel.swift */; };
+		E3075CB62A1456D200973B4E /* GetAllProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075CB52A1456D200973B4E /* GetAllProductoController.swift */; };
+		E31884AF2A1531B100E95C01 /* ProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31884AE2A1531B100E95C01 /* ProductoViewController.swift */; };
 		E31B4F742A02E86B001678BA /* GetAllUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B4F732A02E86B001678BA /* GetAllUsuarioController.swift */; };
 		E31B4F772A02F118001678BA /* UsuarioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B4F752A02F118001678BA /* UsuarioCell.swift */; };
 		E31B4F782A02F118001678BA /* UsuarioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E31B4F762A02F118001678BA /* UsuarioCell.xib */; };
@@ -33,6 +42,15 @@
 /* Begin PBXFileReference section */
 		54EF0B65C6A08F99F02CE3F0 /* Pods-ERosasEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERosasEcommerce.release.xcconfig"; path = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce.release.xcconfig"; sourceTree = "<group>"; };
 		8974DA78957C2FF9F3AD81C6 /* Pods-ERosasEcommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERosasEcommerce.debug.xcconfig"; path = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		E3075C662A142EFF00973B4E /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		E3075C682A142FAB00973B4E /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		E3075C6A2A14302F00973B4E /* Proveedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proveedor.swift; sourceTree = "<group>"; };
+		E3075C6C2A14307B00973B4E /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
+		E3075C6F2A14320A00973B4E /* ProductoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductoCell.swift; path = ERosasEcommerce/View/ProductoCell.swift; sourceTree = SOURCE_ROOT; };
+		E3075C702A14320A00973B4E /* ProductoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProductoCell.xib; path = ERosasEcommerce/View/ProductoCell.xib; sourceTree = SOURCE_ROOT; };
+		E3075C732A143F7300973B4E /* ProductoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewModel.swift; sourceTree = "<group>"; };
+		E3075CB52A1456D200973B4E /* GetAllProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllProductoController.swift; sourceTree = "<group>"; };
+		E31884AE2A1531B100E95C01 /* ProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewController.swift; sourceTree = "<group>"; };
 		E31B4F732A02E86B001678BA /* GetAllUsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsuarioController.swift; sourceTree = "<group>"; };
 		E31B4F752A02F118001678BA /* UsuarioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioCell.swift; sourceTree = "<group>"; };
 		E31B4F762A02F118001678BA /* UsuarioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsuarioCell.xib; sourceTree = "<group>"; };
@@ -87,6 +105,24 @@
 				F96E054A1CAA6C1A87C6E5D6 /* Pods_ERosasEcommerce.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3075C6E2A14314900973B4E /* ProductoCell */ = {
+			isa = PBXGroup;
+			children = (
+				E3075C6F2A14320A00973B4E /* ProductoCell.swift */,
+				E3075C702A14320A00973B4E /* ProductoCell.xib */,
+			);
+			path = ProductoCell;
+			sourceTree = "<group>";
+		};
+		E3075CB42A14545300973B4E /* Producto */ = {
+			isa = PBXGroup;
+			children = (
+				E3075CB52A1456D200973B4E /* GetAllProductoController.swift */,
+				E31884AE2A1531B100E95C01 /* ProductoViewController.swift */,
+			);
+			path = Producto;
 			sourceTree = "<group>";
 		};
 		E36003E829FC349F00BA496F = {
@@ -147,6 +183,10 @@
 				E36E87882A01979500F9DCE4 /* Result.swift */,
 				E360040A29FC6ECB00BA496F /* Usuario.swift */,
 				E36938722A0D81EB004D0D36 /* Rol.swift */,
+				E3075C662A142EFF00973B4E /* Producto.swift */,
+				E3075C682A142FAB00973B4E /* Area.swift */,
+				E3075C6A2A14302F00973B4E /* Proveedor.swift */,
+				E3075C6C2A14307B00973B4E /* Departamento.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,10 +194,11 @@
 		E3AE86FF2A043DE600502CBF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E3AE87042A043EB300502CBF /* UsuarioCell */,
+				E3075C6E2A14314900973B4E /* ProductoCell */,
 				E369387A2A0D8BB5004D0D36 /* RolCell */,
 				E36003FF29FC34A000BA496F /* LaunchScreen.storyboard */,
 				E36003FA29FC349F00BA496F /* Main.storyboard */,
-				E3AE87042A043EB300502CBF /* UsuarioCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +208,7 @@
 			children = (
 				E3AE87052A043F4C00502CBF /* UsuarioViewModel.swift */,
 				E36938762A0D8727004D0D36 /* RolViewModel.swift */,
+				E3075C732A143F7300973B4E /* ProductoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -174,6 +216,7 @@
 		E3AE87012A043E0B00502CBF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E3075CB42A14545300973B4E /* Producto */,
 				E369386F2A0D8152004D0D36 /* Rol */,
 				E3AE87032A043E7800502CBF /* Usuario */,
 			);
@@ -271,6 +314,7 @@
 				E36003FE29FC34A000BA496F /* Assets.xcassets in Resources */,
 				E369387E2A0D8C49004D0D36 /* RolCell.xib in Resources */,
 				E36003FC29FC349F00BA496F /* Main.storyboard in Resources */,
+				E3075C722A14320A00973B4E /* ProductoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +370,12 @@
 				E36E87892A01979500F9DCE4 /* Result.swift in Sources */,
 				E36003F929FC349F00BA496F /* ViewController.swift in Sources */,
 				E31B4F742A02E86B001678BA /* GetAllUsuarioController.swift in Sources */,
+				E3075CB62A1456D200973B4E /* GetAllProductoController.swift in Sources */,
+				E3075C6D2A14307B00973B4E /* Departamento.swift in Sources */,
+				E3075C6B2A14302F00973B4E /* Proveedor.swift in Sources */,
 				E369387D2A0D8C49004D0D36 /* RolCell.swift in Sources */,
 				E36003F529FC349F00BA496F /* AppDelegate.swift in Sources */,
+				E31884AF2A1531B100E95C01 /* ProductoViewController.swift in Sources */,
 				E36938712A0D81A6004D0D36 /* RolGetAllController.swift in Sources */,
 				E31B4F772A02F118001678BA /* UsuarioCell.swift in Sources */,
 				E36938732A0D81EB004D0D36 /* Rol.swift in Sources */,
@@ -335,7 +383,11 @@
 				E36003F729FC349F00BA496F /* SceneDelegate.swift in Sources */,
 				E36938772A0D8727004D0D36 /* RolViewModel.swift in Sources */,
 				E3AE87062A043F4C00502CBF /* UsuarioViewModel.swift in Sources */,
+				E3075C742A143F7300973B4E /* ProductoViewModel.swift in Sources */,
+				E3075C672A142EFF00973B4E /* Producto.swift in Sources */,
 				E360040B29FC6ECB00BA496F /* Usuario.swift in Sources */,
+				E3075C692A142FAB00973B4E /* Area.swift in Sources */,
+				E3075C712A14320A00973B4E /* ProductoCell.swift in Sources */,
 				E360040929FC5BF200BA496F /* DBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
