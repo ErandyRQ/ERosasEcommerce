@@ -20,6 +20,10 @@
 		E31B4F742A02E86B001678BA /* GetAllUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B4F732A02E86B001678BA /* GetAllUsuarioController.swift */; };
 		E31B4F772A02F118001678BA /* UsuarioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B4F752A02F118001678BA /* UsuarioCell.swift */; };
 		E31B4F782A02F118001678BA /* UsuarioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E31B4F762A02F118001678BA /* UsuarioCell.xib */; };
+		E33426482A1812500086F03E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E33426472A1812500086F03E /* FirebaseAuth */; };
+		E334264A2A1812500086F03E /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = E33426492A1812500086F03E /* FirebaseCrashlytics */; };
+		E334264C2A1812500086F03E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E334264B2A1812500086F03E /* FirebaseStorage */; };
+		E334264F2A183AA20086F03E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E334264E2A183AA20086F03E /* LoginViewController.swift */; };
 		E36003F529FC349F00BA496F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36003F429FC349F00BA496F /* AppDelegate.swift */; };
 		E36003F729FC349F00BA496F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36003F629FC349F00BA496F /* SceneDelegate.swift */; };
 		E36003F929FC349F00BA496F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36003F829FC349F00BA496F /* ViewController.swift */; };
@@ -54,6 +58,7 @@
 		E31B4F732A02E86B001678BA /* GetAllUsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsuarioController.swift; sourceTree = "<group>"; };
 		E31B4F752A02F118001678BA /* UsuarioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioCell.swift; sourceTree = "<group>"; };
 		E31B4F762A02F118001678BA /* UsuarioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsuarioCell.xib; sourceTree = "<group>"; };
+		E334264E2A183AA20086F03E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E36003F129FC349F00BA496F /* ERosasEcommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERosasEcommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36003F429FC349F00BA496F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E36003F629FC349F00BA496F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +87,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3751BDD2A0ECB8300877205 /* iOSDropDown.framework in Frameworks */,
+				E334264A2A1812500086F03E /* FirebaseCrashlytics in Frameworks */,
+				E33426482A1812500086F03E /* FirebaseAuth in Frameworks */,
+				E334264C2A1812500086F03E /* FirebaseStorage in Frameworks */,
 				8C06B22CA93A3BBE14DE05F7 /* Pods_ERosasEcommerce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,6 +131,14 @@
 				E31884AE2A1531B100E95C01 /* ProductoViewController.swift */,
 			);
 			path = Producto;
+			sourceTree = "<group>";
+		};
+		E334264D2A183A470086F03E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E334264E2A183AA20086F03E /* LoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		E36003E829FC349F00BA496F = {
@@ -216,6 +232,7 @@
 		E3AE87012A043E0B00502CBF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E334264D2A183A470086F03E /* Login */,
 				E3075CB42A14545300973B4E /* Producto */,
 				E369386F2A0D8152004D0D36 /* Rol */,
 				E3AE87032A043E7800502CBF /* Usuario */,
@@ -267,6 +284,11 @@
 			dependencies = (
 			);
 			name = ERosasEcommerce;
+			packageProductDependencies = (
+				E33426472A1812500086F03E /* FirebaseAuth */,
+				E33426492A1812500086F03E /* FirebaseCrashlytics */,
+				E334264B2A1812500086F03E /* FirebaseStorage */,
+			);
 			productName = ERosasEcommerce;
 			productReference = E36003F129FC349F00BA496F /* ERosasEcommerce.app */;
 			productType = "com.apple.product-type.application";
@@ -295,6 +317,9 @@
 				Base,
 			);
 			mainGroup = E36003E829FC349F00BA496F;
+			packageReferences = (
+				E33426462A1812500086F03E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E36003F229FC349F00BA496F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -370,6 +395,7 @@
 				E36E87892A01979500F9DCE4 /* Result.swift in Sources */,
 				E36003F929FC349F00BA496F /* ViewController.swift in Sources */,
 				E31B4F742A02E86B001678BA /* GetAllUsuarioController.swift in Sources */,
+				E334264F2A183AA20086F03E /* LoginViewController.swift in Sources */,
 				E3075CB62A1456D200973B4E /* GetAllProductoController.swift in Sources */,
 				E3075C6D2A14307B00973B4E /* Departamento.swift in Sources */,
 				E3075C6B2A14302F00973B4E /* Proveedor.swift in Sources */,
@@ -608,6 +634,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E33426462A1812500086F03E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E33426472A1812500086F03E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E33426462A1812500086F03E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E33426492A1812500086F03E /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E33426462A1812500086F03E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		E334264B2A1812500086F03E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E33426462A1812500086F03E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E36003E929FC349F00BA496F /* Project object */;
 }

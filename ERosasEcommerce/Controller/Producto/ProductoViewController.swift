@@ -40,6 +40,8 @@ class ProductoViewController: UIViewController {
     
     var IdProveedor : Int = 0
     var IdDepartamento : Int = 0
+    var IdArea : Int = 0
+    
         
     let imagePickerController = UIImagePickerController()
     
@@ -49,6 +51,10 @@ class ProductoViewController: UIViewController {
         
         //ddlProveedor.didSelect{ selectedText, index, id in self.IdProveedor = id}
         ddlDepartamento.didSelect{ selectedText, index, id in self.IdDepartamento = id}
+       
+
+       ddlArea.didSelect{ selectedText, index, id in self.IdArea = id}
+        
         
         //Image delegate
         imagePickerController.delegate = self
@@ -58,6 +64,8 @@ class ProductoViewController: UIViewController {
         //ddlProveedor.optionArray = []
         //ddlProveedor.optionIds = []
         
+        ddlArea.optionArray = []
+        ddlArea.optionIds = []
 
 //        let resultProveedor = ProductoViewModel.GetAll()
 //        if resultProveedor.Correct!{
