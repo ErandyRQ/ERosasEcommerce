@@ -38,7 +38,7 @@ class RollViewController: UIViewController {
                   //txtIdRol.isHidden = true
                  // lblIdRol.isHidden = true
                   
-                  btnAction.backgroundColor = .green
+            btnAction.backgroundColor = .blue
                   btnAction.setTitle("Agregar", for: .normal)
               }else{
                  
@@ -52,7 +52,7 @@ class RollViewController: UIViewController {
                   self.txtIdRol.text = acceder.IdRol?.description
                   self.txtNombre.text = acceder.Nombre
                      
-                  btnAction.backgroundColor = .yellow
+                  btnAction.backgroundColor = .magenta
                   btnAction.setTitle("Actualizar", for: .normal)
               }
     }
@@ -86,6 +86,7 @@ class RollViewController: UIViewController {
                         alert.addAction(action)
 
                         self.present(alert, animated: true, completion: nil)
+                        txtIdRol.text! = ""
                         txtNombre.text! = ""
                     }
                     break
@@ -102,6 +103,7 @@ class RollViewController: UIViewController {
                         alert.addAction(action)
                         
                         self.present(alert, animated: true, completion: nil)
+                        txtIdRol.text! = ""
                         txtNombre.text! = ""
                     }
                     break

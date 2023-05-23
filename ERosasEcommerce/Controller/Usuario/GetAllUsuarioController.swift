@@ -53,9 +53,6 @@ class GetAllUsuarioController: UITableViewController{
         cell.lblRol.text = usuarios[indexPath.row].Rol?.Nombre
         
        
-       // print("El index actual es: \(indexPath.row)")
-       //cell.textLabel?.text = usuarios[indexPath.row].ApellidoPaterno
-
         return cell
     }
 
@@ -87,6 +84,7 @@ extension GetAllUsuarioController : SwipeTableViewCellDelegate{
         }
         return nil
     }
+    
     func updateUI(){
         var result = UsuarioViewModel.GetAll()
         usuarios.removeAll()

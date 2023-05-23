@@ -72,7 +72,7 @@ class ViewController: UIViewController {
             
                     //txtNombreOutlet.text! = ""
                     
-                    btnAction.backgroundColor = .green
+            btnAction.backgroundColor = .blue
                     btnAction.setTitle("Agregar", for: .normal)
                     
                }else{
@@ -89,7 +89,7 @@ class ViewController: UIViewController {
                    self.txtPasswordOutlet.text = datos.Password
                    self.ddlRol.text = datos.Rol?.Nombre
                    
-                   btnAction.backgroundColor = .yellow
+                   btnAction.backgroundColor = .magenta
                    btnAction.setTitle("Actualizar", for: .normal)
              }
         

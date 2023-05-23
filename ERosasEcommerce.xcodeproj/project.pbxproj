@@ -41,6 +41,8 @@
 		E36E87892A01979500F9DCE4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36E87882A01979500F9DCE4 /* Result.swift */; };
 		E3751BDD2A0ECB8300877205 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3751BDC2A0ECB8300877205 /* iOSDropDown.framework */; };
 		E3AE87062A043F4C00502CBF /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AE87052A043F4C00502CBF /* UsuarioViewModel.swift */; };
+		E3DC7C232A1BF5C200823EC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3DC7C222A1BF5C200823EC4 /* GoogleService-Info.plist */; };
+		E3DC7C252A1C1D8A00823EC4 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DC7C242A1C1D8A00823EC4 /* RegistroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		E36E87882A01979500F9DCE4 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		E3751BDC2A0ECB8300877205 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3AE87052A043F4C00502CBF /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
+		E3DC7C222A1BF5C200823EC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3DC7C242A1C1D8A00823EC4 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		F96E054A1CAA6C1A87C6E5D6 /* Pods_ERosasEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERosasEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				E334264E2A183AA20086F03E /* LoginViewController.swift */,
+				E3DC7C242A1C1D8A00823EC4 /* RegistroViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 		E36003E829FC349F00BA496F = {
 			isa = PBXGroup;
 			children = (
+				E3DC7C222A1BF5C200823EC4 /* GoogleService-Info.plist */,
 				E36003F329FC349F00BA496F /* ERosasEcommerce */,
 				E36003F229FC349F00BA496F /* Products */,
 				0379563FC842C94AA76DFE79 /* Pods */,
@@ -340,6 +346,7 @@
 				E369387E2A0D8C49004D0D36 /* RolCell.xib in Resources */,
 				E36003FC29FC349F00BA496F /* Main.storyboard in Resources */,
 				E3075C722A14320A00973B4E /* ProductoCell.xib in Resources */,
+				E3DC7C232A1BF5C200823EC4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +412,7 @@
 				E36938712A0D81A6004D0D36 /* RolGetAllController.swift in Sources */,
 				E31B4F772A02F118001678BA /* UsuarioCell.swift in Sources */,
 				E36938732A0D81EB004D0D36 /* Rol.swift in Sources */,
+				E3DC7C252A1C1D8A00823EC4 /* RegistroViewController.swift in Sources */,
 				E36938792A0D8A3E004D0D36 /* RollViewController.swift in Sources */,
 				E36003F729FC349F00BA496F /* SceneDelegate.swift in Sources */,
 				E36938772A0D8727004D0D36 /* RolViewModel.swift in Sources */,
