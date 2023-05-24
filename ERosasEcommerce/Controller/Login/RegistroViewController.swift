@@ -53,25 +53,36 @@ class RegistroViewController: UIViewController {
             return
         }
         
+        guard txtPassword.text == txtValidarPassword.text else{
+                
+            lblValidarPassword.text = "No coinciden las contraseñas"
+            txtPassword.layer.borderColor = UIColor.red.cgColor
+            txtPassword.layer.borderWidth = 2
+            return
+        }
+
         
         let email = txtEmail.text!
         let password = txtPassword.text!
         
-            
-            Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
-               
                 
-            if let ex = error{
-                let alert = UIAlertController(title: "Mensaje", message: "Email o contraseña incorrectas", preferredStyle: .alert)
+                Auth.auth().createUser(withEmail: email, password: password){ [weak self] authResult, error in
+                            guard let strongSelf = self else{return}
+                
+          
+            if let correct = authResult{
+                
+                let alert = UIAlertController(title: "Mensaje", message: "Usuario Registrado", preferredStyle: .alert)
                 let action = UIAlertAction(title: "Aceptar", style: .default)
                 alert.addAction(action)
-                self.present(alert, animated: true, completion: nil)
+                self!.present(alert, animated: true, completion: nil)
                 
-                self.txtEmail.text! = ""
-                self.txtPassword.text! = ""
-            }
-            if let correct = authResult{
-                self.performSegue(withIdentifier: "LoginController", sender: self)
+                self!.txtEmail.text! = ""
+                self!.txtPassword.text! = ""
+                self!.txtValidarPassword.text! = ""
+                
+                self?.performSegue(withIdentifier: "ControllerInicio", sender: self)
+                
             }
             
         }

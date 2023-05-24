@@ -32,6 +32,20 @@
 		E360040129FC34A000BA496F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36003FF29FC34A000BA496F /* LaunchScreen.storyboard */; };
 		E360040929FC5BF200BA496F /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E360040829FC5BF100BA496F /* DBManager.swift */; };
 		E360040B29FC6ECB00BA496F /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E360040A29FC6ECB00BA496F /* Usuario.swift */; };
+		E365750D2A1D258500B056D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E365750C2A1D258500B056D6 /* AppDelegate.swift */; };
+		E365750F2A1D258500B056D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E365750E2A1D258500B056D6 /* SceneDelegate.swift */; };
+		E36575112A1D258500B056D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36575102A1D258500B056D6 /* ViewController.swift */; };
+		E36575142A1D258500B056D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36575122A1D258500B056D6 /* Main.storyboard */; };
+		E36575162A1D258600B056D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36575152A1D258600B056D6 /* Assets.xcassets */; };
+		E36575192A1D258600B056D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36575172A1D258600B056D6 /* LaunchScreen.storyboard */; };
+		E36575232A1D723A00B056D6 /* AreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36575212A1D723A00B056D6 /* AreaCell.swift */; };
+		E36575242A1D723A00B056D6 /* AreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E36575222A1D723A00B056D6 /* AreaCell.xib */; };
+		E36575282A1D8D5800B056D6 /* ProductoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36575262A1D8D5800B056D6 /* ProductoCollectionCell.swift */; };
+		E36575292A1D8D5800B056D6 /* ProductoCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E36575272A1D8D5800B056D6 /* ProductoCollectionCell.xib */; };
+		E365752C2A1D95AB00B056D6 /* AreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E365752B2A1D95AB00B056D6 /* AreaController.swift */; };
+		E365752F2A1D960400B056D6 /* DeptoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E365752E2A1D960400B056D6 /* DeptoCollectionController.swift */; };
+		E36575322A1D966E00B056D6 /* ProductoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36575312A1D966E00B056D6 /* ProductoCollectionController.swift */; };
+		E36575352A1D999200B056D6 /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36575342A1D999200B056D6 /* AreaViewModel.swift */; };
 		E36938712A0D81A6004D0D36 /* RolGetAllController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36938702A0D81A6004D0D36 /* RolGetAllController.swift */; };
 		E36938732A0D81EB004D0D36 /* Rol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36938722A0D81EB004D0D36 /* Rol.swift */; };
 		E36938772A0D8727004D0D36 /* RolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36938762A0D8727004D0D36 /* RolViewModel.swift */; };
@@ -71,6 +85,22 @@
 		E360040229FC34A000BA496F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E360040829FC5BF100BA496F /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		E360040A29FC6ECB00BA496F /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		E365750A2A1D258500B056D6 /* ERosasEcommerceVenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERosasEcommerceVenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E365750C2A1D258500B056D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E365750E2A1D258500B056D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E36575102A1D258500B056D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E36575132A1D258500B056D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E36575152A1D258600B056D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E36575182A1D258600B056D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E365751A2A1D258600B056D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36575212A1D723A00B056D6 /* AreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCell.swift; sourceTree = "<group>"; };
+		E36575222A1D723A00B056D6 /* AreaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaCell.xib; sourceTree = "<group>"; };
+		E36575262A1D8D5800B056D6 /* ProductoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionCell.swift; sourceTree = "<group>"; };
+		E36575272A1D8D5800B056D6 /* ProductoCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCollectionCell.xib; sourceTree = "<group>"; };
+		E365752B2A1D95AB00B056D6 /* AreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaController.swift; sourceTree = "<group>"; };
+		E365752E2A1D960400B056D6 /* DeptoCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeptoCollectionController.swift; sourceTree = "<group>"; };
+		E36575312A1D966E00B056D6 /* ProductoCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionController.swift; sourceTree = "<group>"; };
+		E36575342A1D999200B056D6 /* AreaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewModel.swift; sourceTree = "<group>"; };
 		E36938702A0D81A6004D0D36 /* RolGetAllController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolGetAllController.swift; sourceTree = "<group>"; };
 		E36938722A0D81EB004D0D36 /* Rol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rol.swift; sourceTree = "<group>"; };
 		E36938762A0D8727004D0D36 /* RolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolViewModel.swift; sourceTree = "<group>"; };
@@ -95,6 +125,13 @@
 				E33426482A1812500086F03E /* FirebaseAuth in Frameworks */,
 				E334264C2A1812500086F03E /* FirebaseStorage in Frameworks */,
 				8C06B22CA93A3BBE14DE05F7 /* Pods_ERosasEcommerce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36575072A1D258500B056D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +188,7 @@
 			children = (
 				E3DC7C222A1BF5C200823EC4 /* GoogleService-Info.plist */,
 				E36003F329FC349F00BA496F /* ERosasEcommerce */,
+				E365750B2A1D258500B056D6 /* ERosasEcommerceVenta */,
 				E36003F229FC349F00BA496F /* Products */,
 				0379563FC842C94AA76DFE79 /* Pods */,
 				CD57680325A52752AE37F633 /* Frameworks */,
@@ -161,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				E36003F129FC349F00BA496F /* ERosasEcommerce.app */,
+				E365750A2A1D258500B056D6 /* ERosasEcommerceVenta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,6 +218,62 @@
 				E360040229FC34A000BA496F /* Info.plist */,
 			);
 			path = ERosasEcommerce;
+			sourceTree = "<group>";
+		};
+		E365750B2A1D258500B056D6 /* ERosasEcommerceVenta */ = {
+			isa = PBXGroup;
+			children = (
+				E365750C2A1D258500B056D6 /* AppDelegate.swift */,
+				E365750E2A1D258500B056D6 /* SceneDelegate.swift */,
+				E36575102A1D258500B056D6 /* ViewController.swift */,
+				E36575122A1D258500B056D6 /* Main.storyboard */,
+				E36575152A1D258600B056D6 /* Assets.xcassets */,
+				E36575172A1D258600B056D6 /* LaunchScreen.storyboard */,
+				E365751A2A1D258600B056D6 /* Info.plist */,
+			);
+			path = ERosasEcommerceVenta;
+			sourceTree = "<group>";
+		};
+		E365751E2A1D710000B056D6 /* AreaDeptoCell */ = {
+			isa = PBXGroup;
+			children = (
+				E36575212A1D723A00B056D6 /* AreaCell.swift */,
+				E36575222A1D723A00B056D6 /* AreaCell.xib */,
+			);
+			path = AreaDeptoCell;
+			sourceTree = "<group>";
+		};
+		E36575252A1D8CF100B056D6 /* CardProducto */ = {
+			isa = PBXGroup;
+			children = (
+				E36575262A1D8D5800B056D6 /* ProductoCollectionCell.swift */,
+				E36575272A1D8D5800B056D6 /* ProductoCollectionCell.xib */,
+			);
+			path = CardProducto;
+			sourceTree = "<group>";
+		};
+		E365752A2A1D957C00B056D6 /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				E365752B2A1D95AB00B056D6 /* AreaController.swift */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		E365752D2A1D95CC00B056D6 /* Departamento */ = {
+			isa = PBXGroup;
+			children = (
+				E365752E2A1D960400B056D6 /* DeptoCollectionController.swift */,
+			);
+			path = Departamento;
+			sourceTree = "<group>";
+		};
+		E36575302A1D962F00B056D6 /* ProductoCollection */ = {
+			isa = PBXGroup;
+			children = (
+				E36575312A1D966E00B056D6 /* ProductoCollectionController.swift */,
+			);
+			path = ProductoCollection;
 			sourceTree = "<group>";
 		};
 		E369386F2A0D8152004D0D36 /* Rol */ = {
@@ -216,6 +311,8 @@
 		E3AE86FF2A043DE600502CBF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E36575252A1D8CF100B056D6 /* CardProducto */,
+				E365751E2A1D710000B056D6 /* AreaDeptoCell */,
 				E3AE87042A043EB300502CBF /* UsuarioCell */,
 				E3075C6E2A14314900973B4E /* ProductoCell */,
 				E369387A2A0D8BB5004D0D36 /* RolCell */,
@@ -231,6 +328,7 @@
 				E3AE87052A043F4C00502CBF /* UsuarioViewModel.swift */,
 				E36938762A0D8727004D0D36 /* RolViewModel.swift */,
 				E3075C732A143F7300973B4E /* ProductoViewModel.swift */,
+				E36575342A1D999200B056D6 /* AreaViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -238,6 +336,9 @@
 		E3AE87012A043E0B00502CBF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E36575302A1D962F00B056D6 /* ProductoCollection */,
+				E365752D2A1D95CC00B056D6 /* Departamento */,
+				E365752A2A1D957C00B056D6 /* Area */,
 				E334264D2A183A470086F03E /* Login */,
 				E3075CB42A14545300973B4E /* Producto */,
 				E369386F2A0D8152004D0D36 /* Rol */,
@@ -299,6 +400,23 @@
 			productReference = E36003F129FC349F00BA496F /* ERosasEcommerce.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E36575092A1D258500B056D6 /* ERosasEcommerceVenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E365751D2A1D258600B056D6 /* Build configuration list for PBXNativeTarget "ERosasEcommerceVenta" */;
+			buildPhases = (
+				E36575062A1D258500B056D6 /* Sources */,
+				E36575072A1D258500B056D6 /* Frameworks */,
+				E36575082A1D258500B056D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ERosasEcommerceVenta;
+			productName = ERosasEcommerceVenta;
+			productReference = E365750A2A1D258500B056D6 /* ERosasEcommerceVenta.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -310,6 +428,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					E36003F029FC349F00BA496F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E36575092A1D258500B056D6 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -331,6 +452,7 @@
 			projectRoot = "";
 			targets = (
 				E36003F029FC349F00BA496F /* ERosasEcommerce */,
+				E36575092A1D258500B056D6 /* ERosasEcommerceVenta */,
 			);
 		};
 /* End PBXProject section */
@@ -344,9 +466,21 @@
 				E360040129FC34A000BA496F /* LaunchScreen.storyboard in Resources */,
 				E36003FE29FC34A000BA496F /* Assets.xcassets in Resources */,
 				E369387E2A0D8C49004D0D36 /* RolCell.xib in Resources */,
+				E36575292A1D8D5800B056D6 /* ProductoCollectionCell.xib in Resources */,
 				E36003FC29FC349F00BA496F /* Main.storyboard in Resources */,
 				E3075C722A14320A00973B4E /* ProductoCell.xib in Resources */,
+				E36575242A1D723A00B056D6 /* AreaCell.xib in Resources */,
 				E3DC7C232A1BF5C200823EC4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36575082A1D258500B056D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36575192A1D258600B056D6 /* LaunchScreen.storyboard in Resources */,
+				E36575162A1D258600B056D6 /* Assets.xcassets in Resources */,
+				E36575142A1D258500B056D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +536,7 @@
 				E36E87892A01979500F9DCE4 /* Result.swift in Sources */,
 				E36003F929FC349F00BA496F /* ViewController.swift in Sources */,
 				E31B4F742A02E86B001678BA /* GetAllUsuarioController.swift in Sources */,
+				E36575322A1D966E00B056D6 /* ProductoCollectionController.swift in Sources */,
 				E334264F2A183AA20086F03E /* LoginViewController.swift in Sources */,
 				E3075CB62A1456D200973B4E /* GetAllProductoController.swift in Sources */,
 				E3075C6D2A14307B00973B4E /* Departamento.swift in Sources */,
@@ -417,12 +552,27 @@
 				E36003F729FC349F00BA496F /* SceneDelegate.swift in Sources */,
 				E36938772A0D8727004D0D36 /* RolViewModel.swift in Sources */,
 				E3AE87062A043F4C00502CBF /* UsuarioViewModel.swift in Sources */,
+				E365752F2A1D960400B056D6 /* DeptoCollectionController.swift in Sources */,
 				E3075C742A143F7300973B4E /* ProductoViewModel.swift in Sources */,
 				E3075C672A142EFF00973B4E /* Producto.swift in Sources */,
 				E360040B29FC6ECB00BA496F /* Usuario.swift in Sources */,
 				E3075C692A142FAB00973B4E /* Area.swift in Sources */,
 				E3075C712A14320A00973B4E /* ProductoCell.swift in Sources */,
+				E365752C2A1D95AB00B056D6 /* AreaController.swift in Sources */,
+				E36575282A1D8D5800B056D6 /* ProductoCollectionCell.swift in Sources */,
+				E36575352A1D999200B056D6 /* AreaViewModel.swift in Sources */,
 				E360040929FC5BF200BA496F /* DBManager.swift in Sources */,
+				E36575232A1D723A00B056D6 /* AreaCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36575062A1D258500B056D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36575112A1D258500B056D6 /* ViewController.swift in Sources */,
+				E365750D2A1D258500B056D6 /* AppDelegate.swift in Sources */,
+				E365750F2A1D258500B056D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +591,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				E360040029FC34A000BA496F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E36575122A1D258500B056D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E36575132A1D258500B056D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E36575172A1D258600B056D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E36575182A1D258600B056D6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -620,6 +786,62 @@
 			};
 			name = Release;
 		};
+		E365751B2A1D258600B056D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ERosasEcommerceVenta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.ERosasEcommerceVenta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E365751C2A1D258600B056D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ERosasEcommerceVenta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.ERosasEcommerceVenta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -637,6 +859,15 @@
 			buildConfigurations = (
 				E360040629FC34A000BA496F /* Debug */,
 				E360040729FC34A000BA496F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E365751D2A1D258600B056D6 /* Build configuration list for PBXNativeTarget "ERosasEcommerceVenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E365751B2A1D258600B056D6 /* Debug */,
+				E365751C2A1D258600B056D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
