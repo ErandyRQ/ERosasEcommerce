@@ -6,83 +6,96 @@
 //
 
 import UIKit
+import SQLite3
 
-private let reuseIdentifier = "Cell"
+private let reuseIdentifier = "AreaCell"
 
 class DeptoCollectionController: UICollectionViewController {
+    
+    var departamento : [Departamento] = []
+    
+    var IdArea : Int = 0
+    var Id : Int = 0
+    
+    @IBOutlet var collectionDepartamento: UICollectionView!
+    
 
     override func viewDidLoad() {
+        
+        
         super.viewDidLoad()
+        
+        collectionView.register(UINib(nibName: "AreaCell", bundle: .main), forCellWithReuseIdentifier: "AreaCell")
+        collectionDepartamento.delegate = self
+        collectionDepartamento.dataSource = self
+        updateUI()
+        
+       // print(IdArea)
+        
+       // self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
-        // Do any additional setup after loading the view.
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
-    }
-    */
+  
 
     // MARK: UICollectionViewDataSource
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 0
+        return departamento.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-    
-        // Configure the cell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)  as! AreaCell
+        
+        
+        cell.lblNombre.text = departamento[indexPath.row].Nombre
+        if departamento[indexPath.row].Nombre ==  departamento[indexPath.row].Nombre {
+            cell.imageView.image = UIImage(named: "\(departamento[indexPath.row].Nombre!)")
+        }else{
+            
+        }
     
         return cell
     }
 
-    // MARK: UICollectionViewDelegate
 
-    /*
-    // Uncomment this method to specify if the specified item should be highlighted during tracking
-    override func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {
-        return true
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        Id = departamento[indexPath.row].IdDepartamento!
+        print(Id)
+        self.performSegue(withIdentifier: "CollectionProduct", sender: self)
     }
-    */
-
-    /*
-    // Uncomment this method to specify if the specified item should be selected
-    override func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-    override func collectionView(_ collectionView: UICollectionView, shouldShowMenuForItemAt indexPath: IndexPath) -> Bool {
-        return false
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, canPerformAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) -> Bool {
-        return false
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, performAction action: Selector, forItemAt indexPath: IndexPath, withSender sender: Any?) {
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            //controlar que hacer antes de ir a la siguiente vista
+            if segue.identifier == "CollectionProduct"{
+                let formControl = segue.destination as! ProductoCollectionController
+                formControl.IdDepartamento = Id
+                
+            }
+        }
+
+
+    func updateUI(){
+        var result = DepartamentoViewModel.GetbyidArea(IdArea: IdArea)
+        departamento.removeAll()
+        if result.Correct!{
+            for objdepartamento in result.Objects!{
+                let resultado = objdepartamento as! Departamento
+                //Unboxing
+                departamento.append(resultado)
+            }
+            collectionView?.reloadData()
+        }
     }
-    */
+
 
 }
+
+

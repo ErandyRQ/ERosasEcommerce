@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C06B22CA93A3BBE14DE05F7 /* Pods_ERosasEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96E054A1CAA6C1A87C6E5D6 /* Pods_ERosasEcommerce.framework */; };
+		B2966701610DFE1A9E3CFEBE /* Pods_ERosasEcommerceVenta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6224238F6B5B661A9C9CD6 /* Pods_ERosasEcommerceVenta.framework */; };
 		E3075C672A142EFF00973B4E /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C662A142EFF00973B4E /* Producto.swift */; };
 		E3075C692A142FAB00973B4E /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C682A142FAB00973B4E /* Area.swift */; };
 		E3075C6B2A14302F00973B4E /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C6A2A14302F00973B4E /* Proveedor.swift */; };
@@ -16,6 +17,9 @@
 		E3075C722A14320A00973B4E /* ProductoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3075C702A14320A00973B4E /* ProductoCell.xib */; };
 		E3075C742A143F7300973B4E /* ProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C732A143F7300973B4E /* ProductoViewModel.swift */; };
 		E3075CB62A1456D200973B4E /* GetAllProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075CB52A1456D200973B4E /* GetAllProductoController.swift */; };
+		E312D7B22A1EC2C4001A93A6 /* ProductoSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312D7B12A1EC2C4001A93A6 /* ProductoSearch.swift */; };
+		E31513262A1E78FC00AD3AA9 /* DepartaentoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31513252A1E78FC00AD3AA9 /* DepartaentoViewModel.swift */; };
+		E31513282A1E910500AD3AA9 /* ProductoCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31513272A1E910500AD3AA9 /* ProductoCollectionViewModel.swift */; };
 		E31884AF2A1531B100E95C01 /* ProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31884AE2A1531B100E95C01 /* ProductoViewController.swift */; };
 		E31B4F742A02E86B001678BA /* GetAllUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B4F732A02E86B001678BA /* GetAllUsuarioController.swift */; };
 		E31B4F772A02F118001678BA /* UsuarioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B4F752A02F118001678BA /* UsuarioCell.swift */; };
@@ -32,19 +36,9 @@
 		E360040129FC34A000BA496F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36003FF29FC34A000BA496F /* LaunchScreen.storyboard */; };
 		E360040929FC5BF200BA496F /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E360040829FC5BF100BA496F /* DBManager.swift */; };
 		E360040B29FC6ECB00BA496F /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E360040A29FC6ECB00BA496F /* Usuario.swift */; };
-		E365750D2A1D258500B056D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E365750C2A1D258500B056D6 /* AppDelegate.swift */; };
-		E365750F2A1D258500B056D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E365750E2A1D258500B056D6 /* SceneDelegate.swift */; };
-		E36575112A1D258500B056D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36575102A1D258500B056D6 /* ViewController.swift */; };
 		E36575142A1D258500B056D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36575122A1D258500B056D6 /* Main.storyboard */; };
 		E36575162A1D258600B056D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36575152A1D258600B056D6 /* Assets.xcassets */; };
 		E36575192A1D258600B056D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36575172A1D258600B056D6 /* LaunchScreen.storyboard */; };
-		E36575232A1D723A00B056D6 /* AreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36575212A1D723A00B056D6 /* AreaCell.swift */; };
-		E36575242A1D723A00B056D6 /* AreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E36575222A1D723A00B056D6 /* AreaCell.xib */; };
-		E36575282A1D8D5800B056D6 /* ProductoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36575262A1D8D5800B056D6 /* ProductoCollectionCell.swift */; };
-		E36575292A1D8D5800B056D6 /* ProductoCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E36575272A1D8D5800B056D6 /* ProductoCollectionCell.xib */; };
-		E365752C2A1D95AB00B056D6 /* AreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E365752B2A1D95AB00B056D6 /* AreaController.swift */; };
-		E365752F2A1D960400B056D6 /* DeptoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E365752E2A1D960400B056D6 /* DeptoCollectionController.swift */; };
-		E36575322A1D966E00B056D6 /* ProductoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36575312A1D966E00B056D6 /* ProductoCollectionController.swift */; };
 		E36575352A1D999200B056D6 /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36575342A1D999200B056D6 /* AreaViewModel.swift */; };
 		E36938712A0D81A6004D0D36 /* RolGetAllController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36938702A0D81A6004D0D36 /* RolGetAllController.swift */; };
 		E36938732A0D81EB004D0D36 /* Rol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36938722A0D81EB004D0D36 /* Rol.swift */; };
@@ -54,14 +48,50 @@
 		E369387E2A0D8C49004D0D36 /* RolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E369387C2A0D8C49004D0D36 /* RolCell.xib */; };
 		E36E87892A01979500F9DCE4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36E87882A01979500F9DCE4 /* Result.swift */; };
 		E3751BDD2A0ECB8300877205 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3751BDC2A0ECB8300877205 /* iOSDropDown.framework */; };
+		E37D7D4D2A2507A400AA264D /* CarritoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D7D4B2A2507A400AA264D /* CarritoViewCell.swift */; };
+		E37D7D4E2A2507A400AA264D /* CarritoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37D7D4C2A2507A400AA264D /* CarritoViewCell.xib */; };
+		E37D7D502A250CFC00AA264D /* VentasProducto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D7D4F2A250CFC00AA264D /* VentasProducto.swift */; };
+		E3839ADA2A2165EA00D6F677 /* AreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC09272A201C1700A32889 /* AreaController.swift */; };
+		E3839ADB2A2165EA00D6F677 /* DeptoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC09292A201C8700A32889 /* DeptoCollectionController.swift */; };
+		E3839ADC2A2165EA00D6F677 /* ProductoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC092B2A201CD000A32889 /* ProductoCollectionController.swift */; };
+		E3839ADD2A2165EA00D6F677 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B349282A20466C00805B3F /* LoginViewController.swift */; };
+		E3839ADE2A2165EA00D6F677 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B3492A2A2047B300805B3F /* RegistroViewController.swift */; };
+		E3839ADF2A2165EA00D6F677 /* CarritoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3839AB32A21477D00D6F677 /* CarritoViewModel.swift */; };
+		E3839AE02A2165EA00D6F677 /* ERosasEcommerceVenta.entitlements in Sources */ = {isa = PBXBuildFile; fileRef = E37BF4942A1FE82300FE0D6F /* ERosasEcommerceVenta.entitlements */; };
+		E3839AE12A2165EA00D6F677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E365750C2A1D258500B056D6 /* AppDelegate.swift */; };
+		E3839AE22A2165EA00D6F677 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E365750E2A1D258500B056D6 /* SceneDelegate.swift */; };
+		E3839AE32A21662200D6F677 /* GoogleService-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = E3DC7C222A1BF5C200823EC4 /* GoogleService-Info.plist */; };
+		E3839AE42A21662200D6F677 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E360040829FC5BF100BA496F /* DBManager.swift */; };
+		E3839AE52A21664500D6F677 /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36575342A1D999200B056D6 /* AreaViewModel.swift */; };
+		E3839AE62A21664500D6F677 /* DepartaentoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31513252A1E78FC00AD3AA9 /* DepartaentoViewModel.swift */; };
+		E3839AE72A21664500D6F677 /* ProductoCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31513272A1E910500AD3AA9 /* ProductoCollectionViewModel.swift */; };
+		E3839AE82A21664500D6F677 /* ProductoSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312D7B12A1EC2C4001A93A6 /* ProductoSearch.swift */; };
+		E3839AE92A21666300D6F677 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36E87882A01979500F9DCE4 /* Result.swift */; };
+		E3839AEA2A21666300D6F677 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C662A142EFF00973B4E /* Producto.swift */; };
+		E3839AEB2A21666300D6F677 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C682A142FAB00973B4E /* Area.swift */; };
+		E3839AEC2A21666300D6F677 /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C6C2A14307B00973B4E /* Departamento.swift */; };
+		E3839AEE2A2167DF00D6F677 /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C6A2A14302F00973B4E /* Proveedor.swift */; };
+		E3839AF02A21683100D6F677 /* ProductoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC09392A2024A400A32889 /* ProductoCollectionCell.swift */; };
+		E3839AF12A21683100D6F677 /* AreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC09342A20220600A32889 /* AreaCell.swift */; };
+		E3839AF22A21686700D6F677 /* ProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C732A143F7300973B4E /* ProductoViewModel.swift */; };
+		E3839AFB2A21738100D6F677 /* CarritoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3839AFA2A21738100D6F677 /* CarritoController.swift */; };
+		E3839B002A21875400D6F677 /* ERosasEcommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3839AB02A211FF100D6F677 /* ERosasEcommerce.xcdatamodeld */; };
 		E3AE87062A043F4C00502CBF /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AE87052A043F4C00502CBF /* UsuarioViewModel.swift */; };
+		E3B3492D2A2048DD00805B3F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E3B3492C2A2048DD00805B3F /* FirebaseAnalytics */; };
+		E3B3492F2A2048DD00805B3F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E3B3492E2A2048DD00805B3F /* FirebaseAuth */; };
+		E3B349312A2048DD00805B3F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E3B349302A2048DD00805B3F /* FirebaseStorage */; };
+		E3CC09372A20220600A32889 /* AreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CC09352A20220600A32889 /* AreaCell.xib */; };
+		E3CC093C2A2024A400A32889 /* ProductoCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CC093A2A2024A400A32889 /* ProductoCollectionCell.xib */; };
 		E3DC7C232A1BF5C200823EC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3DC7C222A1BF5C200823EC4 /* GoogleService-Info.plist */; };
 		E3DC7C252A1C1D8A00823EC4 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DC7C242A1C1D8A00823EC4 /* RegistroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A6224238F6B5B661A9C9CD6 /* Pods_ERosasEcommerceVenta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERosasEcommerceVenta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A4924608100C2653F0CE53 /* Pods-ERosasEcommerceVenta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERosasEcommerceVenta.debug.xcconfig"; path = "Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta.debug.xcconfig"; sourceTree = "<group>"; };
 		54EF0B65C6A08F99F02CE3F0 /* Pods-ERosasEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERosasEcommerce.release.xcconfig"; path = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce.release.xcconfig"; sourceTree = "<group>"; };
 		8974DA78957C2FF9F3AD81C6 /* Pods-ERosasEcommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERosasEcommerce.debug.xcconfig"; path = "Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C9BF6F28C7B40BB0258806 /* Pods-ERosasEcommerceVenta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ERosasEcommerceVenta.release.xcconfig"; path = "Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta.release.xcconfig"; sourceTree = "<group>"; };
 		E3075C662A142EFF00973B4E /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 		E3075C682A142FAB00973B4E /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		E3075C6A2A14302F00973B4E /* Proveedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proveedor.swift; sourceTree = "<group>"; };
@@ -70,6 +100,9 @@
 		E3075C702A14320A00973B4E /* ProductoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProductoCell.xib; path = ERosasEcommerce/View/ProductoCell.xib; sourceTree = SOURCE_ROOT; };
 		E3075C732A143F7300973B4E /* ProductoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewModel.swift; sourceTree = "<group>"; };
 		E3075CB52A1456D200973B4E /* GetAllProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllProductoController.swift; sourceTree = "<group>"; };
+		E312D7B12A1EC2C4001A93A6 /* ProductoSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoSearch.swift; sourceTree = "<group>"; };
+		E31513252A1E78FC00AD3AA9 /* DepartaentoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartaentoViewModel.swift; sourceTree = "<group>"; };
+		E31513272A1E910500AD3AA9 /* ProductoCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionViewModel.swift; sourceTree = "<group>"; };
 		E31884AE2A1531B100E95C01 /* ProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewController.swift; sourceTree = "<group>"; };
 		E31B4F732A02E86B001678BA /* GetAllUsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsuarioController.swift; sourceTree = "<group>"; };
 		E31B4F752A02F118001678BA /* UsuarioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioCell.swift; sourceTree = "<group>"; };
@@ -88,18 +121,10 @@
 		E365750A2A1D258500B056D6 /* ERosasEcommerceVenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERosasEcommerceVenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E365750C2A1D258500B056D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E365750E2A1D258500B056D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E36575102A1D258500B056D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E36575132A1D258500B056D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E36575152A1D258600B056D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E36575182A1D258600B056D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E365751A2A1D258600B056D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E36575212A1D723A00B056D6 /* AreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCell.swift; sourceTree = "<group>"; };
-		E36575222A1D723A00B056D6 /* AreaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaCell.xib; sourceTree = "<group>"; };
-		E36575262A1D8D5800B056D6 /* ProductoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionCell.swift; sourceTree = "<group>"; };
-		E36575272A1D8D5800B056D6 /* ProductoCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCollectionCell.xib; sourceTree = "<group>"; };
-		E365752B2A1D95AB00B056D6 /* AreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaController.swift; sourceTree = "<group>"; };
-		E365752E2A1D960400B056D6 /* DeptoCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeptoCollectionController.swift; sourceTree = "<group>"; };
-		E36575312A1D966E00B056D6 /* ProductoCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionController.swift; sourceTree = "<group>"; };
 		E36575342A1D999200B056D6 /* AreaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewModel.swift; sourceTree = "<group>"; };
 		E36938702A0D81A6004D0D36 /* RolGetAllController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolGetAllController.swift; sourceTree = "<group>"; };
 		E36938722A0D81EB004D0D36 /* Rol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rol.swift; sourceTree = "<group>"; };
@@ -109,7 +134,24 @@
 		E369387C2A0D8C49004D0D36 /* RolCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RolCell.xib; sourceTree = "<group>"; };
 		E36E87882A01979500F9DCE4 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		E3751BDC2A0ECB8300877205 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37BF4932A1FE7E900FE0D6F /* ERosasEcommerce.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ERosasEcommerce.entitlements; sourceTree = "<group>"; };
+		E37BF4942A1FE82300FE0D6F /* ERosasEcommerceVenta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ERosasEcommerceVenta.entitlements; sourceTree = "<group>"; };
+		E37D7D4B2A2507A400AA264D /* CarritoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewCell.swift; sourceTree = "<group>"; };
+		E37D7D4C2A2507A400AA264D /* CarritoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarritoViewCell.xib; sourceTree = "<group>"; };
+		E37D7D4F2A250CFC00AA264D /* VentasProducto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentasProducto.swift; sourceTree = "<group>"; };
+		E3839AB12A211FF100D6F677 /* ERosasEcommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ERosasEcommerce.xcdatamodel; sourceTree = "<group>"; };
+		E3839AB32A21477D00D6F677 /* CarritoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewModel.swift; sourceTree = "<group>"; };
+		E3839AFA2A21738100D6F677 /* CarritoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoController.swift; sourceTree = "<group>"; };
 		E3AE87052A043F4C00502CBF /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
+		E3B349282A20466C00805B3F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E3B3492A2A2047B300805B3F /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		E3CC09272A201C1700A32889 /* AreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaController.swift; sourceTree = "<group>"; };
+		E3CC09292A201C8700A32889 /* DeptoCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeptoCollectionController.swift; sourceTree = "<group>"; };
+		E3CC092B2A201CD000A32889 /* ProductoCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionController.swift; sourceTree = "<group>"; };
+		E3CC09342A20220600A32889 /* AreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCell.swift; sourceTree = "<group>"; };
+		E3CC09352A20220600A32889 /* AreaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaCell.xib; sourceTree = "<group>"; };
+		E3CC09392A2024A400A32889 /* ProductoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionCell.swift; sourceTree = "<group>"; };
+		E3CC093A2A2024A400A32889 /* ProductoCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCollectionCell.xib; sourceTree = "<group>"; };
 		E3DC7C222A1BF5C200823EC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E3DC7C242A1C1D8A00823EC4 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		F96E054A1CAA6C1A87C6E5D6 /* Pods_ERosasEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERosasEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +174,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3B3492D2A2048DD00805B3F /* FirebaseAnalytics in Frameworks */,
+				E3B3492F2A2048DD00805B3F /* FirebaseAuth in Frameworks */,
+				E3B349312A2048DD00805B3F /* FirebaseStorage in Frameworks */,
+				B2966701610DFE1A9E3CFEBE /* Pods_ERosasEcommerceVenta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +189,8 @@
 			children = (
 				8974DA78957C2FF9F3AD81C6 /* Pods-ERosasEcommerce.debug.xcconfig */,
 				54EF0B65C6A08F99F02CE3F0 /* Pods-ERosasEcommerce.release.xcconfig */,
+				54A4924608100C2653F0CE53 /* Pods-ERosasEcommerceVenta.debug.xcconfig */,
+				A6C9BF6F28C7B40BB0258806 /* Pods-ERosasEcommerceVenta.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -152,6 +200,7 @@
 			children = (
 				E3751BDC2A0ECB8300877205 /* iOSDropDown.framework */,
 				F96E054A1CAA6C1A87C6E5D6 /* Pods_ERosasEcommerce.framework */,
+				1A6224238F6B5B661A9C9CD6 /* Pods_ERosasEcommerceVenta.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,6 +256,7 @@
 		E36003F329FC349F00BA496F /* ERosasEcommerce */ = {
 			isa = PBXGroup;
 			children = (
+				E37BF4932A1FE7E900FE0D6F /* ERosasEcommerce.entitlements */,
 				E3AE87022A043E1A00502CBF /* Util */,
 				E3AE87012A043E0B00502CBF /* Controller */,
 				E3AE87002A043DF800502CBF /* ViewModel */,
@@ -223,57 +273,21 @@
 		E365750B2A1D258500B056D6 /* ERosasEcommerceVenta */ = {
 			isa = PBXGroup;
 			children = (
+				E3839AB02A211FF100D6F677 /* ERosasEcommerce.xcdatamodeld */,
+				E37D7D512A25754900AA264D /* Test */,
+				E3839B012A218BF600D6F677 /* Model */,
+				E3839AF82A2172F000D6F677 /* ViewModel */,
+				E3CC09202A20144700A32889 /* View */,
+				E37BF49C2A20073F00FE0D6F /* Controller */,
+				E37BF4942A1FE82300FE0D6F /* ERosasEcommerceVenta.entitlements */,
 				E365750C2A1D258500B056D6 /* AppDelegate.swift */,
 				E365750E2A1D258500B056D6 /* SceneDelegate.swift */,
-				E36575102A1D258500B056D6 /* ViewController.swift */,
 				E36575122A1D258500B056D6 /* Main.storyboard */,
 				E36575152A1D258600B056D6 /* Assets.xcassets */,
 				E36575172A1D258600B056D6 /* LaunchScreen.storyboard */,
 				E365751A2A1D258600B056D6 /* Info.plist */,
 			);
 			path = ERosasEcommerceVenta;
-			sourceTree = "<group>";
-		};
-		E365751E2A1D710000B056D6 /* AreaDeptoCell */ = {
-			isa = PBXGroup;
-			children = (
-				E36575212A1D723A00B056D6 /* AreaCell.swift */,
-				E36575222A1D723A00B056D6 /* AreaCell.xib */,
-			);
-			path = AreaDeptoCell;
-			sourceTree = "<group>";
-		};
-		E36575252A1D8CF100B056D6 /* CardProducto */ = {
-			isa = PBXGroup;
-			children = (
-				E36575262A1D8D5800B056D6 /* ProductoCollectionCell.swift */,
-				E36575272A1D8D5800B056D6 /* ProductoCollectionCell.xib */,
-			);
-			path = CardProducto;
-			sourceTree = "<group>";
-		};
-		E365752A2A1D957C00B056D6 /* Area */ = {
-			isa = PBXGroup;
-			children = (
-				E365752B2A1D95AB00B056D6 /* AreaController.swift */,
-			);
-			path = Area;
-			sourceTree = "<group>";
-		};
-		E365752D2A1D95CC00B056D6 /* Departamento */ = {
-			isa = PBXGroup;
-			children = (
-				E365752E2A1D960400B056D6 /* DeptoCollectionController.swift */,
-			);
-			path = Departamento;
-			sourceTree = "<group>";
-		};
-		E36575302A1D962F00B056D6 /* ProductoCollection */ = {
-			isa = PBXGroup;
-			children = (
-				E36575312A1D966E00B056D6 /* ProductoCollectionController.swift */,
-			);
-			path = ProductoCollection;
 			sourceTree = "<group>";
 		};
 		E369386F2A0D8152004D0D36 /* Rol */ = {
@@ -294,6 +308,83 @@
 			path = RolCell;
 			sourceTree = "<group>";
 		};
+		E37BF49C2A20073F00FE0D6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3839AF72A2172C100D6F677 /* CarritoFlujo2 */,
+				E3839AF62A21729200D6F677 /* Sesion */,
+				E3839AF52A21726E00D6F677 /* DepartamentoFlujo1 */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E37D7D512A25754900AA264D /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		E3839AC42A21641900D6F677 /* Carrito */ = {
+			isa = PBXGroup;
+			children = (
+				E37D7D4B2A2507A400AA264D /* CarritoViewCell.swift */,
+				E37D7D4C2A2507A400AA264D /* CarritoViewCell.xib */,
+			);
+			path = Carrito;
+			sourceTree = "<group>";
+		};
+		E3839AF52A21726E00D6F677 /* DepartamentoFlujo1 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CC092B2A201CD000A32889 /* ProductoCollectionController.swift */,
+				E3CC09292A201C8700A32889 /* DeptoCollectionController.swift */,
+				E3CC09272A201C1700A32889 /* AreaController.swift */,
+			);
+			path = DepartamentoFlujo1;
+			sourceTree = "<group>";
+		};
+		E3839AF62A21729200D6F677 /* Sesion */ = {
+			isa = PBXGroup;
+			children = (
+				E3B349282A20466C00805B3F /* LoginViewController.swift */,
+				E3B3492A2A2047B300805B3F /* RegistroViewController.swift */,
+			);
+			path = Sesion;
+			sourceTree = "<group>";
+		};
+		E3839AF72A2172C100D6F677 /* CarritoFlujo2 */ = {
+			isa = PBXGroup;
+			children = (
+				E3839AFA2A21738100D6F677 /* CarritoController.swift */,
+			);
+			path = CarritoFlujo2;
+			sourceTree = "<group>";
+		};
+		E3839AF82A2172F000D6F677 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3839AF92A21734600D6F677 /* Carrito */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E3839AF92A21734600D6F677 /* Carrito */ = {
+			isa = PBXGroup;
+			children = (
+				E3839AB32A21477D00D6F677 /* CarritoViewModel.swift */,
+			);
+			path = Carrito;
+			sourceTree = "<group>";
+		};
+		E3839B012A218BF600D6F677 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E37D7D4F2A250CFC00AA264D /* VentasProducto.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E3AE86FE2A043DCE00502CBF /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,8 +402,6 @@
 		E3AE86FF2A043DE600502CBF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E36575252A1D8CF100B056D6 /* CardProducto */,
-				E365751E2A1D710000B056D6 /* AreaDeptoCell */,
 				E3AE87042A043EB300502CBF /* UsuarioCell */,
 				E3075C6E2A14314900973B4E /* ProductoCell */,
 				E369387A2A0D8BB5004D0D36 /* RolCell */,
@@ -329,6 +418,9 @@
 				E36938762A0D8727004D0D36 /* RolViewModel.swift */,
 				E3075C732A143F7300973B4E /* ProductoViewModel.swift */,
 				E36575342A1D999200B056D6 /* AreaViewModel.swift */,
+				E31513252A1E78FC00AD3AA9 /* DepartaentoViewModel.swift */,
+				E31513272A1E910500AD3AA9 /* ProductoCollectionViewModel.swift */,
+				E312D7B12A1EC2C4001A93A6 /* ProductoSearch.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -336,9 +428,6 @@
 		E3AE87012A043E0B00502CBF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E36575302A1D962F00B056D6 /* ProductoCollection */,
-				E365752D2A1D95CC00B056D6 /* Departamento */,
-				E365752A2A1D957C00B056D6 /* Area */,
 				E334264D2A183A470086F03E /* Login */,
 				E3075CB42A14545300973B4E /* Producto */,
 				E369386F2A0D8152004D0D36 /* Rol */,
@@ -373,6 +462,34 @@
 			path = UsuarioCell;
 			sourceTree = "<group>";
 		};
+		E3CC09202A20144700A32889 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3839AC42A21641900D6F677 /* Carrito */,
+				E3CC09382A20247000A32889 /* CardProducto */,
+				E3CC092D2A20207600A32889 /* AreaDeptoCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3CC092D2A20207600A32889 /* AreaDeptoCell */ = {
+			isa = PBXGroup;
+			children = (
+				E3CC09342A20220600A32889 /* AreaCell.swift */,
+				E3CC09352A20220600A32889 /* AreaCell.xib */,
+			);
+			path = AreaDeptoCell;
+			sourceTree = "<group>";
+		};
+		E3CC09382A20247000A32889 /* CardProducto */ = {
+			isa = PBXGroup;
+			children = (
+				E3CC09392A2024A400A32889 /* ProductoCollectionCell.swift */,
+				E3CC093A2A2024A400A32889 /* ProductoCollectionCell.xib */,
+			);
+			path = CardProducto;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -404,15 +521,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E365751D2A1D258600B056D6 /* Build configuration list for PBXNativeTarget "ERosasEcommerceVenta" */;
 			buildPhases = (
-				E36575062A1D258500B056D6 /* Sources */,
+				714F9AD04B86417366788130 /* [CP] Check Pods Manifest.lock */,
 				E36575072A1D258500B056D6 /* Frameworks */,
 				E36575082A1D258500B056D6 /* Resources */,
+				E3839AD32A21654800D6F677 /* Sources */,
+				C466BC3123B8EC65DB925939 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ERosasEcommerceVenta;
+			packageProductDependencies = (
+				E3B3492C2A2048DD00805B3F /* FirebaseAnalytics */,
+				E3B3492E2A2048DD00805B3F /* FirebaseAuth */,
+				E3B349302A2048DD00805B3F /* FirebaseStorage */,
+			);
 			productName = ERosasEcommerceVenta;
 			productReference = E365750A2A1D258500B056D6 /* ERosasEcommerceVenta.app */;
 			productType = "com.apple.product-type.application";
@@ -466,10 +590,8 @@
 				E360040129FC34A000BA496F /* LaunchScreen.storyboard in Resources */,
 				E36003FE29FC34A000BA496F /* Assets.xcassets in Resources */,
 				E369387E2A0D8C49004D0D36 /* RolCell.xib in Resources */,
-				E36575292A1D8D5800B056D6 /* ProductoCollectionCell.xib in Resources */,
 				E36003FC29FC349F00BA496F /* Main.storyboard in Resources */,
 				E3075C722A14320A00973B4E /* ProductoCell.xib in Resources */,
-				E36575242A1D723A00B056D6 /* AreaCell.xib in Resources */,
 				E3DC7C232A1BF5C200823EC4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,7 +601,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E36575192A1D258600B056D6 /* LaunchScreen.storyboard in Resources */,
+				E37D7D4E2A2507A400AA264D /* CarritoViewCell.xib in Resources */,
 				E36575162A1D258600B056D6 /* Assets.xcassets in Resources */,
+				E3CC093C2A2024A400A32889 /* ProductoCollectionCell.xib in Resources */,
+				E3CC09372A20220600A32889 /* AreaCell.xib in Resources */,
 				E36575142A1D258500B056D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +651,45 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ERosasEcommerce/Pods-ERosasEcommerce-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		714F9AD04B86417366788130 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ERosasEcommerceVenta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C466BC3123B8EC65DB925939 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -536,14 +700,15 @@
 				E36E87892A01979500F9DCE4 /* Result.swift in Sources */,
 				E36003F929FC349F00BA496F /* ViewController.swift in Sources */,
 				E31B4F742A02E86B001678BA /* GetAllUsuarioController.swift in Sources */,
-				E36575322A1D966E00B056D6 /* ProductoCollectionController.swift in Sources */,
 				E334264F2A183AA20086F03E /* LoginViewController.swift in Sources */,
 				E3075CB62A1456D200973B4E /* GetAllProductoController.swift in Sources */,
 				E3075C6D2A14307B00973B4E /* Departamento.swift in Sources */,
+				E31513262A1E78FC00AD3AA9 /* DepartaentoViewModel.swift in Sources */,
 				E3075C6B2A14302F00973B4E /* Proveedor.swift in Sources */,
 				E369387D2A0D8C49004D0D36 /* RolCell.swift in Sources */,
 				E36003F529FC349F00BA496F /* AppDelegate.swift in Sources */,
 				E31884AF2A1531B100E95C01 /* ProductoViewController.swift in Sources */,
+				E31513282A1E910500AD3AA9 /* ProductoCollectionViewModel.swift in Sources */,
 				E36938712A0D81A6004D0D36 /* RolGetAllController.swift in Sources */,
 				E31B4F772A02F118001678BA /* UsuarioCell.swift in Sources */,
 				E36938732A0D81EB004D0D36 /* Rol.swift in Sources */,
@@ -552,27 +717,48 @@
 				E36003F729FC349F00BA496F /* SceneDelegate.swift in Sources */,
 				E36938772A0D8727004D0D36 /* RolViewModel.swift in Sources */,
 				E3AE87062A043F4C00502CBF /* UsuarioViewModel.swift in Sources */,
-				E365752F2A1D960400B056D6 /* DeptoCollectionController.swift in Sources */,
 				E3075C742A143F7300973B4E /* ProductoViewModel.swift in Sources */,
 				E3075C672A142EFF00973B4E /* Producto.swift in Sources */,
 				E360040B29FC6ECB00BA496F /* Usuario.swift in Sources */,
 				E3075C692A142FAB00973B4E /* Area.swift in Sources */,
+				E312D7B22A1EC2C4001A93A6 /* ProductoSearch.swift in Sources */,
 				E3075C712A14320A00973B4E /* ProductoCell.swift in Sources */,
-				E365752C2A1D95AB00B056D6 /* AreaController.swift in Sources */,
-				E36575282A1D8D5800B056D6 /* ProductoCollectionCell.swift in Sources */,
 				E36575352A1D999200B056D6 /* AreaViewModel.swift in Sources */,
 				E360040929FC5BF200BA496F /* DBManager.swift in Sources */,
-				E36575232A1D723A00B056D6 /* AreaCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E36575062A1D258500B056D6 /* Sources */ = {
+		E3839AD32A21654800D6F677 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E36575112A1D258500B056D6 /* ViewController.swift in Sources */,
-				E365750D2A1D258500B056D6 /* AppDelegate.swift in Sources */,
-				E365750F2A1D258500B056D6 /* SceneDelegate.swift in Sources */,
+				E3839B002A21875400D6F677 /* ERosasEcommerce.xcdatamodeld in Sources */,
+				E3839AFB2A21738100D6F677 /* CarritoController.swift in Sources */,
+				E3839AF22A21686700D6F677 /* ProductoViewModel.swift in Sources */,
+				E3839AF02A21683100D6F677 /* ProductoCollectionCell.swift in Sources */,
+				E3839AF12A21683100D6F677 /* AreaCell.swift in Sources */,
+				E3839AEE2A2167DF00D6F677 /* Proveedor.swift in Sources */,
+				E3839AE92A21666300D6F677 /* Result.swift in Sources */,
+				E37D7D502A250CFC00AA264D /* VentasProducto.swift in Sources */,
+				E3839AEA2A21666300D6F677 /* Producto.swift in Sources */,
+				E3839AEB2A21666300D6F677 /* Area.swift in Sources */,
+				E3839AEC2A21666300D6F677 /* Departamento.swift in Sources */,
+				E3839AE52A21664500D6F677 /* AreaViewModel.swift in Sources */,
+				E3839AE62A21664500D6F677 /* DepartaentoViewModel.swift in Sources */,
+				E37D7D4D2A2507A400AA264D /* CarritoViewCell.swift in Sources */,
+				E3839AE72A21664500D6F677 /* ProductoCollectionViewModel.swift in Sources */,
+				E3839AE82A21664500D6F677 /* ProductoSearch.swift in Sources */,
+				E3839AE32A21662200D6F677 /* GoogleService-Info.plist in Sources */,
+				E3839AE42A21662200D6F677 /* DBManager.swift in Sources */,
+				E3839ADA2A2165EA00D6F677 /* AreaController.swift in Sources */,
+				E3839ADB2A2165EA00D6F677 /* DeptoCollectionController.swift in Sources */,
+				E3839ADC2A2165EA00D6F677 /* ProductoCollectionController.swift in Sources */,
+				E3839ADD2A2165EA00D6F677 /* LoginViewController.swift in Sources */,
+				E3839ADE2A2165EA00D6F677 /* RegistroViewController.swift in Sources */,
+				E3839ADF2A2165EA00D6F677 /* CarritoViewModel.swift in Sources */,
+				E3839AE02A2165EA00D6F677 /* ERosasEcommerceVenta.entitlements in Sources */,
+				E3839AE12A2165EA00D6F677 /* AppDelegate.swift in Sources */,
+				E3839AE22A2165EA00D6F677 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,6 +920,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ERosasEcommerce/ERosasEcommerce.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
@@ -763,6 +950,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ERosasEcommerce/ERosasEcommerce.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
@@ -788,9 +976,11 @@
 		};
 		E365751B2A1D258600B056D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A4924608100C2653F0CE53 /* Pods-ERosasEcommerceVenta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ERosasEcommerceVenta/ERosasEcommerceVenta.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
@@ -816,9 +1006,11 @@
 		};
 		E365751C2A1D258600B056D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C9BF6F28C7B40BB0258806 /* Pods-ERosasEcommerceVenta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ERosasEcommerceVenta/ERosasEcommerceVenta.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
@@ -901,7 +1093,36 @@
 			package = E33426462A1812500086F03E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
 		};
+		E3B3492C2A2048DD00805B3F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E33426462A1812500086F03E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		E3B3492E2A2048DD00805B3F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E33426462A1812500086F03E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E3B349302A2048DD00805B3F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E33426462A1812500086F03E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E3839AB02A211FF100D6F677 /* ERosasEcommerce.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3839AB12A211FF100D6F677 /* ERosasEcommerce.xcdatamodel */,
+			);
+			currentVersion = E3839AB12A211FF100D6F677 /* ERosasEcommerce.xcdatamodel */;
+			name = ERosasEcommerce.xcdatamodeld;
+			path = ../ERosasEcommerce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E36003E929FC349F00BA496F /* Project object */;
 }

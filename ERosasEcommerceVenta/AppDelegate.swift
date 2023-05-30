@@ -6,14 +6,28 @@
 //
 
 import UIKit
+import FirebaseCore
+import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    lazy var persistentContainer: NSPersistentContainer = {
+          let container = NSPersistentContainer(name: "ERosasEcommerce")
+          container.loadPersistentStores { description, error in
+              if let error = error {
+                  fatalError("Unable to load persistent stores: \(error)")
+                  //Propio error
+              }
+              print("Conexion exitosa CoreData")
+          }
+       // print(container.persistentStoreDescriptions.first?.url)
+          return container
+      }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 

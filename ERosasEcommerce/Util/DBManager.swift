@@ -18,8 +18,11 @@ class DBManager{
     }
     
     func Get() -> OpaquePointer?{
+        let filePathCompartido = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.ERosasEcommerce")!.appendingPathComponent(path)
+//        print ("file compartido\(filePathCompartido)")
+        
         let filePath = try! FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent(path)
-        if(sqlite3_open(filePath.path, &db) == SQLITE_OK){
+        if(sqlite3_open(filePathCompartido.path, &db) == SQLITE_OK){
             print("Conexión exitosa")
             
             return db

@@ -19,7 +19,7 @@ class Producto{
     var Descripcion : String? = nil
     var Imagen : String? = nil
    
-    var Proveedor : Proveedor? = nil
+    var Proveedor : Proveedor? = nil  
     var Departamento : Departamento? = nil
     
     
