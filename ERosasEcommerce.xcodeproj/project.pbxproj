@@ -48,9 +48,14 @@
 		E369387E2A0D8C49004D0D36 /* RolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E369387C2A0D8C49004D0D36 /* RolCell.xib */; };
 		E36E87892A01979500F9DCE4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36E87882A01979500F9DCE4 /* Result.swift */; };
 		E3751BDD2A0ECB8300877205 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3751BDC2A0ECB8300877205 /* iOSDropDown.framework */; };
-		E37D7D4D2A2507A400AA264D /* CarritoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D7D4B2A2507A400AA264D /* CarritoViewCell.swift */; };
-		E37D7D4E2A2507A400AA264D /* CarritoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37D7D4C2A2507A400AA264D /* CarritoViewCell.xib */; };
 		E37D7D502A250CFC00AA264D /* VentasProducto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D7D4F2A250CFC00AA264D /* VentasProducto.swift */; };
+		E37D7D592A257DA200AA264D /* ERosasEcommerceVentaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D7D582A257DA200AA264D /* ERosasEcommerceVentaTests.swift */; };
+		E37D7D612A265C8600AA264D /* CarritoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D7D5F2A265C8600AA264D /* CarritoTableCell.swift */; };
+		E37D7D622A265C8600AA264D /* CarritoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37D7D602A265C8600AA264D /* CarritoTableCell.xib */; };
+		E37D7D642A2660F100AA264D /* CarritoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D7D632A2660F000AA264D /* CarritoTableViewController.swift */; };
+		E37D7D662A26844400AA264D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E37D7D652A26844400AA264D /* FirebaseAuth */; };
+		E37D7D7F2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D7D7E2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1.swift */; };
+		E37D7D812A26CC9C00AA264D /* ERosasEcommerceVentaUITests1LaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37D7D802A26CC9C00AA264D /* ERosasEcommerceVentaUITests1LaunchTests.swift */; };
 		E3839ADA2A2165EA00D6F677 /* AreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC09272A201C1700A32889 /* AreaController.swift */; };
 		E3839ADB2A2165EA00D6F677 /* DeptoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC09292A201C8700A32889 /* DeptoCollectionController.swift */; };
 		E3839ADC2A2165EA00D6F677 /* ProductoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC092B2A201CD000A32889 /* ProductoCollectionController.swift */; };
@@ -74,7 +79,6 @@
 		E3839AF02A21683100D6F677 /* ProductoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC09392A2024A400A32889 /* ProductoCollectionCell.swift */; };
 		E3839AF12A21683100D6F677 /* AreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC09342A20220600A32889 /* AreaCell.swift */; };
 		E3839AF22A21686700D6F677 /* ProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3075C732A143F7300973B4E /* ProductoViewModel.swift */; };
-		E3839AFB2A21738100D6F677 /* CarritoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3839AFA2A21738100D6F677 /* CarritoController.swift */; };
 		E3839B002A21875400D6F677 /* ERosasEcommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3839AB02A211FF100D6F677 /* ERosasEcommerce.xcdatamodeld */; };
 		E3AE87062A043F4C00502CBF /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AE87052A043F4C00502CBF /* UsuarioViewModel.swift */; };
 		E3B3492D2A2048DD00805B3F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E3B3492C2A2048DD00805B3F /* FirebaseAnalytics */; };
@@ -85,6 +89,37 @@
 		E3DC7C232A1BF5C200823EC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3DC7C222A1BF5C200823EC4 /* GoogleService-Info.plist */; };
 		E3DC7C252A1C1D8A00823EC4 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DC7C242A1C1D8A00823EC4 /* RegistroViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E37D7D5A2A257DA200AA264D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36003E929FC349F00BA496F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36575092A1D258500B056D6;
+			remoteInfo = ERosasEcommerceVenta;
+		};
+		E37D7D672A26883200AA264D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36003E929FC349F00BA496F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36003F029FC349F00BA496F;
+			remoteInfo = ERosasEcommerce;
+		};
+		E37D7D732A26CB1900AA264D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36003E929FC349F00BA496F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36575092A1D258500B056D6;
+			remoteInfo = ERosasEcommerceVenta;
+		};
+		E37D7D822A26CC9C00AA264D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36003E929FC349F00BA496F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36575092A1D258500B056D6;
+			remoteInfo = ERosasEcommerceVenta;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1A6224238F6B5B661A9C9CD6 /* Pods_ERosasEcommerceVenta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERosasEcommerceVenta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,12 +171,18 @@
 		E3751BDC2A0ECB8300877205 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37BF4932A1FE7E900FE0D6F /* ERosasEcommerce.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ERosasEcommerce.entitlements; sourceTree = "<group>"; };
 		E37BF4942A1FE82300FE0D6F /* ERosasEcommerceVenta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ERosasEcommerceVenta.entitlements; sourceTree = "<group>"; };
-		E37D7D4B2A2507A400AA264D /* CarritoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewCell.swift; sourceTree = "<group>"; };
-		E37D7D4C2A2507A400AA264D /* CarritoViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarritoViewCell.xib; sourceTree = "<group>"; };
 		E37D7D4F2A250CFC00AA264D /* VentasProducto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentasProducto.swift; sourceTree = "<group>"; };
+		E37D7D562A257DA200AA264D /* ERosasEcommerceVentaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERosasEcommerceVentaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37D7D582A257DA200AA264D /* ERosasEcommerceVentaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERosasEcommerceVentaTests.swift; sourceTree = "<group>"; };
+		E37D7D5F2A265C8600AA264D /* CarritoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoTableCell.swift; sourceTree = "<group>"; };
+		E37D7D602A265C8600AA264D /* CarritoTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarritoTableCell.xib; sourceTree = "<group>"; };
+		E37D7D632A2660F000AA264D /* CarritoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoTableViewController.swift; sourceTree = "<group>"; };
+		E37D7D6D2A26CB1900AA264D /* ERosasEcommerceVentaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERosasEcommerceVentaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37D7D7C2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERosasEcommerceVentaUITests1.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37D7D7E2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERosasEcommerceVentaUITests1.swift; sourceTree = "<group>"; };
+		E37D7D802A26CC9C00AA264D /* ERosasEcommerceVentaUITests1LaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERosasEcommerceVentaUITests1LaunchTests.swift; sourceTree = "<group>"; };
 		E3839AB12A211FF100D6F677 /* ERosasEcommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ERosasEcommerce.xcdatamodel; sourceTree = "<group>"; };
 		E3839AB32A21477D00D6F677 /* CarritoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewModel.swift; sourceTree = "<group>"; };
-		E3839AFA2A21738100D6F677 /* CarritoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoController.swift; sourceTree = "<group>"; };
 		E3AE87052A043F4C00502CBF /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
 		E3B349282A20466C00805B3F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E3B3492A2A2047B300805B3F /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +219,28 @@
 				E3B3492F2A2048DD00805B3F /* FirebaseAuth in Frameworks */,
 				E3B349312A2048DD00805B3F /* FirebaseStorage in Frameworks */,
 				B2966701610DFE1A9E3CFEBE /* Pods_ERosasEcommerceVenta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37D7D532A257DA200AA264D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37D7D662A26844400AA264D /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37D7D6A2A26CB1800AA264D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37D7D792A26CC9C00AA264D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +301,8 @@
 				E3DC7C222A1BF5C200823EC4 /* GoogleService-Info.plist */,
 				E36003F329FC349F00BA496F /* ERosasEcommerce */,
 				E365750B2A1D258500B056D6 /* ERosasEcommerceVenta */,
+				E37D7D572A257DA200AA264D /* ERosasEcommerceVentaTests */,
+				E37D7D7D2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1 */,
 				E36003F229FC349F00BA496F /* Products */,
 				0379563FC842C94AA76DFE79 /* Pods */,
 				CD57680325A52752AE37F633 /* Frameworks */,
@@ -249,6 +314,9 @@
 			children = (
 				E36003F129FC349F00BA496F /* ERosasEcommerce.app */,
 				E365750A2A1D258500B056D6 /* ERosasEcommerceVenta.app */,
+				E37D7D562A257DA200AA264D /* ERosasEcommerceVentaTests.xctest */,
+				E37D7D6D2A26CB1900AA264D /* ERosasEcommerceVentaUITests.xctest */,
+				E37D7D7C2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,7 +342,6 @@
 			isa = PBXGroup;
 			children = (
 				E3839AB02A211FF100D6F677 /* ERosasEcommerce.xcdatamodeld */,
-				E37D7D512A25754900AA264D /* Test */,
 				E3839B012A218BF600D6F677 /* Model */,
 				E3839AF82A2172F000D6F677 /* ViewModel */,
 				E3CC09202A20144700A32889 /* View */,
@@ -318,18 +385,28 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		E37D7D512A25754900AA264D /* Test */ = {
+		E37D7D572A257DA200AA264D /* ERosasEcommerceVentaTests */ = {
 			isa = PBXGroup;
 			children = (
+				E37D7D582A257DA200AA264D /* ERosasEcommerceVentaTests.swift */,
 			);
-			path = Test;
+			path = ERosasEcommerceVentaTests;
+			sourceTree = "<group>";
+		};
+		E37D7D7D2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1 */ = {
+			isa = PBXGroup;
+			children = (
+				E37D7D7E2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1.swift */,
+				E37D7D802A26CC9C00AA264D /* ERosasEcommerceVentaUITests1LaunchTests.swift */,
+			);
+			path = ERosasEcommerceVentaUITests1;
 			sourceTree = "<group>";
 		};
 		E3839AC42A21641900D6F677 /* Carrito */ = {
 			isa = PBXGroup;
 			children = (
-				E37D7D4B2A2507A400AA264D /* CarritoViewCell.swift */,
-				E37D7D4C2A2507A400AA264D /* CarritoViewCell.xib */,
+				E37D7D5F2A265C8600AA264D /* CarritoTableCell.swift */,
+				E37D7D602A265C8600AA264D /* CarritoTableCell.xib */,
 			);
 			path = Carrito;
 			sourceTree = "<group>";
@@ -356,7 +433,7 @@
 		E3839AF72A2172C100D6F677 /* CarritoFlujo2 */ = {
 			isa = PBXGroup;
 			children = (
-				E3839AFA2A21738100D6F677 /* CarritoController.swift */,
+				E37D7D632A2660F000AA264D /* CarritoTableViewController.swift */,
 			);
 			path = CarritoFlujo2;
 			sourceTree = "<group>";
@@ -541,6 +618,64 @@
 			productReference = E365750A2A1D258500B056D6 /* ERosasEcommerceVenta.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E37D7D552A257DA200AA264D /* ERosasEcommerceVentaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37D7D5C2A257DA200AA264D /* Build configuration list for PBXNativeTarget "ERosasEcommerceVentaTests" */;
+			buildPhases = (
+				E37D7D522A257DA200AA264D /* Sources */,
+				E37D7D532A257DA200AA264D /* Frameworks */,
+				E37D7D542A257DA200AA264D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E37D7D682A26883200AA264D /* PBXTargetDependency */,
+				E37D7D5B2A257DA200AA264D /* PBXTargetDependency */,
+			);
+			name = ERosasEcommerceVentaTests;
+			packageProductDependencies = (
+				E37D7D652A26844400AA264D /* FirebaseAuth */,
+			);
+			productName = ERosasEcommerceVentaTests;
+			productReference = E37D7D562A257DA200AA264D /* ERosasEcommerceVentaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E37D7D6C2A26CB1800AA264D /* ERosasEcommerceVentaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37D7D752A26CB1900AA264D /* Build configuration list for PBXNativeTarget "ERosasEcommerceVentaUITests" */;
+			buildPhases = (
+				E37D7D692A26CB1800AA264D /* Sources */,
+				E37D7D6A2A26CB1800AA264D /* Frameworks */,
+				E37D7D6B2A26CB1800AA264D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E37D7D742A26CB1900AA264D /* PBXTargetDependency */,
+			);
+			name = ERosasEcommerceVentaUITests;
+			productName = ERosasEcommerceVentaUITests;
+			productReference = E37D7D6D2A26CB1900AA264D /* ERosasEcommerceVentaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E37D7D7B2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37D7D842A26CC9C00AA264D /* Build configuration list for PBXNativeTarget "ERosasEcommerceVentaUITests1" */;
+			buildPhases = (
+				E37D7D782A26CC9C00AA264D /* Sources */,
+				E37D7D792A26CC9C00AA264D /* Frameworks */,
+				E37D7D7A2A26CC9C00AA264D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E37D7D832A26CC9C00AA264D /* PBXTargetDependency */,
+			);
+			name = ERosasEcommerceVentaUITests1;
+			productName = ERosasEcommerceVentaUITests1;
+			productReference = E37D7D7C2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -556,6 +691,18 @@
 					};
 					E36575092A1D258500B056D6 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					E37D7D552A257DA200AA264D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E36575092A1D258500B056D6;
+					};
+					E37D7D6C2A26CB1800AA264D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E36575092A1D258500B056D6;
+					};
+					E37D7D7B2A26CC9C00AA264D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E36575092A1D258500B056D6;
 					};
 				};
 			};
@@ -577,6 +724,9 @@
 			targets = (
 				E36003F029FC349F00BA496F /* ERosasEcommerce */,
 				E36575092A1D258500B056D6 /* ERosasEcommerceVenta */,
+				E37D7D552A257DA200AA264D /* ERosasEcommerceVentaTests */,
+				E37D7D6C2A26CB1800AA264D /* ERosasEcommerceVentaUITests */,
+				E37D7D7B2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1 */,
 			);
 		};
 /* End PBXProject section */
@@ -601,11 +751,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				E36575192A1D258600B056D6 /* LaunchScreen.storyboard in Resources */,
-				E37D7D4E2A2507A400AA264D /* CarritoViewCell.xib in Resources */,
 				E36575162A1D258600B056D6 /* Assets.xcassets in Resources */,
 				E3CC093C2A2024A400A32889 /* ProductoCollectionCell.xib in Resources */,
 				E3CC09372A20220600A32889 /* AreaCell.xib in Resources */,
 				E36575142A1D258500B056D6 /* Main.storyboard in Resources */,
+				E37D7D622A265C8600AA264D /* CarritoTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37D7D542A257DA200AA264D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37D7D6B2A26CB1800AA264D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37D7D7A2A26CC9C00AA264D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,24 +899,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E37D7D522A257DA200AA264D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37D7D592A257DA200AA264D /* ERosasEcommerceVentaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37D7D692A26CB1800AA264D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37D7D782A26CC9C00AA264D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37D7D7F2A26CC9C00AA264D /* ERosasEcommerceVentaUITests1.swift in Sources */,
+				E37D7D812A26CC9C00AA264D /* ERosasEcommerceVentaUITests1LaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3839AD32A21654800D6F677 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E3839B002A21875400D6F677 /* ERosasEcommerce.xcdatamodeld in Sources */,
-				E3839AFB2A21738100D6F677 /* CarritoController.swift in Sources */,
 				E3839AF22A21686700D6F677 /* ProductoViewModel.swift in Sources */,
 				E3839AF02A21683100D6F677 /* ProductoCollectionCell.swift in Sources */,
+				E37D7D612A265C8600AA264D /* CarritoTableCell.swift in Sources */,
 				E3839AF12A21683100D6F677 /* AreaCell.swift in Sources */,
 				E3839AEE2A2167DF00D6F677 /* Proveedor.swift in Sources */,
 				E3839AE92A21666300D6F677 /* Result.swift in Sources */,
+				E37D7D642A2660F100AA264D /* CarritoTableViewController.swift in Sources */,
 				E37D7D502A250CFC00AA264D /* VentasProducto.swift in Sources */,
 				E3839AEA2A21666300D6F677 /* Producto.swift in Sources */,
 				E3839AEB2A21666300D6F677 /* Area.swift in Sources */,
 				E3839AEC2A21666300D6F677 /* Departamento.swift in Sources */,
 				E3839AE52A21664500D6F677 /* AreaViewModel.swift in Sources */,
 				E3839AE62A21664500D6F677 /* DepartaentoViewModel.swift in Sources */,
-				E37D7D4D2A2507A400AA264D /* CarritoViewCell.swift in Sources */,
 				E3839AE72A21664500D6F677 /* ProductoCollectionViewModel.swift in Sources */,
 				E3839AE82A21664500D6F677 /* ProductoSearch.swift in Sources */,
 				E3839AE32A21662200D6F677 /* GoogleService-Info.plist in Sources */,
@@ -763,6 +958,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E37D7D5B2A257DA200AA264D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E36575092A1D258500B056D6 /* ERosasEcommerceVenta */;
+			targetProxy = E37D7D5A2A257DA200AA264D /* PBXContainerItemProxy */;
+		};
+		E37D7D682A26883200AA264D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E36003F029FC349F00BA496F /* ERosasEcommerce */;
+			targetProxy = E37D7D672A26883200AA264D /* PBXContainerItemProxy */;
+		};
+		E37D7D742A26CB1900AA264D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E36575092A1D258500B056D6 /* ERosasEcommerceVenta */;
+			targetProxy = E37D7D732A26CB1900AA264D /* PBXContainerItemProxy */;
+		};
+		E37D7D832A26CC9C00AA264D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E36575092A1D258500B056D6 /* ERosasEcommerceVenta */;
+			targetProxy = E37D7D822A26CC9C00AA264D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E36003FA29FC349F00BA496F /* Main.storyboard */ = {
@@ -1034,6 +1252,110 @@
 			};
 			name = Release;
 		};
+		E37D7D5D2A257DA200AA264D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.ERosasEcommerceVentaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERosasEcommerceVenta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ERosasEcommerceVenta";
+			};
+			name = Debug;
+		};
+		E37D7D5E2A257DA200AA264D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.ERosasEcommerceVentaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERosasEcommerceVenta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ERosasEcommerceVenta";
+			};
+			name = Release;
+		};
+		E37D7D762A26CB1900AA264D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.ERosasEcommerceVentaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ERosasEcommerceVenta;
+			};
+			name = Debug;
+		};
+		E37D7D772A26CB1900AA264D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.ERosasEcommerceVentaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ERosasEcommerceVenta;
+			};
+			name = Release;
+		};
+		E37D7D852A26CC9C00AA264D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.ERosasEcommerceVentaUITests1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ERosasEcommerceVenta;
+			};
+			name = Debug;
+		};
+		E37D7D862A26CC9C00AA264D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.ERosasEcommerceVentaUITests1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ERosasEcommerceVenta;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1060,6 +1382,33 @@
 			buildConfigurations = (
 				E365751B2A1D258600B056D6 /* Debug */,
 				E365751C2A1D258600B056D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37D7D5C2A257DA200AA264D /* Build configuration list for PBXNativeTarget "ERosasEcommerceVentaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37D7D5D2A257DA200AA264D /* Debug */,
+				E37D7D5E2A257DA200AA264D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37D7D752A26CB1900AA264D /* Build configuration list for PBXNativeTarget "ERosasEcommerceVentaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37D7D762A26CB1900AA264D /* Debug */,
+				E37D7D772A26CB1900AA264D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37D7D842A26CC9C00AA264D /* Build configuration list for PBXNativeTarget "ERosasEcommerceVentaUITests1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37D7D852A26CC9C00AA264D /* Debug */,
+				E37D7D862A26CC9C00AA264D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1092,6 +1441,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = E33426462A1812500086F03E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		E37D7D652A26844400AA264D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E33426462A1812500086F03E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 		E3B3492C2A2048DD00805B3F /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;

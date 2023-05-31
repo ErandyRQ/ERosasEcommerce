@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="63g-kh-JUB">
-                                <rect key="frame" x="0.0" y="0.0" width="405" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOGIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uzk-ay-HVl">
@@ -39,7 +39,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="erandy@gmail.com" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iEa-05-dOk">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="erandy@gmail.com" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iEa-05-dOk" userLabel="TxtEmail">
                                 <rect key="frame" x="75" y="376" width="254" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="secondaryLabelColor"/>
@@ -62,9 +62,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5H-F3-zA8">
-                                <rect key="frame" x="98" y="628" width="203" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5H-F3-zA8" userLabel="BtnAcceso">
+                                <rect key="frame" x="98" y="636.66666666666663" width="203" height="34.333333333333371"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Acceder">
@@ -81,9 +80,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iek-jb-H9b">
-                                <rect key="frame" x="145" y="541" width="96" height="12"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iek-jb-H9b">
+                                <rect key="frame" x="145" y="527.33333333333337" width="96" height="34.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Registro">
                                     <color key="baseForegroundColor" systemColor="systemCyanColor"/>
@@ -96,10 +94,16 @@
                         <viewLayoutGuide key="safeArea" id="z1L-nc-T8D"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="63g-kh-JUB" firstAttribute="leading" secondItem="z1L-nc-T8D" secondAttribute="leading" id="G4j-U9-5S1"/>
-                            <constraint firstItem="63g-kh-JUB" firstAttribute="top" secondItem="KrJ-jW-bQe" secondAttribute="top" id="aZZ-Ci-5by"/>
-                            <constraint firstAttribute="trailing" secondItem="63g-kh-JUB" secondAttribute="trailing" constant="-12" id="d27-Ck-za0"/>
-                            <constraint firstAttribute="bottom" secondItem="63g-kh-JUB" secondAttribute="bottom" id="pHj-LA-qpg"/>
+                            <constraint firstItem="63g-kh-JUB" firstAttribute="leading" secondItem="z1L-nc-T8D" secondAttribute="leading" id="0kc-ET-U4n"/>
+                            <constraint firstItem="V5H-F3-zA8" firstAttribute="top" secondItem="Iek-jb-H9b" secondAttribute="bottom" constant="75" id="1H1-rW-Bbo"/>
+                            <constraint firstItem="z1L-nc-T8D" firstAttribute="trailing" secondItem="V5H-F3-zA8" secondAttribute="trailing" constant="92" id="4Pg-5M-WDD"/>
+                            <constraint firstAttribute="bottom" secondItem="63g-kh-JUB" secondAttribute="bottom" id="4u6-Lv-G4H"/>
+                            <constraint firstItem="z1L-nc-T8D" firstAttribute="bottom" secondItem="V5H-F3-zA8" secondAttribute="bottom" constant="147" id="6aL-YR-YzU"/>
+                            <constraint firstItem="z1L-nc-T8D" firstAttribute="trailing" secondItem="Iek-jb-H9b" secondAttribute="trailing" constant="152" id="C61-kN-BZE"/>
+                            <constraint firstItem="Iek-jb-H9b" firstAttribute="leading" secondItem="z1L-nc-T8D" secondAttribute="leading" constant="145" id="LgT-ak-fJ4"/>
+                            <constraint firstItem="63g-kh-JUB" firstAttribute="top" secondItem="KrJ-jW-bQe" secondAttribute="top" id="ZzY-Ea-bTE"/>
+                            <constraint firstAttribute="trailing" secondItem="63g-kh-JUB" secondAttribute="trailing" id="hP9-iV-gU1"/>
+                            <constraint firstItem="V5H-F3-zA8" firstAttribute="leading" secondItem="z1L-nc-T8D" secondAttribute="leading" constant="98" id="x3X-Sx-7s2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9nf-ff-dhp"/>
@@ -107,12 +111,12 @@
                         <outlet property="btnAcceso" destination="V5H-F3-zA8" id="16W-K8-ehB"/>
                         <outlet property="txtEmail" destination="iEa-05-dOk" id="wWo-Vt-1Op"/>
                         <outlet property="txtPassword" destination="xo0-xU-hu6" id="cYC-zy-Da4"/>
-                        <segue destination="87o-Og-6lX" kind="show" identifier="LoginController" id="dTW-0V-bKl"/>
+                        <segue destination="87o-Og-6lX" kind="presentation" identifier="LoginController" modalPresentationStyle="fullScreen" id="dTW-0V-bKl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4TC-zF-DMx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3332" y="660"/>
+            <point key="canvasLocation" x="-3332.06106870229" y="659.85915492957747"/>
         </scene>
         <!--Registro View Controller-->
         <scene sceneID="hRH-XL-tg0">
@@ -262,7 +266,7 @@
                 <navigationController id="lss-ZR-tiL" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Departamento" image="magnifyingglass" catalog="system" id="Nyd-HU-Kyc"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gbL-9J-DJJ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -278,7 +282,7 @@
             <objects>
                 <viewController id="qKB-lZ-cK9" customClass="AreaController" customModule="ERosasEcommerceVenta" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DqT-l1-1sh">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZHV-v4-au6">
@@ -356,7 +360,7 @@
                 <navigationController id="CLh-OR-0Ph" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Carrito" image="cart.badge.plus" catalog="system" id="eKa-sK-x7l"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6RZ-TS-u77">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -367,19 +371,19 @@
             </objects>
             <point key="canvasLocation" x="-1460" y="955"/>
         </scene>
-        <!--Carrito Controller-->
+        <!--Carrito Table View Controller-->
         <scene sceneID="u3H-kQ-Qgf">
             <objects>
-                <tableViewController id="d5U-r2-QZC" customClass="CarritoController" customModule="ERosasEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="d5U-r2-QZC" customClass="CarritoTableViewController" customModule="ERosasEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="aTf-Rh-K2q">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarritoCell" id="nkV-Vj-dAa" customClass="CarritoViewCell" customModule="ERosasEcommerceVenta" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarritoCell" id="nkV-Vj-dAa" customClass="CarritoTableCell" customModule="ERosasEcommerceVenta" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nkV-Vj-dAa" id="R5D-vl-Lju">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nkV-Vj-dAa" id="R5D-vl-Lju" customClass="CarritoTableCell" customModule="ERosasEcommerceVenta" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
@@ -401,7 +405,7 @@
             <objects>
                 <collectionViewController id="pf2-lc-wUv" customClass="DeptoCollectionController" customModule="ERosasEcommerceVenta" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="aOc-Kq-Oix">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fpO-XK-bFy">
@@ -440,7 +444,7 @@
             <objects>
                 <collectionViewController id="Md3-vq-WZb" customClass="ProductoCollectionController" customModule="ERosasEcommerceVenta" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="0NH-ho-Osc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XqI-cJ-ltz">
@@ -475,7 +479,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4ji-Be-i43"/>
+        <segue reference="42k-NB-A1z"/>
         <segue reference="lPf-Zp-xIF"/>
     </inferredMetricsTieBreakers>
     <resources>

@@ -40,15 +40,114 @@ class CarritoViewModel{
                
                return result
     }
-    func Update(){
-        
-    }
-    func Delete(){
-        
-    }
-    func GetById(){
-        
-    }
+    func Update(IdProducto : Int, Cantidad : Int) -> Result{
+              
+              var result = Result()
+           
+           //var ventaproducto = CarritoViewModel()
+           
+              let context = appDelegate.persistentContainer.viewContext
+              
+           let response : NSFetchRequest<NSFetchRequestResult> = NSFetchRequest.init(entityName: "VentaProducto")
+              
+              response.predicate = NSPredicate(format: "idProducto = \(IdProducto)")
+           do{
+               let test = try context.fetch(response)
+               
+               let objectUpdate = test[0] as! NSManagedObject
+               objectUpdate.setValue(Cantidad, forKey: "cantidad")
+               do{
+                   try context.save()
+                   result.Correct = true
+                   //result.Correct = false
+               }catch let error{
+                   result.Correct = false
+                   result.ErrorMessage = error.localizedDescription
+                   result.Ex = error               }
+           }catch let error{
+               result.Correct = false
+               result.ErrorMessage = error.localizedDescription
+               result.Ex = error
+           }
+           return result
+          }
+    
+    func Delete(IdProducto : Int) -> Result{
+
+
+             var result = Result()
+               
+               let context = appDelegate.persistentContainer.viewContext
+               
+               let response = NSFetchRequest<NSFetchRequestResult> (entityName: "VentaProducto")
+               
+               response.predicate = NSPredicate(format: "idProducto = \( IdProducto)")
+               
+               do{
+                   let test = try context.fetch(response)
+                   
+                   let objectToDelete = test[0] as! NSManagedObject
+                   context.delete(objectToDelete)
+                   do{
+                       try context.save()
+                       result.Correct = true
+                   }catch let error{
+                       result.Correct = false
+                       result.ErrorMessage = error.localizedDescription
+                       result.Ex = error               }
+               }catch let error{
+                   result.Correct = false
+                   result.ErrorMessage = error.localizedDescription
+                   result.Ex = error
+               }
+               return result
+           }
+    
+    func GetById(IdProducto : Int) -> Result{
+               
+               var result = Result()
+               
+               let context = appDelegate.persistentContainer.viewContext
+               
+               let response = NSFetchRequest<NSFetchRequestResult> (entityName: "VentaProducto")
+              
+               response.predicate = NSPredicate(format: "idProducto = \( IdProducto)")
+               
+               do{
+                   result.Object = []
+                   let resultFetch = try context.fetch(response)
+                   for obj in resultFetch as! [NSManagedObject]{
+                       //Instancia de venta producto //Crear Modelo
+                       let modelo = VentasProducto()
+                       
+                       modelo.producto = Producto()
+                       
+                       modelo.producto?.IdProducto =  obj.value(forKey:"idProducto") as! Int
+                       modelo.cantidad = obj.value(forKey: "cantidad") as! Int
+                    
+                       let resultGetGetById = ProductoViewModel.GetById(IdProducto: modelo.producto?.IdProducto as! Int)
+                       if resultGetGetById.Correct!{
+                           let producto = resultGetGetById.Object! as! Producto
+                           
+                           modelo.producto?.Nombre = producto.Nombre
+                           modelo.producto?.Imagen = producto.Imagen
+                       }
+                     
+                       result.Object = modelo
+                      
+                   }
+                 
+                   result.Correct = true
+               }
+               catch let error {
+                   result.Correct = false
+                   result.ErrorMessage = error.localizedDescription
+                   result.Ex = error
+               }
+               
+               return result
+           }
+    
     
     func GetAll() -> Result{
         

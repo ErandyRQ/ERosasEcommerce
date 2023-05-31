@@ -1,16 +1,26 @@
 //
-//  CarritoViewCell.swift
+//  CarritoTableCell.swift
 //  ERosasEcommerceVenta
 //
-//  Created by MacBookMBA9 on 29/05/23.
+//  Created by MacBookMBA9 on 30/05/23.
 //
 
 import UIKit
 import SwipeCellKit
 
-class CarritoViewCell: SwipeTableViewCell {
+class CarritoTableCell: SwipeTableViewCell {
     
-   
+    
+    @IBOutlet weak var Imagen: UIImageView!
+    
+    @IBOutlet weak var Nombrelbl: UILabel!
+    
+    @IBOutlet weak var cantidadlbl: UILabel!
+    
+    @IBOutlet weak var incremento: UIStepper!
+    
+    
+    @IBOutlet weak var preciolbl: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

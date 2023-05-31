@@ -26,7 +26,7 @@ class ProductoSearch{
                         var producto = Producto()
                         producto.IdProducto = Int(sqlite3_column_int(statement, 0))
                         producto.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 1)))
-                        producto.PrecioUnitario = String(describing: String(cString: sqlite3_column_text(statement, 2)))
+                        producto.PrecioUnitario = Int(sqlite3_column_int(statement, 2))
                         producto.Descripcion = String(describing: String(cString: sqlite3_column_text(statement, 3)))
                         producto.Imagen = String(describing: String(cString: sqlite3_column_text(statement, 4)))
                         
