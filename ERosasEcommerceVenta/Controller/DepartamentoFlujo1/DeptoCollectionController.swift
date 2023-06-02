@@ -30,7 +30,7 @@ class DeptoCollectionController: UICollectionViewController {
         collectionDepartamento.dataSource = self
         updateUI()
         
-       // print(IdArea)
+        print(IdArea)
         
        // self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 

@@ -9,8 +9,7 @@ import Foundation
 import SQLite3
 
 class AreaViewModel{
-//    var result = Result()
-//    var context = DBManager()
+
         
         static func GetAll() -> Result{
             var context = DBManager()

@@ -40,7 +40,7 @@ class ProductoSearch{
             }
             catch let ex{
                 result.Correct = false
-                result.ErrorMessage = ex.localizedDescription //Ex.Message
+                result.ErrorMessage = ex.localizedDescription 
                 result.Ex = ex
             }
             sqlite3_finalize(statement)

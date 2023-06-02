@@ -14,8 +14,8 @@ class Producto{
     //Propiedades
     var IdProducto : Int? = nil
     var Nombre : String? = nil
-    var PrecioUnitario : Int? = nil //checar lo del string 
-    var Stock : String? = nil
+    var PrecioUnitario : Int? = nil 
+    var Stock : Int? = nil
     var Descripcion : String? = nil
     var Imagen : String? = nil
    

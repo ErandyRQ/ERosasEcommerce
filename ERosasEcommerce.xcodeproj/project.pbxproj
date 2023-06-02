@@ -579,6 +579,7 @@
 				E36003EE29FC349F00BA496F /* Frameworks */,
 				E36003EF29FC349F00BA496F /* Resources */,
 				557F5EBA10649A648095CEBD /* [CP] Embed Pods Frameworks */,
+				E35999F92A27FB8500FA2E35 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -603,6 +604,7 @@
 				E36575082A1D258500B056D6 /* Resources */,
 				E3839AD32A21654800D6F677 /* Sources */,
 				C466BC3123B8EC65DB925939 /* [CP] Embed Pods Frameworks */,
+				E35999F82A27EF8C00FA2E35 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -860,6 +862,44 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		E35999F82A27EF8C00FA2E35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+		E35999F92A27FB8500FA2E35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1141,6 +1181,7 @@
 				CODE_SIGN_ENTITLEMENTS = ERosasEcommerce/ERosasEcommerce.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ERosasEcommerce/Info.plist;
@@ -1201,6 +1242,7 @@
 				CODE_SIGN_ENTITLEMENTS = ERosasEcommerceVenta/ERosasEcommerceVenta.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 7TJ32VHQ9P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ERosasEcommerceVenta/Info.plist;

@@ -173,6 +173,7 @@ class CarritoViewModel{
                         
                         if resultGetById.Correct!{
                             let producto = resultGetById.Object! as! Producto
+                            
                             ventaProducto.producto?.Nombre = producto.Nombre
                             ventaProducto.producto?.Imagen = producto.Imagen
                             ventaProducto.producto?.PrecioUnitario = producto.PrecioUnitario

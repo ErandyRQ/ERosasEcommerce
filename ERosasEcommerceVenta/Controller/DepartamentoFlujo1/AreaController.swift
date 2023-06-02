@@ -81,14 +81,14 @@ extension AreaController :  UICollectionViewDelegate, UICollectionViewDataSource
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //print("seleciono \(area[indexPath.row].IdArea)")
+        //print("idarea \(area[indexPath.row].IdArea)")
         Id = area[indexPath.row].IdArea!
         print(Id)
         self.performSegue(withIdentifier: "CollectionDepto", sender: self)
         }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-               //controlar que hacer antes de ir a la siguiente vista
+               
                if segue.identifier == "CollectionDepto"{
                    let formControl = segue.destination as! DeptoCollectionController
                    formControl.IdArea = Id

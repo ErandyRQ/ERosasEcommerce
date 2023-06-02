@@ -17,16 +17,15 @@ class ProductoViewModel{
         var result = Result()
         var context = DBManager()
         var statement : OpaquePointer? = nil
-        var query = "INSERT INTO Producto(Nombre,PrecioUnitario,Stock,Descripcion,Imagen,IdProveedor,IdDepartamento) VALUES(?,?,?,?,?,?,?)"
+        var query = "INSERT INTO Producto (Nombre, PrecioUnitario, Stock, Descripcion, Imagen, IdProveedor, IdDepartamento) VALUES(?,?,?,?,?,?,?)"
         do{
             if(sqlite3_prepare_v2(context.db, query, -1, &statement, nil) == SQLITE_OK){
                 
                 sqlite3_bind_text(statement,1, (producto.Nombre as! NSString).utf8String , -1 , nil)
-                sqlite3_bind_text(statement,2, (producto.PrecioUnitario as! NSString).utf8String , -1 , nil)
-                sqlite3_bind_text(statement,3, (producto.Stock as! NSString).utf8String , -1 , nil)
+                sqlite3_bind_int64(statement, 2, sqlite3_int64((producto.PrecioUnitario) as! NSNumber))
+                sqlite3_bind_int64(statement, 3, sqlite3_int64((producto.Stock) as! NSNumber))
                 sqlite3_bind_text(statement,4, (producto.Descripcion as! NSString).utf8String , -1 , nil)
                 sqlite3_bind_text(statement,5, (producto.Imagen! as NSString).utf8String , -1 , nil)
-                
                 sqlite3_bind_int64(statement, 6, sqlite3_int64((producto.Proveedor?.IdProveedor) as! NSNumber))
                 sqlite3_bind_int64(statement, 7, sqlite3_int64((producto.Departamento?.IdDepartamento) as! NSNumber))
                 
@@ -34,7 +33,7 @@ class ProductoViewModel{
                     result.Correct = true
                     print("Producto insertado")
                 }else{
-                    print("Error al insert")
+                    print("Error al insertar")
                 }
                 
             }else{
@@ -65,8 +64,8 @@ class ProductoViewModel{
                 
                 
                 sqlite3_bind_text(statement,1, (producto.Nombre as! NSString).utf8String , -1 , nil)
-                sqlite3_bind_text(statement,2, (producto.PrecioUnitario as! NSString).utf8String , -1 , nil)
-                sqlite3_bind_text(statement,3, (producto.Stock as! NSString).utf8String , -1 , nil)
+                sqlite3_bind_int64(statement,2, sqlite_int64((producto.PrecioUnitario)as! NSNumber))
+                sqlite3_bind_int64(statement, 3, sqlite3_int64((producto.Stock) as! NSNumber))
                 sqlite3_bind_text(statement,4, (producto.Descripcion as! NSString).utf8String , -1 , nil)
                 sqlite3_bind_text(statement,5, (producto.Imagen as! NSString).utf8String , -1 , nil)
                 
@@ -86,16 +85,16 @@ class ProductoViewModel{
                 print("Ocurrio un error")
             }
         }catch let ex{
-            sqlite3_finalize(statement)
-            sqlite3_close(context.db)
-            return result
+            result.Correct = false
+            result.ErrorMessage = ex.localizedDescription
+            result.Ex = ex
         }
         sqlite3_finalize(statement)
         sqlite3_close(context.db)
         return result
             }
     
-    static func Delete(IdProducto: Int)->Result{
+    static func Delete(IdProducto: Int) -> Result{
         var context = DBManager()
         var result = Result()
         var statement : OpaquePointer? = nil
@@ -115,14 +114,13 @@ class ProductoViewModel{
             }
         }catch let ex{
             result.Correct = false
-            result.ErrorMessage = ex.localizedDescription //Ex.Message
+            result.ErrorMessage = ex.localizedDescription
             result.Ex = ex
             
         }
         sqlite3_finalize(statement)
         sqlite3_close(context.db)
-        
-           return result
+        return result
         
             }
     
@@ -139,7 +137,7 @@ class ProductoViewModel{
                     producto.IdProducto = Int(sqlite3_column_int(statement, 0))
                     producto.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 1)))
                     producto.PrecioUnitario = Int(sqlite3_column_int(statement, 2))
-                    producto.Stock = String(describing: String(cString: sqlite3_column_text(statement, 3)))
+                    producto.Stock = Int(sqlite3_column_int(statement, 3))
                     producto.Descripcion = String(describing: String(cString: sqlite3_column_text(statement, 4)))
                     producto.Imagen = String(describing: String(cString: sqlite3_column_text(statement, 5)))
                     
@@ -162,13 +160,14 @@ class ProductoViewModel{
         }
         catch let ex{
             result.Correct = false
-            result.ErrorMessage = ex.localizedDescription //Ex.Message
+            result.ErrorMessage = ex.localizedDescription
             result.Ex = ex
         }
         sqlite3_finalize(statement)
         sqlite3_close(context.db)
         return result
     }
+    
     static  func GetById(IdProducto: Int)->Result{
         var context = DBManager()
         var result = Result()
@@ -181,7 +180,7 @@ class ProductoViewModel{
                     producto.IdProducto = Int(sqlite3_column_int(statement, 0))
                     producto.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 1)))
                     producto.PrecioUnitario = Int(sqlite3_column_int(statement, 2))
-                    producto.Stock = String(describing: String(cString: sqlite3_column_text(statement, 3)))
+                    producto.Stock = Int(sqlite3_column_int(statement, 3))
                     producto.Descripcion = String(describing: String(cString: sqlite3_column_text(statement, 4)))
                     producto.Imagen = String(describing: String(cString: sqlite3_column_text(statement, 5)))
                     
@@ -204,7 +203,7 @@ class ProductoViewModel{
         }
         catch let ex{
             result.Correct = false
-            result.ErrorMessage = ex.localizedDescription //Ex.Message
+            result.ErrorMessage = ex.localizedDescription
             result.Ex = ex
         }
         sqlite3_finalize(statement)
@@ -224,12 +223,7 @@ class ProductoViewModel{
                     var departamento = Departamento()
                     departamento.IdDepartamento = Int(sqlite3_column_int(statement, 0))
                     departamento.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 1)))
-                    
-                    //                    producto.Departamento = Departamento()
-                    //                    producto.Departamento?.IdDepartamento = Int(sqlite3_column_int(statement, 8))
-                    //                    producto.Departamento?.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 9)))
-                    //
-                    
+    
                     result.Objects?.append(departamento)
                 }
                 result.Correct = true
@@ -240,7 +234,7 @@ class ProductoViewModel{
         }
         catch let ex{
             result.Correct = false
-            result.ErrorMessage = ex.localizedDescription //Ex.Message
+            result.ErrorMessage = ex.localizedDescription
             result.Ex = ex
         }
         sqlite3_finalize(statement)
@@ -297,8 +291,6 @@ class ProductoViewModel{
                            proveedor.IdProveedor = Int(sqlite3_column_int(statement, 0))
                            proveedor.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 1)))
                       
-      
-                           
                            result.Objects?.append(proveedor)
                        }
                        result.Correct = true
@@ -309,7 +301,7 @@ class ProductoViewModel{
                }
                catch let ex{
                    result.Correct = false
-                   result.ErrorMessage = ex.localizedDescription //Ex.Message
+                   result.ErrorMessage = ex.localizedDescription 
                    result.Ex = ex
                }
                sqlite3_finalize(statement)
@@ -317,6 +309,8 @@ class ProductoViewModel{
                return result
            }
     
+    
+    //droplist
     static  func GetByIdArea(IdArea: Int)->Result{
         var context = DBManager()
         var result = Result()

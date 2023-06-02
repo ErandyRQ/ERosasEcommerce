@@ -13,7 +13,7 @@ class ProductoCollectionViewModel{
     static func GetbyIdProduct(IdDepartamento : Int) -> Result{
         var context = DBManager()
                var result = Result()
-               let query = "SELECT IdProducto, Nombre, PrecioUnitario, Descripcion, Imagen From Producto where IdDepartamento = \(IdDepartamento)"
+               let query = "SELECT IdProducto, Nombre, PrecioUnitario, Descripcion, Imagen From Producto WHERE IdDepartamento = \(IdDepartamento)"
                var statement : OpaquePointer?
                do{
                    if try sqlite3_prepare_v2(context.db, query, -1, &statement, nil) == SQLITE_OK{
@@ -36,7 +36,7 @@ class ProductoCollectionViewModel{
                }
                catch let ex{
                    result.Correct = false
-                   result.ErrorMessage = ex.localizedDescription //Ex.Message
+                   result.ErrorMessage = ex.localizedDescription 
                    result.Ex = ex
                }
                sqlite3_finalize(statement)

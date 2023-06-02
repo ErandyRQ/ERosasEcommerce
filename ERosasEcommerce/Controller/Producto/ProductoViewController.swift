@@ -8,6 +8,7 @@
 import UIKit
 import SwipeCellKit
 import iOSDropDown
+import SQLite3
 
 class ProductoViewController: UIViewController {
     
@@ -41,6 +42,9 @@ class ProductoViewController: UIViewController {
     
     @IBOutlet weak var ddlProveedor: DropDown!
     
+    @IBOutlet weak var lblDepartamento: UILabel!
+    
+    @IBOutlet weak var lblProveedor: UILabel!
     
     @IBOutlet weak var btnGaleria: UIButton!
     
@@ -59,14 +63,12 @@ class ProductoViewController: UIViewController {
         
         super.viewDidLoad()
         
+        ddlArea.didSelect { selectedText, index, id in self.IdArea = id}
+        
         ddlProveedor.didSelect{ selectedText, index, id in self.IdProveedor = id}
         
         ddlDepartamento.didSelect{ selectedText, index, id in self.IdDepartamento = id}
         
-//        ddlArea.optionArray = []
-//        ddlArea.optionIds = []
-//
-//        ddlArea.didSelect{ selectedText, index, id in self.IdArea = id}
         
         
         //Image delegate
@@ -74,19 +76,20 @@ class ProductoViewController: UIViewController {
         imagePickerController.sourceType = .photoLibrary
         imagePickerController.isEditing = false
         
-        ddlProveedor.optionArray = []
-        ddlProveedor.optionIds = []
+        //Drpdown Area
+        ddlArea.optionArray = []
+        ddlArea.optionIds = []
         
-        let resultProveedor = ProductoViewModel.GetAllProveedor()
-        if resultProveedor.Correct!{
-            for objproveedor in resultProveedor.Objects!{
-                let proveedor = objproveedor as! Proveedor
-                //agregamos los datos de la bd en los arrays
-                ddlProveedor.optionArray.append(proveedor.Nombre!)
-                ddlProveedor.optionIds?.append(proveedor.IdProveedor!)
+        let resultArea = ProductoViewModel.GetAllArea()
+        if resultArea.Correct!{
+            for objarea in resultArea.Objects!{
+                let area = objarea as! Area
+                ddlArea.optionArray.append(area.Nombre!)
+                ddlArea.optionIds?.append(area.IdArea!)
             }
         }
         
+        //Drpdown Departamento
         ddlDepartamento.optionArray = []
         ddlDepartamento.optionIds = []
         
@@ -94,19 +97,31 @@ class ProductoViewController: UIViewController {
         if resultDepartamento.Correct!{
             for objdepartamento in resultDepartamento.Objects!{
                 let departamento = objdepartamento as! Departamento
-                //agregamos los datos de la bd en los arrays
                 ddlDepartamento.optionArray.append(departamento.Nombre!)
                 ddlDepartamento.optionIds?.append(departamento.IdDepartamento!)
             }
         }
         
+        //Drpdown Proveedor
+        ddlProveedor.optionArray = []
+        ddlProveedor.optionIds = []
+        
+        let resultProveedor = ProductoViewModel.GetAllProveedor()
+        if resultProveedor.Correct!{
+            for objproveedor in resultProveedor.Objects!{
+                let proveedor = objproveedor as! Proveedor
+                ddlProveedor.optionArray.append(proveedor.Nombre!)
+                ddlProveedor.optionIds?.append(proveedor.IdProveedor!)
+            }
+        }
+        
+       
+        
         
         
         
         if IdProducto == 0{
-            
-            
-            
+        
             btnAction.backgroundColor = .blue
             btnAction.setTitle("Agregar", for: .normal)
             
@@ -117,11 +132,11 @@ class ProductoViewController: UIViewController {
             
             //self.txtIdProducto.text = datos.IdProducto?.description
             self.txtNombre.text = datos.Nombre
-            self.txtPrecioUnitario.text = datos.PrecioUnitario
-            self.txtStock.text = datos.Stock
+            self.txtPrecioUnitario.text = datos.PrecioUnitario?.description
+            self.txtStock.text = datos.Stock?.description
             
+            //imagen
             let string = datos.Imagen
-            
             let newImageData = Data(base64Encoded: string!)
             if let newImageData = newImageData {
                 self.imageView.image = UIImage(data: newImageData)
@@ -132,6 +147,7 @@ class ProductoViewController: UIViewController {
             self.ddlProveedor.text = datos.Proveedor?.Nombre
             self.ddlDepartamento.text = datos.Departamento?.Nombre
             
+            //button
             btnAction.backgroundColor = .magenta
             btnAction.setTitle("Actualizar", for: .normal)
         }
@@ -148,10 +164,11 @@ class ProductoViewController: UIViewController {
     
     
     @IBAction func obtenerDatos(_ sender: UIButton) {
-        let producto = Producto()
         
-        let imagen = imageView.image
-        producto.Imagen = convertToBase64()
+        //let producto = Producto()
+        
+       // let imagen = imageView.image
+      //  producto.Imagen = convertToBase64()
         
         guard txtNombre.text != "" else {
             lblNombre.text = "El campo no puede ser vacio"
@@ -188,8 +205,8 @@ class ProductoViewController: UIViewController {
             var producto = Producto()
             
             producto.Nombre = txtNombre.text!
-            producto.PrecioUnitario = txtPrecioUnitario.text!
-            producto.Stock = txtStock.text!
+            producto.PrecioUnitario = Int(txtPrecioUnitario.text!)
+            producto.Stock = Int(txtStock.text!)
             producto.Descripcion = txtDescripcion.text!
             producto.Imagen = convertToBase64()
             
@@ -202,9 +219,8 @@ class ProductoViewController: UIViewController {
             
             
             if result.Correct! {
-                let alert = UIAlertController(title: "Mensaje", message: "Producto Agregado", preferredStyle: .alert)
+                let alert = UIAlertController(title: "Mensaje", message: "Producto agregado", preferredStyle: .alert)
                 let action = UIAlertAction(title: "Aceptar", style: .default)
-                alert.addAction(action)
                 alert.addAction(action)
                 self.present(alert,animated: true,completion: nil)
                 
@@ -224,16 +240,16 @@ class ProductoViewController: UIViewController {
             
             producto.IdProducto = IdProducto//Int(txtIdProducto.text!) ?? 0
             producto.Nombre = txtNombre.text!
-            producto.PrecioUnitario = txtPrecioUnitario.text!
-            producto.Stock = txtStock.text!
+            producto.PrecioUnitario = Int(txtPrecioUnitario.text!)
+            producto.Stock = Int(txtStock.text!)
             producto.Descripcion = txtDescripcion.text!
             producto.Imagen = convertToBase64()
             
             producto.Proveedor = Proveedor()
-            producto.Proveedor?.IdProveedor = 2
+            producto.Proveedor?.IdProveedor = self.IdProveedor
             
             producto.Departamento = Departamento()
-            producto.Departamento?.IdDepartamento = 2
+            producto.Departamento?.IdDepartamento = self.IdDepartamento
             
             
             let result = ProductoViewModel.Update(producto: producto)
@@ -254,10 +270,9 @@ class ProductoViewController: UIViewController {
             }
             break
         default:
-            print("No se realizo nada")
+            print("No se esogio una opción")
         }
     }
-    
     
     
 }

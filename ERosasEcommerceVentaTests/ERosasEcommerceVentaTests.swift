@@ -22,7 +22,7 @@ final class ERosasEcommerceVentaTests: XCTestCase {
     func testExample() throws {
         
         let carritoViewModel = CarritoViewModel()
-        let result = carritoViewModel.GetById(IdProducto: 8)
+        let result = carritoViewModel.GetAll()
         
         XCTAssertTrue(result.Correct!)
     }

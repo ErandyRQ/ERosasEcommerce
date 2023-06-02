@@ -7,14 +7,15 @@
 
 import UIKit
 import SwipeCellKit
+import SwipeCellKit
 
 class GetAllProductoController: UITableViewController {
     
     
-    
+    let dbmanager = DBManager()
     var productos : [Producto] = []
     var IdProducto : Int = 0
-        
+    var IdArea : Int = 0
         
     override func viewWillAppear(_ animated: Bool) {
             updateUI()
@@ -42,20 +43,20 @@ class GetAllProductoController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "ProductoCell", for: indexPath) as! ProductoCell
         
         cell.delegate = self
         
         cell.lblNombre.text = productos[indexPath.row].Nombre
         cell.lblDescripcion.text = productos[indexPath.row].Descripcion
-        cell.lblPrecio.text = productos[indexPath.row].PrecioUnitario
-        //cell.Imagen
+        cell.lblPrecio.text = productos[indexPath.row].PrecioUnitario?.description
+        
         
         if productos[indexPath.row].Imagen == "" || productos[indexPath.row].Imagen == nil {
             cell.Imagen.image = UIImage(named: "DefaultProducto")
                }else{
                    
-                   //let producto = Producto()
                    let string =  productos[indexPath.row].Imagen
                   
                    
@@ -63,15 +64,7 @@ class GetAllProductoController: UITableViewController {
                    if let newImageData = newImageData {
                        cell.Imagen.image = UIImage(data: newImageData)
                    }
-                   
-                   
-//                   cell.Imagen.image = Data(base64Encoded: string)
-////
-//                   let dataDecoded : NSData = NSData(base64EncodedString: producto.Imagen!, options: NSDataBase64DecodingOptions(rawValue: 0))!
-//                   let decodedimage:UIImage = UIImage(data: dataDecoded)!
-//                   print(decodedimage)
-//                   yourImageView.image = decodedimage
-                   
+                 //else
                }
 
         return cell
@@ -88,7 +81,7 @@ extension GetAllProductoController : SwipeTableViewCellDelegate{
                 
                 if result.Correct!{
                     print("Producto eliminado")
-                    self.updateUI()
+                    //self.updateUI()
                 }else{
                     print("Ocurrio un error")
                 }
@@ -117,7 +110,7 @@ extension GetAllProductoController : SwipeTableViewCellDelegate{
         }
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        //controlar que hacer antes de ir a la siguiente vista
+        //sgue prepare
         if segue.identifier == "ProductoViewController"{
             let formControl = segue.destination as! ProductoViewController
             formControl.IdProducto = self.IdProducto 

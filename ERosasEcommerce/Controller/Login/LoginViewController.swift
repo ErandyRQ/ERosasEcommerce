@@ -27,7 +27,9 @@ class LoginViewController: UIViewController {
     
     
     
-    @IBAction func btnAcceder() {
+    @IBAction func btnAcceder() { //No lleva el sender y tampoco los dos de abajo  _ sender: Any
+      //  self.btnAcceder("Crash")
+      //  fatalError("Chrash")
         
         guard txtEmail.text != "" else {
             txtEmail.text =  "El campo no puede ser vacio"
