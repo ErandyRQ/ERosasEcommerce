@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 class VentasProducto{
     
     var producto : Producto? = nil

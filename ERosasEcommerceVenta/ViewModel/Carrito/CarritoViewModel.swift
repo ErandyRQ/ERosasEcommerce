@@ -44,7 +44,6 @@ class CarritoViewModel{
               
               var result = Result()
            
-           //var ventaproducto = CarritoViewModel()
            
               let context = appDelegate.persistentContainer.viewContext
               
@@ -179,6 +178,7 @@ class CarritoViewModel{
                             ventaProducto.producto?.PrecioUnitario = producto.PrecioUnitario
                         }
                         result.Objects?.append(ventaProducto)
+                        
                     }
                     result.Correct = true
                 }
@@ -190,6 +190,8 @@ class CarritoViewModel{
                 
                 return result
             }
+    
+    
     }
     
 

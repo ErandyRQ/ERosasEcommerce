@@ -35,21 +35,19 @@
 		3A0EFA6C47553E56008B8CE22EC206B6 /* SwipeCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B31AC9CD1977E47BB0E0564CA8A66C /* SwipeCollectionViewCellDelegate.swift */; };
 		3F01EED6380B596E1D0C1497CBCF9B95 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B5199CC9D53B2131923AD552369DB /* IQUITextFieldView+Additions.swift */; };
 		41CD40F5713CD71AD5AB1471E81C97E1 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600FBA0E69F168D54D851A0785A2B952 /* IQBarButtonItem.swift */; };
-		448240344E27EC5B3DB227AFDFD6B5CE /* Pods-ERosasEcommerceVenta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 967B7AE1A8582E51CDC1DD82CEA86632 /* Pods-ERosasEcommerceVenta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4910261A5A661EF013AFABBA998EFDE3 /* SwipeCollectionViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED28C0CC47A21E70A54F01FADF8AD73 /* SwipeCollectionViewCell+Display.swift */; };
 		4B275CF4EF68CFEBD7FF5C5EBCAF64EE /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA1493E570492007D665EA458DBB02 /* Swipeable.swift */; };
 		54AB29654E6FC7A1CD3DAC7C0EB9DA1F /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437A8E25BD5E03AC2F69B85058F9ECF /* SwipeAnimator.swift */; };
 		55EC8A9DA519A3C73E41128EDE44E3F4 /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B4B3EC9B33C6441EBD3410F39BCED /* SwipeTableViewCellDelegate.swift */; };
-		5B9AE672F9BE96C82DF83BC04A310F49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		5D28D8BB0D61E26837A375BC488FEC5E /* Pods-ERosasEcommerce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA7025BFAB9D9CB23AD560337275DB4 /* Pods-ERosasEcommerce-dummy.m */; };
 		60C6606FF8176EE5A38870CFD9F649C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		6176C0BE28782FE95B19BFCCDA6A0D8D /* SwipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97968625D38753AEFC45989571F792E3 /* SwipeCollectionViewCell.swift */; };
 		6CD8025A8F768B5908C24187949E1E2A /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB638B439EA4546D4B6362A7E5287231 /* SwipeFeedback.swift */; };
 		7AC995F567A776FC1A80A9FA0733F3D1 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A1746249DB033D324A4512E71AD008 /* IQNSArray+Sort.swift */; };
 		85F13B069B06ADF2B6DCA622E4645110 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579ED7AD60C506CCCA2744F2785FA250 /* IQKeyboardManagerConstants.swift */; };
-		867F405DA2C748751280C70E54CB4CB4 /* Pods-ERosasEcommerceVenta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09490C900036FD5A322A33C1B4135854 /* Pods-ERosasEcommerceVenta-dummy.m */; };
 		86A03DE9366D1BE94EB99AA387EACD1F /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0469E68D896E3E09BACC18C9AE8E76 /* IQKeyboardManager.swift */; };
 		90A282D559F6B602CC819EA557F422DF /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB253E479AF8D82CAA35E59AAC3BC1F /* SwipeTableViewCell+Display.swift */; };
+		9215698B27578252009B07A2A7E32795 /* Pods-ERosasEcommerceVenta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 967B7AE1A8582E51CDC1DD82CEA86632 /* Pods-ERosasEcommerceVenta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D1432BACBF3349C6B4BACE3EEDB1391 /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DAB7B74DA7D754655040C8AB7C3C46 /* SwipeActionTransitioning.swift */; };
 		9EFB9CE930EFCFF821A56868C99C8966 /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134A54009028F13DED58CAD7E59E583A /* SwipeExpanding.swift */; };
 		9F079A2701FEA0F33062E44BE2ECCBC0 /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C34088823802DAD6080F97073073549 /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,8 +65,10 @@
 		C81CB3B5D25BDBCB6D3A3632BE408229 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B2008E5071259AD08B68D19BDF2CCC /* IQKeyboardReturnKeyHandler.swift */; };
 		D31356D54A39420DB91C892502CFFD57 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99C5C1109A6327D4D7016C58A3E1216 /* IQUIViewController+Additions.swift */; };
 		D6516B5451008BF1ABA150E6482F6325 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71FD23E0F7DC79D39C7798309286CD4 /* IQKeyboardManager+UITextFieldViewNotification.swift */; };
+		DD348CEACBE23965847CB79FF701B101 /* Pods-ERosasEcommerceVenta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09490C900036FD5A322A33C1B4135854 /* Pods-ERosasEcommerceVenta-dummy.m */; };
 		DF33C3DE068D6116B3F551B0453ACD23 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F46675C9202967C884982C75E6E9E13 /* IQUIScrollView+Additions.swift */; };
 		E72E1BDDFF31003BD089544FC112FAAC /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80D3F8AF6715A148FCCD0CD04A3298 /* IQTextView.swift */; };
+		ECAF7316AADB6949D0E423DF7C7F60C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		F254264789A1EC31F8B4D1D31277A3A7 /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433E7BABE5F605AEB8DDEBA21304813 /* SwipeCellKit-dummy.m */; };
 		F25E95074C3C03491DC5B93BC8FC4B15 /* Pods-ERosasEcommerce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78108B814F41143E738A031C1C9DA5F8 /* Pods-ERosasEcommerce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2B1C1D70C629AE19C0D5121B1BBA891 /* IQKeyboardManager+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213020C2ABE1050A6899B02F452FB973 /* IQKeyboardManager+Position.swift */; };
@@ -82,6 +82,13 @@
 			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
 			remoteInfo = IQKeyboardManagerSwift;
 		};
+		2E8C887C0AB2752C179B4FC77E9A207D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
 		33E0D53A084625D93942601F745392E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -89,12 +96,12 @@
 			remoteGlobalIDString = 1DE44C23B82E6671E9E1541D06DE0E87;
 			remoteInfo = SwipeCellKit;
 		};
-		61821E2702925AEE1F421E93CEA58CDE /* PBXContainerItemProxy */ = {
+		461B2C4A6E2BDFB00E394ACB5C7D1C97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
-			remoteInfo = IQKeyboardManagerSwift;
+			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
+			remoteInfo = iOSDropDown;
 		};
 		A49B337C1FEB65DA2F4B68F63A3CC718 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -103,7 +110,7 @@
 			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
 			remoteInfo = iOSDropDown;
 		};
-		EBFCF29BD35A00424901D7E9A31E5762 /* PBXContainerItemProxy */ = {
+		A6FF3C7632C2592CCE6286B710509CB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -231,19 +238,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B764F8EE14056D7E1834901C2BFFBC02 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B9AE672F9BE96C82DF83BC04A310F49 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CB7B516711E8D066C8F24A2AE3FEB5DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B5368FA2A793E1A2F3ED0EB3DD25518F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA326AB1DDAC79C967B13CFC261D7234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAF7316AADB6949D0E423DF7C7F60C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,19 +489,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5D7984F890A1CFDC551E34B9AC2B4C63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9215698B27578252009B07A2A7E32795 /* Pods-ERosasEcommerceVenta-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		694ED87F033B7C43FE595F663FA480E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F25E95074C3C03491DC5B93BC8FC4B15 /* Pods-ERosasEcommerce-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A69AB202B4AE3F77D37F8E623A10D04E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				448240344E27EC5B3DB227AFDFD6B5CE /* Pods-ERosasEcommerceVenta-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,18 +526,19 @@
 /* Begin PBXNativeTarget section */
 		0D1F63D544B969FA71D94E7B2EF46E22 /* Pods-ERosasEcommerceVenta */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C8C21DDE6956EE0FB79CFBAC111BAAB /* Build configuration list for PBXNativeTarget "Pods-ERosasEcommerceVenta" */;
+			buildConfigurationList = BF3170AAA555AD9907E3814E713D026A /* Build configuration list for PBXNativeTarget "Pods-ERosasEcommerceVenta" */;
 			buildPhases = (
-				A69AB202B4AE3F77D37F8E623A10D04E /* Headers */,
-				B74E1A907F746364E0CD3A0797FCD59D /* Sources */,
-				B764F8EE14056D7E1834901C2BFFBC02 /* Frameworks */,
-				538D895C521D5902AA444AE9D2B2CC67 /* Resources */,
+				5D7984F890A1CFDC551E34B9AC2B4C63 /* Headers */,
+				B42A36F929ABA9B930B5A385391632F6 /* Sources */,
+				DA326AB1DDAC79C967B13CFC261D7234 /* Frameworks */,
+				ABD3AB1AEEC5B501C90CEAD7E3CC33DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9BDA2C708E7CADB4257483673128A0F0 /* PBXTargetDependency */,
-				0C2B059C8951CD9946633C93D2A0C836 /* PBXTargetDependency */,
+				A5528DC706FB2B3ED5EA3E0523044B63 /* PBXTargetDependency */,
+				F77CBCDA15141FEB10C972451A58454C /* PBXTargetDependency */,
+				79E9ABAA56D2A2C43422A8731DECEB68 /* PBXTargetDependency */,
 			);
 			name = "Pods-ERosasEcommerceVenta";
 			productName = Pods_ERosasEcommerceVenta;
@@ -651,14 +659,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		538D895C521D5902AA444AE9D2B2CC67 /* Resources */ = {
+		A637E6D62C8F056CC40DC1E80705FA1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A637E6D62C8F056CC40DC1E80705FA1C /* Resources */ = {
+		ABD3AB1AEEC5B501C90CEAD7E3CC33DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -751,11 +759,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B74E1A907F746364E0CD3A0797FCD59D /* Sources */ = {
+		B42A36F929ABA9B930B5A385391632F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				867F405DA2C748751280C70E54CB4CB4 /* Pods-ERosasEcommerceVenta-dummy.m in Sources */,
+				DD348CEACBE23965847CB79FF701B101 /* Pods-ERosasEcommerceVenta-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,12 +785,6 @@
 			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
 			targetProxy = 02AD37485FE857C006A376FAB128D56E /* PBXContainerItemProxy */;
 		};
-		0C2B059C8951CD9946633C93D2A0C836 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwipeCellKit;
-			target = 1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */;
-			targetProxy = EBFCF29BD35A00424901D7E9A31E5762 /* PBXContainerItemProxy */;
-		};
 		2720C2267FDA481C5A43DD9E844CCDFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwipeCellKit;
@@ -795,52 +797,27 @@
 			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
 			targetProxy = A49B337C1FEB65DA2F4B68F63A3CC718 /* PBXContainerItemProxy */;
 		};
-		9BDA2C708E7CADB4257483673128A0F0 /* PBXTargetDependency */ = {
+		79E9ABAA56D2A2C43422A8731DECEB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDropDown;
+			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
+			targetProxy = 461B2C4A6E2BDFB00E394ACB5C7D1C97 /* PBXContainerItemProxy */;
+		};
+		A5528DC706FB2B3ED5EA3E0523044B63 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IQKeyboardManagerSwift;
 			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
-			targetProxy = 61821E2702925AEE1F421E93CEA58CDE /* PBXContainerItemProxy */;
+			targetProxy = 2E8C887C0AB2752C179B4FC77E9A207D /* PBXContainerItemProxy */;
+		};
+		F77CBCDA15141FEB10C972451A58454C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeCellKit;
+			target = 1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */;
+			targetProxy = A6FF3C7632C2592CCE6286B710509CB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09A01C2D3771EA44DE3F272A0AF9D8A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1E7A8725ECC89795E7746CF86D126F1 /* Pods-ERosasEcommerceVenta.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		139E73F87E5F4500A172FC2E8F66F89D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89289718A235CC033297C5003421C2F7 /* iOSDropDown.debug.xcconfig */;
@@ -910,6 +887,43 @@
 			};
 			name = Release;
 		};
+		37F2C13706E35D38B85C9F34230F64CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E7A8725ECC89795E7746CF86D126F1 /* Pods-ERosasEcommerceVenta.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -975,6 +989,44 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		510D5D80CCD74FC78FE9AE268ECC4897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4E9960D81A11EDA7341CF6E6F4EC04 /* Pods-ERosasEcommerceVenta.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1103,44 +1155,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.6;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B12677DE84BC8B0F8FD481D90C0976B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E4E9960D81A11EDA7341CF6E6F4EC04 /* Pods-ERosasEcommerceVenta.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ERosasEcommerceVenta/Pods-ERosasEcommerceVenta.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1301,15 +1315,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C8C21DDE6956EE0FB79CFBAC111BAAB /* Build configuration list for PBXNativeTarget "Pods-ERosasEcommerceVenta" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				09A01C2D3771EA44DE3F272A0AF9D8A1 /* Debug */,
-				B12677DE84BC8B0F8FD481D90C0976B7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		42F76AA8E84D32E2DED70BBA35321CB1 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1342,6 +1347,15 @@
 			buildConfigurations = (
 				139E73F87E5F4500A172FC2E8F66F89D /* Debug */,
 				BD3DF22C06A75D4818072451B58CE4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3170AAA555AD9907E3814E713D026A /* Build configuration list for PBXNativeTarget "Pods-ERosasEcommerceVenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F2C13706E35D38B85C9F34230F64CE /* Debug */,
+				510D5D80CCD74FC78FE9AE268ECC4897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D76EB7E5-59CC-46FC-9334-CF2631DD369F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Producto/GetAllProductoController.swift"
@@ -104,7 +104,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "9484EAD7-CBAC-4046-9915-CA73FBCAFD50"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Producto/GetAllProductoController.swift"
@@ -120,7 +120,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "54501B91-4AB3-4A38-A699-2F436E75B8F8"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Departamento/DeptoCollectionController.swift"
@@ -168,7 +168,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2B43417E-CF02-4AA6-B061-4C08B3C6AA47"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Departamento/DeptoCollectionController.swift"
@@ -291,7 +291,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C729E484-4BA4-4733-BAAB-21F11B86514C"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Departamento/DeptoCollectionController.swift"
@@ -307,7 +307,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D9057A8E-779F-4ECC-96E6-403174D2FB9B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Departamento/DeptoCollectionController.swift"
@@ -323,7 +323,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1963C236-8DC0-41EA-8551-93137C5A864F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Departamento/DeptoCollectionController.swift"
@@ -339,7 +339,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "64711F5A-0FDA-4BD7-8E48-84867E1DD945"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/ProductoCollection/ProductoCollectionController.swift"
@@ -462,7 +462,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "EEDA520A-47C9-4B47-A263-472F27B45E5F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/ProductoCollection/ProductoCollectionController.swift"
@@ -478,7 +478,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E1A6A145-64B3-4AB1-8C3E-CCBBACC9F0FB"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/ProductoCollection/ProductoCollectionController.swift"
@@ -494,7 +494,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "862DC2BB-915B-4487-AF3A-2D09B9DFC166"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/ProductoCollection/ProductoCollectionController.swift"
@@ -510,7 +510,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "EBE9BF31-2E32-41EE-999E-B0D5D96F9353"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Departamento/DeptoCollectionController.swift"
@@ -526,7 +526,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "ADDD3F9D-00CE-4B33-B5D3-56F6D27679BF"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Departamento/DeptoCollectionController.swift"
@@ -542,7 +542,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1A267431-274E-4930-991C-C85338665BA2"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Departamento/DeptoCollectionController.swift"
@@ -558,7 +558,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "57065D2F-485B-448F-B140-77A8FBB48214"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/ProductoCollection/ProductoCollectionController.swift"
@@ -574,7 +574,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "8BCC6C61-4458-41A9-8097-0C907CC799AC"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/ProductoCollection/ProductoCollectionController.swift"
@@ -590,7 +590,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "28B7446E-D8C6-47CC-A567-C581CE12BC64"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/ProductoCollection/ProductoCollectionController.swift"
@@ -606,7 +606,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "9A0D381A-B270-4EBA-98CF-FB4D3E13C233"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Area/AreaController.swift"
@@ -622,7 +622,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D3B6FA04-1B11-4FF5-A2C4-380F48962A13"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Area/AreaController.swift"
@@ -638,7 +638,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "32B7A2E8-4E40-4CBA-A359-E2543036D274"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Area/AreaController.swift"
@@ -654,7 +654,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "6D08C268-729B-49E3-9E91-79FA57AA2425"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Area/AreaController.swift"
@@ -670,7 +670,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "4E9EFF67-04F4-4497-A25F-D6DBA6246407"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Area/AreaController.swift"
@@ -686,7 +686,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "FFE94AF5-885A-4798-A5BA-3A951493D5A6"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Area/AreaController.swift"
@@ -702,7 +702,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "A2931F53-313B-4765-B842-3EE9A28EF516"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Area/AreaController.swift"
@@ -734,7 +734,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "60204A1E-FC77-48F5-9C5B-EE9C81A9FA1F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/ViewModel/ProductoCollectionViewModel.swift"
@@ -750,7 +750,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "72BB9263-19AF-4317-9076-8370DBDEFDA2"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/ProductoCollectionController.swift"
@@ -766,7 +766,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "95D2A7AC-E2B3-46BD-A45B-1F27E9B0899D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/ProductoCollectionController.swift"
@@ -782,7 +782,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "3F2AB109-5A23-407D-BE96-9B1E0E0181FC"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/ProductoCollectionController.swift"
@@ -798,7 +798,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B9A61BA6-1F3A-4AFD-A469-F983DB5B96A4"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/ProductoCollectionController.swift"
@@ -814,7 +814,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2EBD7934-0D31-44D1-8F94-F0206D53AC80"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/ProductoCollectionController.swift"
@@ -830,7 +830,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D66F48F5-824B-435B-BF1F-A1C5AA24A2B6"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/DepartamentoFlujo1/ProductoCollectionController.swift"
@@ -846,7 +846,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E9BAA9A2-8981-44B5-BDE8-A6915753C14E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/DepartamentoFlujo1/ProductoCollectionController.swift"
@@ -862,7 +862,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "8CE68A07-E0FD-476D-BF9B-3499268A8DFF"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/DepartamentoFlujo1/ProductoCollectionController.swift"
@@ -878,7 +878,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "4D7CC4B2-9563-4CBD-AF72-C9565936B107"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/CarritoFlujo2/CarritoController.swift"
@@ -910,7 +910,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D57DE371-5061-429C-B994-8FF7C85868C8"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/CarritoFlujo2/CarritoController.swift"
@@ -926,7 +926,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "9A01DBB3-DFC0-49E8-A89E-530E003043F2"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Podfile"
@@ -942,7 +942,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2C3FB9F1-E924-4EA9-AA9F-4BFB06D7A4E7"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/CarritoFlujo2/CarritoController.swift"
@@ -958,7 +958,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "041527BB-6182-4FA8-B20F-DEB1665A97C1"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/CarritoFlujo2/CarritoController.swift"
@@ -974,7 +974,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "41ABD83C-02FE-4DD4-95A7-D25ED1CC737F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerceVenta/Controller/CarritoFlujo2/CarritoController.swift"
@@ -1006,7 +1006,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F96CE423-43B9-44A4-B384-E6E5034287DC"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/ViewModel/ProductoViewModel.swift"
@@ -1022,7 +1022,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "9EA2FEBE-4102-49CB-A4A8-01E87A83241A"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/ViewModel/ProductoCollectionViewModel.swift"
@@ -1038,7 +1038,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "8924FCD3-32B2-4E5F-BF19-5E1900110505"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/ViewModel/ProductoViewModel.swift"
@@ -1054,7 +1054,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F945F374-2BD2-496D-82E6-06E1E1CB176E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Producto/ProductoViewController.swift"
@@ -1070,7 +1070,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "5BC36C74-C182-469C-83F7-C21B686AB307"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Producto/ProductoViewController.swift"
@@ -1086,7 +1086,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F8E4C3BA-205C-45CB-B098-EDEAACB4DB2A"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Producto/ProductoViewController.swift"
@@ -1102,7 +1102,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "BD0133B1-1590-4348-876E-E2ABDEEF3DFF"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Producto/GetAllProductoController.swift"
@@ -1118,7 +1118,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2D336218-95C3-453C-BAB2-9305555282B7"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ERosasEcommerce/Controller/Producto/GetAllProductoController.swift"
@@ -1192,70 +1192,6 @@
             endingLineNumber = "22"
             landmarkName = "GetbyidArea(IdArea:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "89C366F9-3331-4743-B070-DDB93A108C6A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ERosasEcommerceVenta/Controller/CarritoFlujo2/CarritoTableViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "UpdateUI()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "110F859A-CCB9-445B-9787-E2684913C3AD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ERosasEcommerceVenta/ViewModel/Carrito/CarritoViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "175"
-            endingLineNumber = "175"
-            landmarkName = "GetAll()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "54B03DA3-D98C-48B1-9B5F-73593DB6501A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ERosasEcommerceVenta/ViewModel/Carrito/CarritoViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
-            landmarkName = "GetAll()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "528A67CB-1257-447A-A662-CECC1FD628BB"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ERosasEcommerceVenta/AppDelegate.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "persistentContainer"
-            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

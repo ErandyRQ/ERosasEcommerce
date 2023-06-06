@@ -86,6 +86,9 @@
 		E3B349312A2048DD00805B3F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E3B349302A2048DD00805B3F /* FirebaseStorage */; };
 		E3CC09372A20220600A32889 /* AreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CC09352A20220600A32889 /* AreaCell.xib */; };
 		E3CC093C2A2024A400A32889 /* ProductoCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CC093A2A2024A400A32889 /* ProductoCollectionCell.xib */; };
+		E3D140542A2A9FEA009D4623 /* CompraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D140532A2A9FEA009D4623 /* CompraViewController.swift */; };
+		E3D140562A2AA683009D4623 /* MetodoPago.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D140552A2AA683009D4623 /* MetodoPago.swift */; };
+		E3D1405A2A2AA8BA009D4623 /* CompraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D140592A2AA8BA009D4623 /* CompraViewModel.swift */; };
 		E3DC7C232A1BF5C200823EC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3DC7C222A1BF5C200823EC4 /* GoogleService-Info.plist */; };
 		E3DC7C252A1C1D8A00823EC4 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DC7C242A1C1D8A00823EC4 /* RegistroViewController.swift */; };
 /* End PBXBuildFile section */
@@ -193,6 +196,9 @@
 		E3CC09352A20220600A32889 /* AreaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaCell.xib; sourceTree = "<group>"; };
 		E3CC09392A2024A400A32889 /* ProductoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionCell.swift; sourceTree = "<group>"; };
 		E3CC093A2A2024A400A32889 /* ProductoCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCollectionCell.xib; sourceTree = "<group>"; };
+		E3D140532A2A9FEA009D4623 /* CompraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraViewController.swift; sourceTree = "<group>"; };
+		E3D140552A2AA683009D4623 /* MetodoPago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetodoPago.swift; sourceTree = "<group>"; };
+		E3D140592A2AA8BA009D4623 /* CompraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraViewModel.swift; sourceTree = "<group>"; };
 		E3DC7C222A1BF5C200823EC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E3DC7C242A1C1D8A00823EC4 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		F96E054A1CAA6C1A87C6E5D6 /* Pods_ERosasEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ERosasEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -434,6 +440,7 @@
 			isa = PBXGroup;
 			children = (
 				E37D7D632A2660F000AA264D /* CarritoTableViewController.swift */,
+				E3D140532A2A9FEA009D4623 /* CompraViewController.swift */,
 			);
 			path = CarritoFlujo2;
 			sourceTree = "<group>";
@@ -450,6 +457,7 @@
 			isa = PBXGroup;
 			children = (
 				E3839AB32A21477D00D6F677 /* CarritoViewModel.swift */,
+				E3D140592A2AA8BA009D4623 /* CompraViewModel.swift */,
 			);
 			path = Carrito;
 			sourceTree = "<group>";
@@ -458,6 +466,7 @@
 			isa = PBXGroup;
 			children = (
 				E37D7D4F2A250CFC00AA264D /* VentasProducto.swift */,
+				E3D140552A2AA683009D4623 /* MetodoPago.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -985,14 +994,17 @@
 				E3839AE82A21664500D6F677 /* ProductoSearch.swift in Sources */,
 				E3839AE32A21662200D6F677 /* GoogleService-Info.plist in Sources */,
 				E3839AE42A21662200D6F677 /* DBManager.swift in Sources */,
+				E3D1405A2A2AA8BA009D4623 /* CompraViewModel.swift in Sources */,
 				E3839ADA2A2165EA00D6F677 /* AreaController.swift in Sources */,
 				E3839ADB2A2165EA00D6F677 /* DeptoCollectionController.swift in Sources */,
 				E3839ADC2A2165EA00D6F677 /* ProductoCollectionController.swift in Sources */,
 				E3839ADD2A2165EA00D6F677 /* LoginViewController.swift in Sources */,
+				E3D140542A2A9FEA009D4623 /* CompraViewController.swift in Sources */,
 				E3839ADE2A2165EA00D6F677 /* RegistroViewController.swift in Sources */,
 				E3839ADF2A2165EA00D6F677 /* CarritoViewModel.swift in Sources */,
 				E3839AE02A2165EA00D6F677 /* ERosasEcommerceVenta.entitlements in Sources */,
 				E3839AE12A2165EA00D6F677 /* AppDelegate.swift in Sources */,
+				E3D140562A2AA683009D4623 /* MetodoPago.swift in Sources */,
 				E3839AE22A2165EA00D6F677 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
